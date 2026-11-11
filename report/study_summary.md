@@ -2,8 +2,7 @@
 
 *A short computational study building on Li, Hennig, Kochenberger & Glover (2026), "Quantum bridge
 analytics: a QUBO approach to the uncapacitated facility location problem", Annals of Operations
-Research.* Prepared by Moneet, November 2026. All results are from classical simulated annealing;
-none are quantum or Gurobi results.
+Research.* All results are from classical simulated annealing; none are quantum or Gurobi results.
 
 ## 1. Question
 
