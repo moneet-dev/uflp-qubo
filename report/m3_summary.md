@@ -24,7 +24,8 @@ Averages are taken over distinct problems (each first averaged over its files an
 ## Results
 
 **1. Feasibility agrees with the paper, and it can now be explained.** At every r in the paper's range,
-the lowest-energy read of all 1,480 runs is feasible ([P]: "no infeasibility even at 25%"). Below 25%,
+the lowest-energy read of all 1,480 runs is feasible ([P] §4.5.1: "no infeasibility is encountered even
+for small penalty coefficient 25% for all the instances"). Below 25%,
 no read is feasible at all. A short argument (`qubo.penalty_bounds`, tested on the paper's toy example)
 shows why:
 - the QUBO minimum is guaranteed feasible once P > max( max_j min_i (f_i + c_ij), max_i f_i );
@@ -52,7 +53,9 @@ No run, at any P, reached the optimum.
 | B-1 | **13.9** | 17.0 | 23.4 | 28.3 | 32.1 |
 
 At 5%, SA's raw reads are all infeasible, but the facilities they open are good. Over the paper's
-range, a larger P is worse for SA. Gurobi, by contrast, was indifferent to P on these classes.
+range, a larger P is worse for SA. Gurobi's solution quality, by contrast, did not depend on P on these
+classes (0% gap at all four values, [P] Table 2), though its time did: B-1 took 18.09 s at 25% against
+about 1.7 s at 50–100% ([P] Table 3).
 
 **4. More effort does not fix it.** On cap74, 10× more sweeps improved the repaired gap by at most
 1.6 points, and not at all at r ≥ 25% (`results/sweeps_check_20261110_214251.csv`). This is consistent

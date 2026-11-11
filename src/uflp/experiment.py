@@ -19,7 +19,7 @@ from .io import Instance
 from .qubo import build_penalty_function, build_q_matrix
 
 COLUMNS = [
-    "instance", "problem", "class", "m", "n", "opt", "r", "P", "seed", "reads", "sweeps",
+    "instance", "problem", "class", "m", "n", "opt", "r", "p_base", "P", "seed", "reads", "sweeps",
     "builder", "warm_start", "best_energy", "raw_feasible", "n_feasible_reads",
     "n_no_facility_reads", "raw_best_cost", "raw_gap_pct", "repaired_cost", "gap_pct", "time_s",
     "cpu_time_s",
@@ -37,15 +37,21 @@ def gap(cost: float, opt: float) -> float:
 
 
 def run_one(inst: Instance, cls: str, problem: str, opt: float, r: float, seed: int,
-            reads: int, sweeps: int, builder: str = "penalty", warm_start: bool = False) -> dict:
-    """Build the QUBO with P = r * opt, run seeded SA, and return one result row."""
-    p = r * opt
+            reads: int, sweeps: int, builder: str = "penalty", warm_start: bool = False,
+            p_base: float | None = None) -> dict:
+    """Build the QUBO with P = r * p_base (default: the optimum), run seeded SA, return one row.
+
+    The reproduction uses p_base = opt, as the paper did; the ML labels use p_base = LP bound,
+    since a predicted penalty cannot depend on the unknown optimum. Gaps are always vs opt.
+    """
+    base = opt if p_base is None else p_base
+    p = r * base
     bqm = (build_penalty_function if builder == "penalty" else build_q_matrix)(inst, p)
     init = lp_warm_start(inst) if warm_start else None
     res = run_sa(inst, bqm, reads=reads, sweeps=sweeps, seed=seed, initial_state=init)
     return {
         "instance": inst.name, "problem": problem, "class": cls, "m": inst.m, "n": inst.n,
-        "opt": opt, "r": r, "P": p, "seed": seed, "reads": reads, "sweeps": sweeps,
+        "opt": opt, "r": r, "p_base": base, "P": p, "seed": seed, "reads": reads, "sweeps": sweeps,
         "builder": builder, "warm_start": warm_start, "best_energy": res.best_energy,
         "raw_feasible": res.raw_feasible, "n_feasible_reads": res.n_feasible_reads,
         "n_no_facility_reads": res.n_no_facility_reads, "raw_best_cost": res.raw_best_cost,

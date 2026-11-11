@@ -1,0 +1,17 @@
+Verification of ml_runs_20261111_112106.csv
+
+[PASS] instances: 200 instances, all optimal True, LP <= opt True
+[PASS] completeness: 7200 rows, 7200 unique, 7200 expected
+[PASS] bookkeeping: p_base = LP bound, P = r * p_base, opt from instances file, gap recomputes
+[PASS] invariants: repaired>=opt True, raw>=opt True, energy>=opt where P exact (3156 runs) True
+[PASS] reproducible: 12 sampled runs re-executed, 0 differ
+
+Label r* (best r by mean repaired cost) per family, counts:
+r           0.02  0.03  0.04  0.05  0.06
+family                                  
+euclid         1    38    10     1     0
+gap            0     0    14    19    17
+orlib_like     1    37    11     1     0
+uniform        0    29    19     2     0
+
+median r* per family: {'euclid': 0.03, 'gap': 0.05, 'orlib_like': 0.03, 'uniform': 0.03}
