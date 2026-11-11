@@ -13,6 +13,15 @@ LP-relaxation bound and the optimum, which [P] found decisive for solver difficu
                  Ivanenko (2005) used for class B-2 in [P]. Expensive costs are finite so the QUBO
                  stays well scaled.
 
+A fifth family was added at M5 (11 Nov 2026) after the model failed to transfer to ORLIB:
+
+* ``heavy_demand`` Euclidean unit costs and equal fixed costs, like ``orlib_like``, but customer
+                 demands are lognormal with sigma in {1.0, 1.2, 1.4} (demand CV about 1.3-2.4)
+                 instead of uniform on 5-100 (CV about 0.5). ORLIB's demands have CV 1.74 and one
+                 customer holds 22% of all demand, which put ORLIB far outside the training data on
+                 the model's main features. No ORLIB data is used to generate these instances.
+                 It has its own seeded ``design_heavy`` so the original 200 instances are unchanged.
+
 ``phi`` sets the fixed-to-service balance: the mean fixed cost is phi x the mean cheapest service
 cost of one customer, times n / m. Small phi favours opening many sites; large phi, few sites.
 ``design`` draws phi from {0.5, 1, 2, 4, 8} for the first three families and from {8, 16, 32} for
@@ -25,7 +34,8 @@ import numpy as np
 
 from .io import Instance
 
-FAMILIES = ("euclid", "uniform", "orlib_like", "gap")
+FAMILIES = ("euclid", "uniform", "orlib_like", "gap")       # the original design (200 instances)
+EXTRA_FAMILIES = ("heavy_demand",)                          # added at M5, own design
 
 
 def _fixed_costs(rng: np.random.Generator, m: int, n: int, c: np.ndarray, phi: float,
@@ -45,6 +55,12 @@ def generate(family: str, m: int, n: int, phi: float, seed: int) -> Instance:
         demand = rng.integers(5, 101, n)
         dist = np.linalg.norm(sites[:, None, :] - custs[None, :, :], axis=2)
         c = np.round(dist * demand[None, :] * 1000, 2)
+    elif family == "heavy_demand":
+        sigma = float(rng.choice([1.0, 1.2, 1.4]))
+        sites, custs = rng.random((m, 2)), rng.random((n, 2))
+        demand = np.maximum(1, np.round(rng.lognormal(np.log(100), sigma, n)))
+        dist = np.linalg.norm(sites[:, None, :] - custs[None, :, :], axis=2)
+        c = np.round(dist * demand[None, :] * 100, 2)
     elif family == "uniform":
         c = np.round(rng.uniform(100, 5000, (m, n)), 2)
     elif family == "gap":
@@ -64,8 +80,8 @@ def generate(family: str, m: int, n: int, phi: float, seed: int) -> Instance:
                     cheap.append(i)
             c[cheap, j] = np.round(rng.uniform(0, 400, k), 2)
     else:
-        raise ValueError(f"unknown family {family!r}; expected one of {FAMILIES}")
-    f = _fixed_costs(rng, m, n, c, phi, equal=family in ("orlib_like", "gap"))
+        raise ValueError(f"unknown family {family!r}; expected one of {FAMILIES + EXTRA_FAMILIES}")
+    f = _fixed_costs(rng, m, n, c, phi, equal=family in ("orlib_like", "gap", "heavy_demand"))
     return Instance(name=f"{family}_m{m}_phi{phi:g}_s{seed}", f=f, c=c)
 
 
@@ -86,3 +102,12 @@ def design(n_instances: int = 200, seed: int = 2026) -> list[dict]:
             "seed": 10_000 + k,
         })
     return specs
+
+
+def design_heavy(n_instances: int = 50, seed: int = 2027) -> list[dict]:
+    """Seeded specs for the heavy_demand family (same sizes and phi values as ``design``)."""
+    rng = np.random.default_rng(seed)
+    sizes = [16, 20, 25, 30, 40, 50]
+    phis = [0.5, 1.0, 2.0, 4.0, 8.0]
+    return [{"family": "heavy_demand", "m": int(rng.choice(sizes)), "n": 50,
+             "phi": float(rng.choice(phis)), "seed": 20_000 + k} for k in range(n_instances)]

@@ -11,8 +11,9 @@ Protocols
 Every fitted quantity (model, best fixed r, k) uses training instances only. Writes
 results/ml_eval_<ts>.md and results/ml_predictions_<ts>.csv.
 
-Run:  python scripts/train_penalty_model.py results/ml_instances_<ts>.csv results/ml_runs_<ts>.csv \
-          results/reproduction_<ts>.csv results/orlib_extra_<ts>.csv
+Run:  python scripts/train_penalty_model.py --instances results/ml_instances_<ts>.csv [more ...] \
+          --runs results/ml_runs_<ts>.csv [more ...] \
+          --m3-runs results/reproduction_<ts>.csv --orlib-extra results/orlib_extra_<ts>.csv
 """
 from __future__ import annotations
 
@@ -66,26 +67,32 @@ def orlib_features() -> pd.DataFrame:
 def main() -> None:
     """Run protocols A-C and write the report."""
     ap = argparse.ArgumentParser()
-    for a in ["instances", "runs", "m3_runs", "orlib_extra"]:
-        ap.add_argument(a, type=Path)
+    ap.add_argument("--instances", type=Path, nargs="+", required=True)
+    ap.add_argument("--runs", type=Path, nargs="+", required=True)
+    ap.add_argument("--m3-runs", type=Path, required=True)
+    ap.add_argument("--orlib-extra", type=Path, required=True)
     args = ap.parse_args()
 
-    inst = add_derived_features(pd.read_csv(args.instances).set_index("instance"))
-    runs = pd.read_csv(args.runs)
+    inst = add_derived_features(pd.concat([pd.read_csv(f) for f in args.instances]).set_index("instance"))
+    runs = pd.concat([pd.read_csv(f) for f in args.runs], ignore_index=True)
+    if inst.index.duplicated().any():
+        raise SystemExit("duplicate instance names across instance files")
     out = outcomes(runs)
     r_star = oracle_r(out)
     check_labels_match(runs, r_star)
     X = inst.loc[out.gap.index]
     fam = X["family"]
-    text = [f"# M5 evaluation\n\nData: `{args.instances.name}`, `{args.runs.name}` (synthetic, 200 instances); "
-            f"`{args.m3_runs.name}` + `{args.orlib_extra.name}` (ORLIB). Gap = mean repaired gap over seeds "
+    files = ", ".join(f"`{f.name}`" for f in args.instances + args.runs)
+    text = [f"# M5 evaluation\n\nData: {files} (synthetic, {len(X)} instances, families "
+            f"{sorted(fam.unique())}); `{args.m3_runs.name}` + `{args.orlib_extra.name}` (ORLIB). "
+            "Gap = mean repaired gap over seeds "
             "(failed runs score 100%). CI = paired bootstrap 95% interval of (rule - model) over instances; "
             "positive means the rule is worse than the model.\n"]
     preds = []
 
     # A. leave-one-family-out
-    text.append("## A. Leave-one-family-out (train on 3 families, test on the 4th)\n")
-    for f in ["gap", "uniform", "euclid", "orlib_like"]:
+    text.append("## A. Leave-one-family-out (train on the other families, test on one)\n")
+    for f in sorted(fam.unique(), key=lambda s: (s != "gap", s)):    # headline (gap) first
         train, test = list(X.index[fam != f]), list(X.index[fam == f])
         rules = predict_rules(out, X, train, test)
         text.append(f"### held-out family: `{f}` ({len(test)} instances)\n\n{md(summarize(out, rules))}\n")
@@ -101,7 +108,7 @@ def main() -> None:
             key = "k x exactness bound (k tuned per fold)" if name.startswith("k x") else name
             pooled.setdefault(key, []).append(r)
     pooled_rules = {k: pd.concat(v) for k, v in pooled.items()}
-    text.append(f"## B. Stratified 5-fold cross-validation (all 200 instances)\n\n{md(summarize(out, pooled_rules))}\n")
+    text.append(f"## B. Stratified 5-fold cross-validation (all {len(X)} instances)\n\n{md(summarize(out, pooled_rules))}\n")
     for name, r in pooled_rules.items():
         preds.append(pd.DataFrame({"instance": r.index, "protocol": "5fold", "rule": name, "r": r.values}))
 
@@ -124,7 +131,7 @@ def main() -> None:
         "100% of LP (tutorial)": s(np.full(len(Xo), 1.0)),
         "oracle r*": oracle_r(out_o).loc[Xo.index],
     }
-    text.append("## C. ORLIB sanity check (trained on all 200 synthetic instances; 12 problems, 10 seeds)\n\n"
+    text.append(f"## C. ORLIB sanity check (trained on all {len(X)} synthetic instances; 12 problems, 10 seeds)\n\n"
                 f"{md(summarize(out_o, rules_o))}\n\nPer-problem r: "
                 + ", ".join(f"{p}: model {rules_o['model (XGBoost)'][p]:g} / oracle {rules_o['oracle r*'][p]:g}"
                             for p in Xo.index) + "\n")
@@ -134,11 +141,11 @@ def main() -> None:
     # feature importance of the model trained on all synthetic instances
     imp = pd.Series(model.get_booster().get_score(importance_type="gain")).reindex(FEATURES).fillna(0)
     imp = (imp / imp.sum()).sort_values(ascending=False).round(3)
-    text.append("## Feature importance (gain share, model trained on all 200)\n\n"
+    text.append(f"## Feature importance (gain share, model trained on all {len(X)})\n\n"
                 + md(imp.to_frame("gain share")) + "\n")
 
     ts = f"{datetime.now():%Y%m%d_%H%M%S}"
-    res_dir = args.runs.parent
+    res_dir = args.runs[0].parent
     (res_dir / f"ml_eval_{ts}.md").write_text("\n".join(text), encoding="utf-8")
     pd.concat(preds).to_csv(res_dir / f"ml_predictions_{ts}.csv", index=False)
     print("\n".join(text))

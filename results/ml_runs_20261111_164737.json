@@ -1,0 +1,36 @@
+{
+  "instances_csv": "ml_instances_heavy_20261111_164101.csv",
+  "r_grid": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.08,
+    0.1,
+    0.15,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reads": 50,
+  "sweeps": 1000,
+  "penalty": "P = r * LP bound",
+  "n_jobs": 1800,
+  "workers": 6,
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "dimod": "0.12.23",
+    "dwave-samplers": "1.8.0",
+    "numpy": "2.5.4",
+    "pulp": "3.3.2",
+    "highspy": "1.15.1"
+  }
+}

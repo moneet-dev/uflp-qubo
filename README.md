@@ -55,6 +55,31 @@ best r is always 2–6%. I then trained an XGBoost regressor on cheap, scale-fre
 The model helps within the training distribution and on the held-out large-gap family, but it does
 not transfer to ORLIB, and it mostly separates families rather than instances.
 
+**Why not ORLIB?** ORLIB's customer demands are heavy-tailed (one customer holds 22% of all demand),
+which put it outside the training data. Adding a heavy-demand family narrowed the shortfall
+(9.91% → 9.14%), but did not close it. The remaining reason is that ORLIB's gap-vs-P curve is flat
+from 4% to 15%, while the synthetic curves are steep. See the last section of
+[`report/m5_summary.md`](report/m5_summary.md).
+
+## Extension: capacitated facility location
+
+Full write-up: [`report/capacitated_summary.md`](report/capacitated_summary.md). The capacitated
+model of Li (2026, *Urban Lifeline*, Appendix A) is written as a QUBO with binary slack variables.
+The exact MILP reproduces all seven optimal values of that paper's Table 3. On ORLIB costs with at
+most k customers per facility:
+
+| best mean repaired gap (12 problems) | k = 5 | k = 10 |
+|---|---|---|
+| capacity row Σx + s = k·y (as written) | 16.6% | 24.4% |
+| capacity row Σx + s = k (equally exact) | **9.4%** | **7.7%** |
+| uncapacitated, same problems | 8.3% | 8.3% |
+
+With y in the capacity row, closing a facility costs k²·P in one flip, so SA keeps every facility
+open. Writing the row without y removes that barrier. Separately, binary slack encodings create
+barriers of their own, so at k = 10 few raw reads are feasible.
+
+![Capacity-row forms compared](results/figures/capacitated_forms.png)
+
 ## Reproduce
 
 Requires Python 3.12 or 3.13.
@@ -63,17 +88,26 @@ Requires Python 3.12 or 3.13.
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt -e .   # on Linux/macOS: .venv/bin/python
 python data/download.py                    # 37 ORLIB files + uncapacitated optima (checked)
-pytest -q                                  # 111 tests, including the paper's worked example
+pytest -q                                  # 135 tests, including both papers' worked examples
 python scripts/verify_milp_optima.py       # M1: exact MILP matches all 37 published optima
 python scripts/run_reproduction.py         # M3: 2,960 SA runs (about 1 h on 6 cores)
 python scripts/verify_m3_results.py results/reproduction_<timestamp>.csv
 python scripts/make_figures.py results/reproduction_<timestamp>.csv
 python scripts/make_labels.py instances    # M4: 200 synthetic instances, solved exactly
-python scripts/make_labels.py runs results/ml_instances_<timestamp>.csv      # 7,200 SA runs (~2 h)
+python scripts/make_labels.py instances --design heavy                     # + 50 heavy-demand instances
+python scripts/make_labels.py runs results/ml_instances_<ts>.csv           # 7,200 SA runs (~2 h)
+python scripts/make_labels.py runs results/ml_instances_heavy_<ts>.csv     # 1,800 SA runs
 python scripts/verify_labels.py results/ml_instances_<ts>.csv results/ml_runs_<ts>.csv
 python scripts/run_orlib_check.py          # M5: 600 extra ORLIB runs
-python scripts/train_penalty_model.py results/ml_instances_<ts>.csv results/ml_runs_<ts>.csv \
-    results/reproduction_<ts>.csv results/orlib_extra_<ts>.csv
+python scripts/train_penalty_model.py \
+    --instances results/ml_instances_<ts>.csv results/ml_instances_heavy_<ts>.csv \
+    --runs results/ml_runs_<ts>.csv results/ml_runs_<ts2>.csv \
+    --m3-runs results/reproduction_<ts>.csv --orlib-extra results/orlib_extra_<ts>.csv
+python scripts/run_capacitated.py          # capacitated, coupled row (960 runs, ~2 h)
+python scripts/run_capacitated.py --formulation decoupled --seeds 3     # 576 runs
+python scripts/analyze_capacitated.py results/capacitated_<ts>.csv results/reproduction_<ts>.csv
+python scripts/compare_capacitated_forms.py results/capacitated_<ts>.csv \
+    results/capacitated_decoupled_<ts>.csv results/reproduction_<ts>.csv
 ```
 
 Every run is seeded; results go to timestamped files in `results/` and are never overwritten.
@@ -90,6 +124,7 @@ Every run is seeded; results go to timestamped files in `results/` and are never
 | `src/uflp/experiment.py` | one run → one CSV row |
 | `src/uflp/generate.py`, `heuristics.py`, `features.py` | synthetic instances, greedy heuristic, ML features |
 | `src/uflp/ml.py` | labels, penalty rules, evaluation, bootstrap CIs |
+| `src/uflp/capacitated.py` | capacitated variant: exact MILP, QUBO with slack (coupled/decoupled), SA, repair |
 | `scripts/` | the M1–M5 pipelines, checks, figures and the summary PDF build |
 | `results/`, `report/` | outputs and write-ups |
 

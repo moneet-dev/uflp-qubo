@@ -8,7 +8,7 @@ Stage "runs": SA on every instance at P = r x LP bound for the 12-value grid, 3 
 1,000 sweeps (same SA settings as M3). -> results/ml_runs_<ts>.csv (+ .json settings), resumable.
 The label r* (best mean repaired cost per r; ties: lower CPU time) is derived from these rows at M5.
 
-Run:     python scripts/make_labels.py instances
+Run:     python scripts/make_labels.py instances [--design heavy]
          python scripts/make_labels.py runs results/ml_instances_<ts>.csv [--workers 6]
 Resume:  python scripts/make_labels.py runs results/ml_instances_<ts>.csv --resume results/ml_runs_<ts>.csv
 """
@@ -30,7 +30,7 @@ import pandas as pd
 
 from uflp.experiment import CsvLog, run_one
 from uflp.features import features
-from uflp.generate import design, generate
+from uflp.generate import design, design_heavy, generate
 from uflp.io import Instance
 from uflp.milp import lp_bound, solve_uflp
 
@@ -66,15 +66,16 @@ def run_job(spec: dict) -> dict:
                    READS, SWEEPS, p_base=spec["lp"])
 
 
-def stage_instances(workers: int) -> None:
-    """Solve and featurize all 200 instances in parallel; write them in design order."""
-    specs = design()
+def stage_instances(workers: int, which: str) -> None:
+    """Solve and featurize every instance of a design in parallel; write them in design order."""
+    specs = design() if which == "base" else design_heavy()
     with ProcessPoolExecutor(max_workers=workers) as ex:
         rows = list(ex.map(instance_row, specs))
     bad = [r["instance"] for r in rows if r["milp_status"] != "Optimal"]
     if bad:
         raise SystemExit(f"MILP not optimal for {bad}; raise MILP_TIME_LIMIT")
-    out = RESULTS / f"ml_instances_{datetime.now():%Y%m%d_%H%M%S}.csv"
+    prefix = "ml_instances" if which == "base" else f"ml_instances_{which}"
+    out = RESULTS / f"{prefix}_{datetime.now():%Y%m%d_%H%M%S}.csv"
     with open(out, "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
@@ -121,10 +122,12 @@ def main() -> None:
     ap.add_argument("stage", choices=["instances", "runs"])
     ap.add_argument("instances_csv", type=Path, nargs="?")
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--design", choices=["base", "heavy"], default="base",
+                    help="base: the 200 original instances; heavy: the 50 heavy_demand instances (M5)")
     ap.add_argument("--resume", type=Path, default=None)
     args = ap.parse_args()
     if args.stage == "instances":
-        stage_instances(args.workers)
+        stage_instances(args.workers, args.design)
     else:
         if args.instances_csv is None:
             ap.error("runs stage needs the instances CSV")

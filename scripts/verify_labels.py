@@ -73,7 +73,7 @@ def main() -> int:
         print(lines[-1], flush=True)
 
     feat_cols = [c for c in inst.columns if c not in ("family", "milp_status")]
-    report("instances", len(inst) == 200 and (inst["milp_status"] == "Optimal").all()
+    report("instances", len(inst) > 0 and (inst["milp_status"] == "Optimal").all()
            and (inst["lp"] <= inst["opt"] * (1 + 1e-9)).all()
            and np.isfinite(inst[feat_cols].to_numpy(dtype=float)).all(),
            f"{len(inst)} instances, all optimal {(inst['milp_status'] == 'Optimal').all()}, "

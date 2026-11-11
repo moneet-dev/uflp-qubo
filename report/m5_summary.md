@@ -100,3 +100,55 @@ elsewhere; finding it is open.
 - **ORLIB is a sanity check only:** zero LP gap, 12 problems.
 - **No hyperparameter tuning and no feature selection were done,** to avoid overfitting a small data
   set. A classifier over grid points was not tried.
+
+## Follow-up: why the model does not transfer to ORLIB
+
+Full tables: `results/ml_eval_20261111_171210.md` (five families, 250 instances).
+
+**1. ORLIB lay outside the training data.** On the model's two most important features, ORLIB is
+far beyond every synthetic family:
+
+| feature | ORLIB | largest synthetic value |
+|---|---|---|
+| largest cheapest-service cost / LP | 0.14–0.22 | 0.083 |
+| CV of service costs | 2.14–2.22 | 0.86 |
+
+The cause is customer demand. ORLIB's demands run from 31 to 12,912 (CV 1.74), and one customer holds
+22% of all demand. The synthetic families drew demand from 5–100 (CV about 0.5). Unit costs are
+ordinary (CV about 0.55).
+
+**2. Adding the missing property helps, but does not fix it.** I added a fifth family,
+`heavy_demand`: lognormal demands with σ ∈ {1.0, 1.2, 1.4}, 50 instances, no ORLIB data used. It
+reaches ORLIB's range (CV of costs up to 2.2). I then ran 1,800 more labelled SA runs, all checks
+passing. Results:
+
+| mean repaired gap % | model | best fixed r | oracle |
+|---|---|---|---|
+| 5-fold CV, 250 instances | **2.29** | 3.41 | 1.76 |
+| `heavy_demand` held out | **4.66** | 5.26 | 3.60 |
+| ORLIB (before → after) | 9.91 → 9.14 | **8.15** | 7.73 |
+
+On ORLIB the model is still worse than a fixed 4%, by 0.99 points [0.12, 2.02].
+
+**3. The remaining difference is the shape of the penalty curve.**
+
+| mean gap % at r = | 3% | 4% | 5% | 8% | 15% | 25% |
+|---|---|---|---|---|---|---|
+| ORLIB (12 problems) | 10.35 | **8.15** | 8.51 | 9.64 | 10.85 | 12.72 |
+| `heavy_demand` (50) | **4.51** | 5.26 | 7.22 | 14.29 | 26.70 | 36.43 |
+
+- On the synthetic instances, SA's quality collapses quickly once P is too large. On ORLIB the curve
+  is almost flat from 4% to 15%, and some problems prefer much larger P: cap101 does best at 15%
+  (2.38% vs 4.25%, against a seed standard error of about 0.35).
+- A model trained on steep curves learns to aim low, which on ORLIB lands on the steep side (3%).
+- The features describe costs, not how SA's quality responds to P, so they cannot see this
+  difference.
+
+**What this means.**
+- On ORLIB, a fixed 4% of the LP bound is the better rule.
+- Within families, the model's predictions barely track the per-instance best (Spearman 0.04–0.23),
+  except on the large-gap family (0.56). It mostly recognises families.
+- I stopped tuning the generator here on purpose: tuning it further toward ORLIB would turn ORLIB
+  from a check into training data.
+- **Caveat.** The `heavy_demand` family was added *after* seeing ORLIB's failure, so ORLIB is no
+  longer an untouched test set.
