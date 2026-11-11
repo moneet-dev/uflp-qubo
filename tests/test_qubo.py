@@ -1,4 +1,5 @@
 """QUBO tests: both builders agree; energies equal real costs; infeasible states pay >= P; SA/repair basics."""
+import dimod
 import numpy as np
 import pytest
 
@@ -6,7 +7,7 @@ from uflp.anneal import lp_warm_start, run_sa
 from uflp.io import DATA_DIR, Instance, load_instance, load_optima
 from uflp.milp import solve_uflp
 from uflp.qubo import (build_penalty_function, build_q_matrix, energies, is_feasible,
-                       state_from_solution)
+                       penalty_bounds, state_from_solution)
 from uflp.repair import repair_cost, repair_costs
 
 TOY = Instance("toy", f=np.array([100.0, 125, 125]),
@@ -33,6 +34,43 @@ def test_toy_builders_agree_and_match_paper_matrix():
     # [P appendix] row of x_11 (label 3): 2P with x_21 (label 7) and x_31 (label 11), -P with y_1
     assert b.quadratic[(3, 7)] == 500 and b.quadratic[(3, 11)] == 500 and b.quadratic[(0, 3)] == -250
     assert (3, 14) not in b.quadratic   # the clamped entry the printed Property 2 formula would add
+
+
+def paper_appendix_matrix() -> np.ndarray:
+    """The 15x15 upper-triangular Q printed in the [P] appendix (P = 250), 0-based."""
+    q = np.zeros((15, 15))
+    q[[0, 1, 2], [0, 1, 2]] = [100, 125, 125]
+    for i in range(3):
+        q[i, 3 + 4 * i: 7 + 4 * i] = -250
+    q[range(3, 15), range(3, 15)] = [35, 40, 60, 60, 40, 55, 50, 60, 40, 30, 45, 50]
+    for j in range(4):
+        for a, b in [(0, 1), (0, 2), (1, 2)]:
+            q[3 + 4 * a + j, 3 + 4 * b + j] = 500
+    return q
+
+
+@pytest.mark.parametrize("builder", [build_penalty_function, build_q_matrix])
+def test_builders_reproduce_paper_appendix_matrix_and_minimum(builder):
+    bqm = builder(TOY, 250)
+    q = np.zeros((15, 15))
+    for v, b in bqm.linear.items():
+        q[v, v] = b
+    for (u, v), b in bqm.quadratic.items():
+        q[min(u, v), max(u, v)] = b
+    np.testing.assert_array_equal(q, paper_appendix_matrix())
+    best = dimod.ExactSolver().sample(bqm).first
+    assert best.energy - bqm.offset == -710 and best.energy == 290
+
+
+def test_penalty_bounds_on_toy():
+    nec, suf = penalty_bounds(TOY, opt=290)
+    assert (nec, suf) == (72.5, 160)
+    for p, feasible in [(60, False), (72, False), (73, True), (161, True)]:
+        ss = dimod.ExactSolver().sample(build_q_matrix(TOY, p))
+        z = np.array([ss.first.sample[v] for v in range(15)])
+        assert is_feasible(TOY, z) == feasible
+        if feasible:
+            assert ss.first.energy == 290
 
 
 def test_toy_energy_of_optimum_is_290():

@@ -36,7 +36,8 @@ class SAResult:
     raw_best_cost: float          # best energy among feasible reads (= their real cost); NaN if none
     repaired_cost: float          # best repaired cost over reads; NaN if no read opened a facility
     n_no_facility_reads: int
-    time_s: float
+    time_s: float                 # wall-clock seconds of the SA call
+    cpu_time_s: float             # CPU seconds of this process (robust to parallel load)
 
 
 def run_sa(inst: Instance, bqm: dimod.BinaryQuadraticModel, reads: int, sweeps: int, seed: int,
@@ -47,15 +48,17 @@ def run_sa(inst: Instance, bqm: dimod.BinaryQuadraticModel, reads: int, sweeps: 
         labels = list(range(len(initial_state)))
         kwargs = {"initial_states": (np.tile(initial_state, (reads, 1)), labels),
                   "initial_states_generator": "none"}
-    t0 = time.perf_counter()
+    t0, c0 = time.perf_counter(), time.process_time()
     ss = SimulatedAnnealingSampler().sample(
         bqm, num_reads=reads, num_sweeps=sweeps, seed=seed, **kwargs)
-    elapsed = time.perf_counter() - t0
+    elapsed, cpu = time.perf_counter() - t0, time.process_time() - c0
     labels = list(range(inst.m + inst.m * inst.n))
     states = dimod.as_samples(ss)[0]
     order = [ss.variables.index(v) for v in labels]
     states = states[:, order]
-    en = ss.record.energy
+    # The sampler's reported energies are accumulated incrementally and can be off by ~1e-4;
+    # recompute them exactly (float64, offset included) from the returned states.
+    en = bqm.energies((states, labels))
     feas = np.array([is_feasible(inst, z) for z in states])
     rep = repair_costs(inst, states[:, : inst.m])
     best = int(np.argmin(en))
@@ -67,6 +70,7 @@ def run_sa(inst: Instance, bqm: dimod.BinaryQuadraticModel, reads: int, sweeps: 
         repaired_cost=float(np.nanmin(rep)) if np.isfinite(rep).any() else float("nan"),
         n_no_facility_reads=int(np.isnan(rep).sum()),
         time_s=elapsed,
+        cpu_time_s=cpu,
     )
 
 

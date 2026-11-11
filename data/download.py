@@ -3,9 +3,9 @@
 Sources (see CLAUDE.md section 7):
 
 * Instance files: OR-Library at Brunel (authoritative), for all 37 files.
-* Uncapacitated optima for cap71-74, cap101-104, cap131-134: Brunel's ``uncapopt.txt``.
-* Uncapacitated optima for cap41-44, cap51, cap61-64, cap81-84, cap91-94, cap111-114,
-  cap121-124: UflLib's ORLIB package (``*.txt.opt`` files; the last number is the cost).
+* Uncapacitated optima for all 37: UflLib's ORLIB package (``*.txt.opt`` files; the last
+  number is the cost). For cap71-74, cap101-104, cap131-134 these are checked against
+  Brunel's ``uncapopt.txt``, which gives the same values rounded to 3 decimals.
   UflLib (resources.mpi-inf.mpg.de) returned HTTP 403 on 9 Nov 2026 and the package is
   not in the Wayback Machine, so we read a GitHub copy of that package, pinned to one
   commit. We trust it only after three checks done by this script and by M1:
@@ -90,17 +90,19 @@ def main() -> int:
             opt_file = fetch(f"{MIRROR}/{mirror_dir(name)}/{name}.txt.opt")
             (RAW / f"{name}.txt.opt").write_text(opt_file)
             mirror_opt = float(opt_file.split()[-1])
-            if name in UNCAP_SET:
-                if abs(mirror_opt - brunel_opt[name]) > 1e-6 * brunel_opt[name]:
-                    raise SystemExit(f"{name}: mirror opt {mirror_opt} != Brunel {brunel_opt[name]}")
-                opt, src = brunel_opt[name], "brunel_uncapopt"
-            else:
-                opt, src = mirror_opt, "ufllib_opt_file"
-            rows.append({"name": name, "class": cls, "opt": opt, "source": src})
-            print(f"{name:7s} {cls}  opt={opt:<14} ({src})")
+            # Use the UflLib value everywhere: it has 4-5 decimals, while Brunel's uncapopt rounds
+            # to 3 (e.g. 793439.5625 vs 793439.562). One value per problem keeps the QUBOs of
+            # duplicate files identical; our MILP reproduces the UflLib values exactly.
+            brunel = brunel_opt.get(name, float("nan"))
+            if name in UNCAP_SET and abs(mirror_opt - brunel) > 1e-6 * brunel:
+                raise SystemExit(f"{name}: mirror opt {mirror_opt} != Brunel {brunel}")
+            src = "ufllib_opt_file (= brunel_uncapopt to 1e-6)" if name in UNCAP_SET else "ufllib_opt_file"
+            rows.append({"name": name, "class": cls, "opt": mirror_opt, "source": src,
+                         "brunel_uncapopt": brunel})
+            print(f"{name:7s} {cls}  opt={mirror_opt:<14} ({src})")
 
     with open(ROOT / "optima.csv", "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=["name", "class", "opt", "source"])
+        w = csv.DictWriter(fh, fieldnames=["name", "class", "opt", "source", "brunel_uncapopt"])
         w.writeheader()
         w.writerows(rows)
     print(f"wrote {len(rows)} instances to {RAW} and {ROOT / 'optima.csv'}")

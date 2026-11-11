@@ -30,6 +30,19 @@ def test_solution_cost_rejects_closed_facility():
 
 @pytest.mark.data
 @pytest.mark.skipif(not HAVE_DATA, reason="run data/download.py first")
+def test_duplicate_files_share_one_exact_optimum():
+    """Files with identical (f, c) must carry the identical optimum, so their QUBOs are identical."""
+    import hashlib
+    seen: dict[str, float] = {}
+    for row in OPTIMA:
+        inst = load_instance(row["name"])
+        key = hashlib.sha1(inst.f.tobytes() + inst.c.tobytes()).hexdigest()
+        assert seen.setdefault(key, row["opt"]) == row["opt"], row["name"]
+    assert len(seen) == 12
+
+
+@pytest.mark.data
+@pytest.mark.skipif(not HAVE_DATA, reason="run data/download.py first")
 @pytest.mark.parametrize("row", OPTIMA, ids=[r["name"] for r in OPTIMA])
 def test_milp_matches_published_optimum(row):
     inst = load_instance(row["name"])

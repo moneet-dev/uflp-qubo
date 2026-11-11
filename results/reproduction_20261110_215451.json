@@ -1,0 +1,41 @@
+{
+  "r_grid": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reads": 50,
+  "sweeps": 1000,
+  "builder": "penalty",
+  "penalty": "P = r * published optimum",
+  "n_jobs": 2960,
+  "workers": 6,
+  "git_commit_at_start": "89e6b21cd5a39b2defc7e15657bac2e27f0f0180",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count_logical": 8,
+  "packages": {
+    "dimod": "0.12.23",
+    "dwave-samplers": "1.8.0",
+    "numpy": "2.5.4",
+    "pulp": "3.3.2",
+    "highspy": "1.15.1"
+  }
+}

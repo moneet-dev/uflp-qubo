@@ -1,0 +1,17 @@
+Verification of reproduction_20261110_215451.csv
+
+[PASS] completeness: 2960 rows, 2960 unique, 2960 expected
+[PASS] bookkeeping: P=r*opt True, opt from optima.csv True, sizes True, gap recomputes True
+[PASS] invariants: repaired>=opt True, raw>=opt True, energy>=opt where P exact (1480 runs) True; runs with energy<opt (P below threshold): 1080, max r among them 0.05
+[INFO] wall time: 6 runs have wall time > 5x CPU time + 60 s (machine sleep or heavy load; max 42528 s). Use cpu_time_s for timing; results are unaffected (seeded).
+[PASS] duplicates identical: 0 mismatching rows across files of the same problem
+[PASS] reproducible: 12 sampled runs re-executed, 0 differ
+[PASS] builders agree under SA: 12 sampled runs with the Q-matrix builder, 0 differ (states, counts, repaired cost exact; energies to rel 1e-12)
+
+Raw-feasible read rate at the paper's r values ([P]: no infeasibility at any of them):
+r        0.25  0.50  0.75  1.00
+class                          
+A-1    0.9825   1.0   1.0   1.0
+A-2    0.9985   1.0   1.0   1.0
+B-1    0.9990   1.0   1.0   1.0
+Runs at the paper's r whose lowest-energy read is infeasible: 0 of 1480

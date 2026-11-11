@@ -61,6 +61,23 @@ def build_q_matrix(inst: Instance, p: float) -> dimod.BinaryQuadraticModel:
     return dimod.BinaryQuadraticModel.from_numpy_vectors(linear, quad, p * n, dimod.BINARY)
 
 
+def penalty_bounds(inst: Instance, opt: float | None = None) -> tuple[float, float]:
+    """Bounds on P for the QUBO minimum to be the UFLP optimum (an "exact" penalty).
+
+    Necessary: P >= max_j min_i c_ij (else dropping that customer is cheaper than serving it)
+    and, if opt is known, P >= opt/|J| (else dropping every customer is cheaper).
+    Sufficient: P > max(max_j min_i (f_i + c_ij), max_i f_i): then every infeasible state has
+    an improving move (serve a dropped customer, drop a duplicate assignment, or open a
+    facility that is serving customers), so every minimizer is feasible.
+    Returns (necessary, sufficient). The sufficient bound needs no optimum.
+    """
+    nec = float(inst.c.min(axis=0).max())
+    if opt is not None:
+        nec = max(nec, opt / inst.n)
+    suf = float(max((inst.f[:, None] + inst.c).min(axis=0).max(), inst.f.max()))
+    return nec, suf
+
+
 def state_from_solution(inst: Instance, opened: list[int], assignment: list[int]) -> np.ndarray:
     """0/1 vector z for a UFLP solution (opened facilities, facility of each customer)."""
     z = np.zeros(inst.m + inst.m * inst.n, dtype=np.int8)

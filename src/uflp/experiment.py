@@ -22,6 +22,7 @@ COLUMNS = [
     "instance", "problem", "class", "m", "n", "opt", "r", "P", "seed", "reads", "sweeps",
     "builder", "warm_start", "best_energy", "raw_feasible", "n_feasible_reads",
     "n_no_facility_reads", "raw_best_cost", "raw_gap_pct", "repaired_cost", "gap_pct", "time_s",
+    "cpu_time_s",
 ]
 
 
@@ -50,6 +51,7 @@ def run_one(inst: Instance, cls: str, problem: str, opt: float, r: float, seed: 
         "n_no_facility_reads": res.n_no_facility_reads, "raw_best_cost": res.raw_best_cost,
         "raw_gap_pct": gap(res.raw_best_cost, opt), "repaired_cost": res.repaired_cost,
         "gap_pct": gap(res.repaired_cost, opt), "time_s": round(res.time_s, 4),
+        "cpu_time_s": round(res.cpu_time_s, 4),
     }
 
 
