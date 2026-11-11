@@ -9,10 +9,13 @@ none are quantum or Gurobi results.
 
 The paper reformulates the uncapacitated facility location problem (UFLP) as a QUBO (eq. 15) with
 a penalty P. With Gurobi's QUBO solver it found that P = 25–100% of the optimal cost always gave the
-optimum on the ORLIB classes, and it chose 50%. I asked two questions:
+optimum on the ORLIB classes, and it chose 50%. I asked three questions:
 
 1. **Does the choice of P behave the same when the QUBO is solved by single-flip simulated annealing (SA)?**
 2. **Can a good P be predicted for a new instance from cheap features, without the optimum?**
+3. **What changes when capacity constraints, and the slack variables they need, are added?** The paper
+   lists general inequality constraints as future work (§5). The model is the capacitated one in Li
+   (2026), *Urban Lifeline* 4:7, Appendix A.
 
 ## 2. Setup
 
@@ -90,9 +93,47 @@ The results are mixed:
   rule, r = k × (exactness bound)/LP, does about as well here.
 - **ORLIB:** it does not transfer; it is 1.8 points worse than a fixed 4%. Its predictions mostly
   separate families rather than instances.
+- **Why not ORLIB.** ORLIB's demands are heavy-tailed: one customer holds 22% of all demand, which
+  put ORLIB outside the training data. Adding a heavy-demand family narrowed the shortfall (9.9% →
+  9.1%), but a fixed 4% (8.2%) still does better. The reason is that ORLIB's gap is almost flat from
+  P = 4% to 15%, while the synthetic curves are steep.
 
 The robust lesson is the scale: for SA, a good P is a few percent of the LP bound, and the 50% that
 suits Gurobi costs 30–52 points of gap.
+
+**(d) With capacities, how the constraint is written matters more than P.** I used the capacitated
+model of Li (2026, *Urban Lifeline*, Appendix A), with single sourcing:
+
+- **The exact MILP reproduces all seven optimal values in that paper's Table 3** (433.85, 377.28,
+  …, 349.02), which requires unrounded Euclidean distances.
+- **The QUBO adds, for each facility, a slack s<sub>i</sub> ∈ [0, k]** written with bounded binary weights (1,
+  2, …), and penalizes P·(Σ<sub>j</sub> x<sub>ij</sub> + s<sub>i</sub> − k·y<sub>i</sub>)². An
+  exhaustive search on a small instance confirms the QUBO minimum is the CFLP optimum.
+- **ORLIB's own capacities cannot be used under single sourcing:** one customer's demand, 12,912,
+  exceeds most capacities. So I applied Appendix A's "at most k customers per facility" to the 12
+  ORLIB cost matrices, with k ∈ {5, 10}: 24 problems and 1,536 SA runs.
+
+| Best mean repaired gap (12 problems, seeds 0–2) | k = 5 | k = 10 |
+|---|---|---|
+| capacity row Σ<sub>j</sub> x<sub>ij</sub> + s<sub>i</sub> = k·y<sub>i</sub> (as written) | 16.6% | 24.4% |
+| capacity row Σ<sub>j</sub> x<sub>ij</sub> + s<sub>i</sub> = k (equally exact) | **9.4%** | **7.7%** |
+| no capacity, same problems | 8.3% | 8.3% |
+
+![Coupled vs decoupled capacity rows under SA](../results/figures/capacitated_forms.png)
+
+- **As written, the row locks facilities open.** When a facility's load plus slack equals k, closing it
+  changes the row by k, which costs k²·P in one flip. SA's reads therefore open nearly every facility
+  (15–16 of 16 on cap74, where the optimum opens 6–10), and the gap hardly depends on P.
+- **Without y, the row is just as exact,** because eq. 15's x ≤ y penalty already stops a closed
+  facility from serving anyone. SA then behaves as in the uncapacitated case: best near P = 5–10%,
+  and 8–18 points better than the coupled row at every P ≥ 2% (paired 95% CIs over the 12 problems
+  exclude zero).
+- **The binary slack encoding has barriers of its own.**
+    - With k = 10 (weights 1, 2, 4, 3), changing the slack by one unit can require two flips through
+      states that cost 9–16·P. As a result, only 1–11% of raw reads are feasible, against 87–100% for
+      k = 5 (weights 1, 2, 2).
+    - Repair still recovers good solutions, but the raw QUBO output is rarely usable. This is a
+      concrete instance of the paper's remark that slack variables make QUBO models harder to solve.
 
 ## 4. Limitations and notes
 
@@ -100,12 +141,15 @@ suits Gurobi costs 30–52 points of gap.
   hybrid solver or Gurobi. The repair step is mine; the paper needed none. SA's CPU time is not
   comparable with the paper's time to the best solution.
 - **Instances.** ORLIB's LP bound equals its optimum, so it cannot test an estimate-based rule on its
-  own; hence the synthetic large-gap family. B-2 was not run, because UflLib was unreachable.
+  own; hence the synthetic large-gap family. B-2 was not run, because UflLib was unreachable. The
+  heavy-demand family was added *after* seeing the ORLIB failure, so ORLIB is no longer an untouched
+  test set. The capacitated results use capacity by customer count (Appendix A, (A.4)); I checked
+  demand-based capacity only on the Table 3 example.
 - **An implementation note on Property 2.** Read literally, the index formula
   min{|I| + m·|J| + j, |I|(|J|+1)} for m = i, …, |I| clamps to the last variable when m = |I|. On the
   appendix example that places extra 2P entries in the x₃₄ column. I built the matrix from the
   property's description (pairs i < i′ for the same customer), which reproduces the appendix matrix
   exactly.
-- **Reproducibility.** Every run is seeded and logged. A test suite (111 tests) covers the appendix
-  example, all 37 optima and both constructions. The code and data are in a GitHub repository that I
-  can share.
+- **Reproducibility.** Every run is seeded and logged. A test suite (135 tests) covers the appendix
+  example, all 37 optima, both constructions and the *Urban Lifeline* Table 3 values. The code and
+  data are in a GitHub repository that I can share.
