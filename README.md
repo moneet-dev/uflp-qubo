@@ -15,7 +15,7 @@ when the QUBO is solved with Gurobi's QUBO solver.
 **Question 2:** can a model predict a good P for a new instance from cheap features, without knowing
 the optimal cost?
 
-A 2-page overview for readers of the paper: [`report/study_summary.pdf`](report/study_summary.pdf).
+A short overview of the whole study: [`report/study_summary.pdf`](report/study_summary.pdf).
 
 All results here are from classical simulated annealing. They are not quantum results and not
 Gurobi results.

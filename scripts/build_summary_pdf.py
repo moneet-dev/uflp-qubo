@@ -1,4 +1,4 @@
-"""Render report/study_summary.md to a 2-page A4 PDF (Markdown -> HTML -> headless Chrome/Edge).
+"""Render report/study_summary.md to an A4 PDF (Markdown -> HTML -> headless Chrome/Edge).
 
 Run:  python scripts/build_summary_pdf.py [--md report/study_summary.md]
 Writes the .html and .pdf next to the Markdown file and prints the page count.
@@ -6,6 +6,7 @@ Writes the .html and .pdf next to the Markdown file and prints the page count.
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import shutil
 import subprocess
@@ -54,9 +55,12 @@ def main() -> int:
     ap.add_argument("--md", type=Path, default=ROOT / "report" / "study_summary.md")
     args = ap.parse_args()
     md_path = args.md.resolve()
-    body = markdown.markdown(md_path.read_text(encoding="utf-8"), extensions=["tables"])
+    text = md_path.read_text(encoding="utf-8")
+    body = markdown.markdown(text, extensions=["tables"])
+    # PDF title metadata comes from <title>; use the document's first heading, not the file name
+    title = next((ln.lstrip("# ").strip() for ln in text.splitlines() if ln.startswith("# ")), md_path.stem)
     html_path = md_path.with_suffix(".html")
-    html_path.write_text(f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style>"
+    html_path.write_text(f"<!doctype html><html><head><meta charset='utf-8'><title>{html.escape(title)}</title><style>{CSS}</style>"
                          f"</head><body>{body}</body></html>", encoding="utf-8")
     pdf_path = md_path.with_suffix(".pdf")
     subprocess.run([find_browser(), "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
