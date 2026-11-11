@@ -1,0 +1,38 @@
+{
+  "problems": [
+    "cap71",
+    "cap72",
+    "cap73",
+    "cap74",
+    "cap101",
+    "cap102",
+    "cap103",
+    "cap104",
+    "cap131",
+    "cap132",
+    "cap133",
+    "cap134"
+  ],
+  "r_extra": [
+    0.03,
+    0.04,
+    0.06,
+    0.08,
+    0.15
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reads": 50,
+  "sweeps": 1000,
+  "penalty": "P = r * opt (= r * LP bound on ORLIB)"
+}

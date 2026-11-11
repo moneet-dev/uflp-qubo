@@ -1,0 +1,2885 @@
+instance,protocol,rule,r
+gap_m16_phi16_s10003,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10051,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10095,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10103,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10143,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10195,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi32_s10043,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi32_s10055,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi32_s10059,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi32_s10183,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi8_s10019,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi8_s10039,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi8_s10079,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi8_s10083,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi8_s10155,LOFO:gap,model (XGBoost),0.04
+gap_m20_phi16_s10067,LOFO:gap,model (XGBoost),0.04
+gap_m20_phi16_s10171,LOFO:gap,model (XGBoost),0.04
+gap_m20_phi32_s10127,LOFO:gap,model (XGBoost),0.04
+gap_m20_phi8_s10063,LOFO:gap,model (XGBoost),0.04
+gap_m20_phi8_s10091,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi16_s10027,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi16_s10135,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi32_s10035,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi32_s10163,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi8_s10115,LOFO:gap,model (XGBoost),0.04
+gap_m25_phi8_s10151,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi16_s10071,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi16_s10087,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi16_s10111,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi16_s10147,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi32_s10015,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi32_s10107,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi32_s10159,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi8_s10047,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi8_s10167,LOFO:gap,model (XGBoost),0.04
+gap_m30_phi8_s10175,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi16_s10099,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi32_s10011,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi32_s10139,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi8_s10007,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi8_s10023,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi8_s10123,LOFO:gap,model (XGBoost),0.04
+gap_m40_phi8_s10187,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi16_s10075,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi16_s10119,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi16_s10191,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi16_s10199,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi32_s10031,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi32_s10131,LOFO:gap,model (XGBoost),0.04
+gap_m50_phi8_s10179,LOFO:gap,model (XGBoost),0.04
+gap_m16_phi16_s10003,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10051,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10095,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10103,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10143,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10195,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi32_s10043,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi32_s10055,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi32_s10059,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi32_s10183,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi8_s10019,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi8_s10039,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi8_s10079,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi8_s10083,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi8_s10155,LOFO:gap,best fixed r (train),0.03
+gap_m20_phi16_s10067,LOFO:gap,best fixed r (train),0.03
+gap_m20_phi16_s10171,LOFO:gap,best fixed r (train),0.03
+gap_m20_phi32_s10127,LOFO:gap,best fixed r (train),0.03
+gap_m20_phi8_s10063,LOFO:gap,best fixed r (train),0.03
+gap_m20_phi8_s10091,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi16_s10027,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi16_s10135,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi32_s10035,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi32_s10163,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi8_s10115,LOFO:gap,best fixed r (train),0.03
+gap_m25_phi8_s10151,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi16_s10071,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi16_s10087,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi16_s10111,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi16_s10147,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi32_s10015,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi32_s10107,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi32_s10159,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi8_s10047,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi8_s10167,LOFO:gap,best fixed r (train),0.03
+gap_m30_phi8_s10175,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi16_s10099,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi32_s10011,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi32_s10139,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi8_s10007,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi8_s10023,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi8_s10123,LOFO:gap,best fixed r (train),0.03
+gap_m40_phi8_s10187,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi16_s10075,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi16_s10119,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi16_s10191,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi16_s10199,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi32_s10031,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi32_s10131,LOFO:gap,best fixed r (train),0.03
+gap_m50_phi8_s10179,LOFO:gap,best fixed r (train),0.03
+gap_m16_phi16_s10003,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi16_s10051,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi16_s10095,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi16_s10103,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi16_s10143,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi16_s10195,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi32_s10043,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi32_s10055,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi32_s10059,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi32_s10183,LOFO:gap,k x exactness bound (k=0.5),0.08
+gap_m16_phi8_s10019,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m16_phi8_s10039,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m16_phi8_s10079,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m16_phi8_s10083,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m16_phi8_s10155,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m20_phi16_s10067,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m20_phi16_s10171,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m20_phi32_s10127,LOFO:gap,k x exactness bound (k=0.5),0.06
+gap_m20_phi8_s10063,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m20_phi8_s10091,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m25_phi16_s10027,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m25_phi16_s10135,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m25_phi32_s10035,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m25_phi32_s10163,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m25_phi8_s10115,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m25_phi8_s10151,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi16_s10071,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi16_s10087,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi16_s10111,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi16_s10147,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi32_s10015,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi32_s10107,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi32_s10159,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi8_s10047,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi8_s10167,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m30_phi8_s10175,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m40_phi16_s10099,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m40_phi32_s10011,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m40_phi32_s10139,LOFO:gap,k x exactness bound (k=0.5),0.05
+gap_m40_phi8_s10007,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m40_phi8_s10023,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m40_phi8_s10123,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m40_phi8_s10187,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m50_phi16_s10075,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m50_phi16_s10119,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m50_phi16_s10191,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m50_phi16_s10199,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m50_phi32_s10031,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m50_phi32_s10131,LOFO:gap,k x exactness bound (k=0.5),0.04
+gap_m50_phi8_s10179,LOFO:gap,k x exactness bound (k=0.5),0.03
+gap_m16_phi16_s10003,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10051,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10095,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10103,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10143,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10195,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi32_s10043,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi32_s10055,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi32_s10059,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi32_s10183,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi8_s10019,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi8_s10039,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi8_s10079,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi8_s10083,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi8_s10155,LOFO:gap,LP/n (pilot rule),0.02
+gap_m20_phi16_s10067,LOFO:gap,LP/n (pilot rule),0.02
+gap_m20_phi16_s10171,LOFO:gap,LP/n (pilot rule),0.02
+gap_m20_phi32_s10127,LOFO:gap,LP/n (pilot rule),0.02
+gap_m20_phi8_s10063,LOFO:gap,LP/n (pilot rule),0.02
+gap_m20_phi8_s10091,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi16_s10027,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi16_s10135,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi32_s10035,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi32_s10163,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi8_s10115,LOFO:gap,LP/n (pilot rule),0.02
+gap_m25_phi8_s10151,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi16_s10071,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi16_s10087,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi16_s10111,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi16_s10147,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi32_s10015,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi32_s10107,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi32_s10159,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi8_s10047,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi8_s10167,LOFO:gap,LP/n (pilot rule),0.02
+gap_m30_phi8_s10175,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi16_s10099,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi32_s10011,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi32_s10139,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi8_s10007,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi8_s10023,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi8_s10123,LOFO:gap,LP/n (pilot rule),0.02
+gap_m40_phi8_s10187,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi16_s10075,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi16_s10119,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi16_s10191,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi16_s10199,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi32_s10031,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi32_s10131,LOFO:gap,LP/n (pilot rule),0.02
+gap_m50_phi8_s10179,LOFO:gap,LP/n (pilot rule),0.02
+gap_m16_phi16_s10003,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10051,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10095,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10103,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10143,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10195,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi32_s10043,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi32_s10055,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi32_s10059,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi32_s10183,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi8_s10019,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi8_s10039,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi8_s10079,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi8_s10083,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi8_s10155,LOFO:gap,50% of LP (paper),0.5
+gap_m20_phi16_s10067,LOFO:gap,50% of LP (paper),0.5
+gap_m20_phi16_s10171,LOFO:gap,50% of LP (paper),0.5
+gap_m20_phi32_s10127,LOFO:gap,50% of LP (paper),0.5
+gap_m20_phi8_s10063,LOFO:gap,50% of LP (paper),0.5
+gap_m20_phi8_s10091,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi16_s10027,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi16_s10135,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi32_s10035,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi32_s10163,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi8_s10115,LOFO:gap,50% of LP (paper),0.5
+gap_m25_phi8_s10151,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi16_s10071,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi16_s10087,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi16_s10111,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi16_s10147,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi32_s10015,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi32_s10107,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi32_s10159,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi8_s10047,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi8_s10167,LOFO:gap,50% of LP (paper),0.5
+gap_m30_phi8_s10175,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi16_s10099,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi32_s10011,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi32_s10139,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi8_s10007,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi8_s10023,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi8_s10123,LOFO:gap,50% of LP (paper),0.5
+gap_m40_phi8_s10187,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi16_s10075,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi16_s10119,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi16_s10191,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi16_s10199,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi32_s10031,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi32_s10131,LOFO:gap,50% of LP (paper),0.5
+gap_m50_phi8_s10179,LOFO:gap,50% of LP (paper),0.5
+gap_m16_phi16_s10003,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10051,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10095,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10103,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10143,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10195,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi32_s10043,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi32_s10055,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi32_s10059,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi32_s10183,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi8_s10019,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi8_s10039,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi8_s10079,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi8_s10083,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi8_s10155,LOFO:gap,100% of LP (tutorial),1.0
+gap_m20_phi16_s10067,LOFO:gap,100% of LP (tutorial),1.0
+gap_m20_phi16_s10171,LOFO:gap,100% of LP (tutorial),1.0
+gap_m20_phi32_s10127,LOFO:gap,100% of LP (tutorial),1.0
+gap_m20_phi8_s10063,LOFO:gap,100% of LP (tutorial),1.0
+gap_m20_phi8_s10091,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi16_s10027,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi16_s10135,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi32_s10035,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi32_s10163,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi8_s10115,LOFO:gap,100% of LP (tutorial),1.0
+gap_m25_phi8_s10151,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi16_s10071,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi16_s10087,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi16_s10111,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi16_s10147,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi32_s10015,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi32_s10107,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi32_s10159,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi8_s10047,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi8_s10167,LOFO:gap,100% of LP (tutorial),1.0
+gap_m30_phi8_s10175,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi16_s10099,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi32_s10011,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi32_s10139,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi8_s10007,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi8_s10023,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi8_s10123,LOFO:gap,100% of LP (tutorial),1.0
+gap_m40_phi8_s10187,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi16_s10075,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi16_s10119,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi16_s10191,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi16_s10199,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi32_s10031,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi32_s10131,LOFO:gap,100% of LP (tutorial),1.0
+gap_m50_phi8_s10179,LOFO:gap,100% of LP (tutorial),1.0
+gap_m16_phi16_s10003,LOFO:gap,oracle r*,0.05
+gap_m16_phi16_s10051,LOFO:gap,oracle r*,0.06
+gap_m16_phi16_s10095,LOFO:gap,oracle r*,0.06
+gap_m16_phi16_s10103,LOFO:gap,oracle r*,0.06
+gap_m16_phi16_s10143,LOFO:gap,oracle r*,0.05
+gap_m16_phi16_s10195,LOFO:gap,oracle r*,0.06
+gap_m16_phi32_s10043,LOFO:gap,oracle r*,0.06
+gap_m16_phi32_s10055,LOFO:gap,oracle r*,0.06
+gap_m16_phi32_s10059,LOFO:gap,oracle r*,0.06
+gap_m16_phi32_s10183,LOFO:gap,oracle r*,0.06
+gap_m16_phi8_s10019,LOFO:gap,oracle r*,0.06
+gap_m16_phi8_s10039,LOFO:gap,oracle r*,0.05
+gap_m16_phi8_s10079,LOFO:gap,oracle r*,0.06
+gap_m16_phi8_s10083,LOFO:gap,oracle r*,0.06
+gap_m16_phi8_s10155,LOFO:gap,oracle r*,0.05
+gap_m20_phi16_s10067,LOFO:gap,oracle r*,0.05
+gap_m20_phi16_s10171,LOFO:gap,oracle r*,0.06
+gap_m20_phi32_s10127,LOFO:gap,oracle r*,0.06
+gap_m20_phi8_s10063,LOFO:gap,oracle r*,0.05
+gap_m20_phi8_s10091,LOFO:gap,oracle r*,0.05
+gap_m25_phi16_s10027,LOFO:gap,oracle r*,0.05
+gap_m25_phi16_s10135,LOFO:gap,oracle r*,0.05
+gap_m25_phi32_s10035,LOFO:gap,oracle r*,0.06
+gap_m25_phi32_s10163,LOFO:gap,oracle r*,0.06
+gap_m25_phi8_s10115,LOFO:gap,oracle r*,0.04
+gap_m25_phi8_s10151,LOFO:gap,oracle r*,0.04
+gap_m30_phi16_s10071,LOFO:gap,oracle r*,0.05
+gap_m30_phi16_s10087,LOFO:gap,oracle r*,0.05
+gap_m30_phi16_s10111,LOFO:gap,oracle r*,0.05
+gap_m30_phi16_s10147,LOFO:gap,oracle r*,0.06
+gap_m30_phi32_s10015,LOFO:gap,oracle r*,0.05
+gap_m30_phi32_s10107,LOFO:gap,oracle r*,0.04
+gap_m30_phi32_s10159,LOFO:gap,oracle r*,0.05
+gap_m30_phi8_s10047,LOFO:gap,oracle r*,0.04
+gap_m30_phi8_s10167,LOFO:gap,oracle r*,0.04
+gap_m30_phi8_s10175,LOFO:gap,oracle r*,0.04
+gap_m40_phi16_s10099,LOFO:gap,oracle r*,0.04
+gap_m40_phi32_s10011,LOFO:gap,oracle r*,0.05
+gap_m40_phi32_s10139,LOFO:gap,oracle r*,0.05
+gap_m40_phi8_s10007,LOFO:gap,oracle r*,0.05
+gap_m40_phi8_s10023,LOFO:gap,oracle r*,0.04
+gap_m40_phi8_s10123,LOFO:gap,oracle r*,0.05
+gap_m40_phi8_s10187,LOFO:gap,oracle r*,0.04
+gap_m50_phi16_s10075,LOFO:gap,oracle r*,0.04
+gap_m50_phi16_s10119,LOFO:gap,oracle r*,0.04
+gap_m50_phi16_s10191,LOFO:gap,oracle r*,0.05
+gap_m50_phi16_s10199,LOFO:gap,oracle r*,0.04
+gap_m50_phi32_s10031,LOFO:gap,oracle r*,0.06
+gap_m50_phi32_s10131,LOFO:gap,oracle r*,0.04
+gap_m50_phi8_s10179,LOFO:gap,oracle r*,0.04
+uniform_m16_phi0.5_s10125,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi0.5_s10165,LOFO:uniform,model (XGBoost),0.05
+uniform_m16_phi1_s10009,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi2_s10021,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi4_s10001,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi4_s10081,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi8_s10077,LOFO:uniform,model (XGBoost),0.05
+uniform_m20_phi0.5_s10177,LOFO:uniform,model (XGBoost),0.05
+uniform_m20_phi1_s10145,LOFO:uniform,model (XGBoost),0.04
+uniform_m20_phi1_s10153,LOFO:uniform,model (XGBoost),0.04
+uniform_m20_phi2_s10157,LOFO:uniform,model (XGBoost),0.04
+uniform_m20_phi2_s10161,LOFO:uniform,model (XGBoost),0.04
+uniform_m20_phi4_s10093,LOFO:uniform,model (XGBoost),0.04
+uniform_m20_phi4_s10181,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi0.5_s10101,LOFO:uniform,model (XGBoost),0.05
+uniform_m25_phi0.5_s10105,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi1_s10017,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi1_s10041,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi1_s10189,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi2_s10129,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi8_s10065,LOFO:uniform,model (XGBoost),0.04
+uniform_m25_phi8_s10133,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi0.5_s10197,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi1_s10029,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi2_s10037,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi2_s10045,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi2_s10141,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi4_s10013,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi4_s10033,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi8_s10073,LOFO:uniform,model (XGBoost),0.04
+uniform_m30_phi8_s10089,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi0.5_s10113,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi1_s10061,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi1_s10069,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi1_s10149,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi2_s10053,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi2_s10169,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi2_s10193,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi4_s10005,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi4_s10185,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi8_s10097,LOFO:uniform,model (XGBoost),0.04
+uniform_m40_phi8_s10173,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi1_s10025,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi1_s10109,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi2_s10049,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi2_s10057,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi2_s10117,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi4_s10085,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi8_s10121,LOFO:uniform,model (XGBoost),0.04
+uniform_m50_phi8_s10137,LOFO:uniform,model (XGBoost),0.04
+uniform_m16_phi0.5_s10125,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi0.5_s10165,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi1_s10009,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi2_s10021,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi4_s10001,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi4_s10081,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi8_s10077,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi0.5_s10177,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi1_s10145,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi1_s10153,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi2_s10157,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi2_s10161,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi4_s10093,LOFO:uniform,best fixed r (train),0.04
+uniform_m20_phi4_s10181,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi0.5_s10101,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi0.5_s10105,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi1_s10017,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi1_s10041,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi1_s10189,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi2_s10129,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi8_s10065,LOFO:uniform,best fixed r (train),0.04
+uniform_m25_phi8_s10133,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi0.5_s10197,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi1_s10029,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi2_s10037,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi2_s10045,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi2_s10141,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi4_s10013,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi4_s10033,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi8_s10073,LOFO:uniform,best fixed r (train),0.04
+uniform_m30_phi8_s10089,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi0.5_s10113,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi1_s10061,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi1_s10069,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi1_s10149,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi2_s10053,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi2_s10169,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi2_s10193,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi4_s10005,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi4_s10185,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi8_s10097,LOFO:uniform,best fixed r (train),0.04
+uniform_m40_phi8_s10173,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi1_s10025,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi1_s10109,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi2_s10049,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi2_s10057,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi2_s10117,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi4_s10085,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi8_s10121,LOFO:uniform,best fixed r (train),0.04
+uniform_m50_phi8_s10137,LOFO:uniform,best fixed r (train),0.04
+uniform_m16_phi0.5_s10125,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m16_phi0.5_s10165,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m16_phi1_s10009,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m16_phi2_s10021,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m16_phi4_s10001,LOFO:uniform,k x exactness bound (k=0.55),0.08
+uniform_m16_phi4_s10081,LOFO:uniform,k x exactness bound (k=0.55),0.08
+uniform_m16_phi8_s10077,LOFO:uniform,k x exactness bound (k=0.55),0.1
+uniform_m20_phi0.5_s10177,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m20_phi1_s10145,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m20_phi1_s10153,LOFO:uniform,k x exactness bound (k=0.55),0.05
+uniform_m20_phi2_s10157,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m20_phi2_s10161,LOFO:uniform,k x exactness bound (k=0.55),0.05
+uniform_m20_phi4_s10093,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m20_phi4_s10181,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m25_phi0.5_s10101,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m25_phi0.5_s10105,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m25_phi1_s10017,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m25_phi1_s10041,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m25_phi1_s10189,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m25_phi2_s10129,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m25_phi8_s10065,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m25_phi8_s10133,LOFO:uniform,k x exactness bound (k=0.55),0.08
+uniform_m30_phi0.5_s10197,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m30_phi1_s10029,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m30_phi2_s10037,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m30_phi2_s10045,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m30_phi2_s10141,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m30_phi4_s10013,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m30_phi4_s10033,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m30_phi8_s10073,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m30_phi8_s10089,LOFO:uniform,k x exactness bound (k=0.55),0.06
+uniform_m40_phi0.5_s10113,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m40_phi1_s10061,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi1_s10069,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi1_s10149,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi2_s10053,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi2_s10169,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi2_s10193,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m40_phi4_s10005,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m40_phi4_s10185,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m40_phi8_s10097,LOFO:uniform,k x exactness bound (k=0.55),0.05
+uniform_m40_phi8_s10173,LOFO:uniform,k x exactness bound (k=0.55),0.05
+uniform_m50_phi1_s10025,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi1_s10109,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi2_s10049,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi2_s10057,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi2_s10117,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi4_s10085,LOFO:uniform,k x exactness bound (k=0.55),0.03
+uniform_m50_phi8_s10121,LOFO:uniform,k x exactness bound (k=0.55),0.05
+uniform_m50_phi8_s10137,LOFO:uniform,k x exactness bound (k=0.55),0.04
+uniform_m16_phi0.5_s10125,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi0.5_s10165,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi1_s10009,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi2_s10021,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi4_s10001,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi4_s10081,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi8_s10077,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi0.5_s10177,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi1_s10145,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi1_s10153,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi2_s10157,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi2_s10161,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi4_s10093,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m20_phi4_s10181,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi0.5_s10101,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi0.5_s10105,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10017,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10041,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10189,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi2_s10129,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi8_s10065,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m25_phi8_s10133,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi0.5_s10197,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi1_s10029,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10037,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10045,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10141,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi4_s10013,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi4_s10033,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi8_s10073,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m30_phi8_s10089,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi0.5_s10113,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10061,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10069,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10149,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10053,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10169,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10193,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi4_s10005,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi4_s10185,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi8_s10097,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m40_phi8_s10173,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi1_s10025,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi1_s10109,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10049,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10057,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10117,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi4_s10085,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi8_s10121,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m50_phi8_s10137,LOFO:uniform,LP/n (pilot rule),0.02
+uniform_m16_phi0.5_s10125,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi0.5_s10165,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi1_s10009,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi2_s10021,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi4_s10001,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi4_s10081,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi8_s10077,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi0.5_s10177,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi1_s10145,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi1_s10153,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi2_s10157,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi2_s10161,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi4_s10093,LOFO:uniform,50% of LP (paper),0.5
+uniform_m20_phi4_s10181,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi0.5_s10101,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi0.5_s10105,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi1_s10017,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi1_s10041,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi1_s10189,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi2_s10129,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi8_s10065,LOFO:uniform,50% of LP (paper),0.5
+uniform_m25_phi8_s10133,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi0.5_s10197,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi1_s10029,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi2_s10037,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi2_s10045,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi2_s10141,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi4_s10013,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi4_s10033,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi8_s10073,LOFO:uniform,50% of LP (paper),0.5
+uniform_m30_phi8_s10089,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi0.5_s10113,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi1_s10061,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi1_s10069,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi1_s10149,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi2_s10053,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi2_s10169,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi2_s10193,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi4_s10005,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi4_s10185,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi8_s10097,LOFO:uniform,50% of LP (paper),0.5
+uniform_m40_phi8_s10173,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi1_s10025,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi1_s10109,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi2_s10049,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi2_s10057,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi2_s10117,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi4_s10085,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi8_s10121,LOFO:uniform,50% of LP (paper),0.5
+uniform_m50_phi8_s10137,LOFO:uniform,50% of LP (paper),0.5
+uniform_m16_phi0.5_s10125,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi0.5_s10165,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi1_s10009,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi2_s10021,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi4_s10001,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi4_s10081,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi8_s10077,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi0.5_s10177,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi1_s10145,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi1_s10153,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi2_s10157,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi2_s10161,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi4_s10093,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m20_phi4_s10181,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi0.5_s10101,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi0.5_s10105,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10017,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10041,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10189,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi2_s10129,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi8_s10065,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m25_phi8_s10133,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi0.5_s10197,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi1_s10029,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10037,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10045,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10141,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi4_s10013,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi4_s10033,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi8_s10073,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m30_phi8_s10089,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi0.5_s10113,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10061,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10069,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10149,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10053,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10169,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10193,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi4_s10005,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi4_s10185,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi8_s10097,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m40_phi8_s10173,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi1_s10025,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi1_s10109,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10049,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10057,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10117,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi4_s10085,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi8_s10121,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m50_phi8_s10137,LOFO:uniform,100% of LP (tutorial),1.0
+uniform_m16_phi0.5_s10125,LOFO:uniform,oracle r*,0.03
+uniform_m16_phi0.5_s10165,LOFO:uniform,oracle r*,0.05
+uniform_m16_phi1_s10009,LOFO:uniform,oracle r*,0.04
+uniform_m16_phi2_s10021,LOFO:uniform,oracle r*,0.04
+uniform_m16_phi4_s10001,LOFO:uniform,oracle r*,0.04
+uniform_m16_phi4_s10081,LOFO:uniform,oracle r*,0.04
+uniform_m16_phi8_s10077,LOFO:uniform,oracle r*,0.04
+uniform_m20_phi0.5_s10177,LOFO:uniform,oracle r*,0.05
+uniform_m20_phi1_s10145,LOFO:uniform,oracle r*,0.03
+uniform_m20_phi1_s10153,LOFO:uniform,oracle r*,0.03
+uniform_m20_phi2_s10157,LOFO:uniform,oracle r*,0.04
+uniform_m20_phi2_s10161,LOFO:uniform,oracle r*,0.04
+uniform_m20_phi4_s10093,LOFO:uniform,oracle r*,0.03
+uniform_m20_phi4_s10181,LOFO:uniform,oracle r*,0.04
+uniform_m25_phi0.5_s10101,LOFO:uniform,oracle r*,0.03
+uniform_m25_phi0.5_s10105,LOFO:uniform,oracle r*,0.03
+uniform_m25_phi1_s10017,LOFO:uniform,oracle r*,0.03
+uniform_m25_phi1_s10041,LOFO:uniform,oracle r*,0.03
+uniform_m25_phi1_s10189,LOFO:uniform,oracle r*,0.03
+uniform_m25_phi2_s10129,LOFO:uniform,oracle r*,0.04
+uniform_m25_phi8_s10065,LOFO:uniform,oracle r*,0.04
+uniform_m25_phi8_s10133,LOFO:uniform,oracle r*,0.04
+uniform_m30_phi0.5_s10197,LOFO:uniform,oracle r*,0.04
+uniform_m30_phi1_s10029,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi2_s10037,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi2_s10045,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi2_s10141,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi4_s10013,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi4_s10033,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi8_s10073,LOFO:uniform,oracle r*,0.03
+uniform_m30_phi8_s10089,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi0.5_s10113,LOFO:uniform,oracle r*,0.04
+uniform_m40_phi1_s10061,LOFO:uniform,oracle r*,0.04
+uniform_m40_phi1_s10069,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi1_s10149,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi2_s10053,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi2_s10169,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi2_s10193,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi4_s10005,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi4_s10185,LOFO:uniform,oracle r*,0.03
+uniform_m40_phi8_s10097,LOFO:uniform,oracle r*,0.04
+uniform_m40_phi8_s10173,LOFO:uniform,oracle r*,0.03
+uniform_m50_phi1_s10025,LOFO:uniform,oracle r*,0.03
+uniform_m50_phi1_s10109,LOFO:uniform,oracle r*,0.03
+uniform_m50_phi2_s10049,LOFO:uniform,oracle r*,0.04
+uniform_m50_phi2_s10057,LOFO:uniform,oracle r*,0.03
+uniform_m50_phi2_s10117,LOFO:uniform,oracle r*,0.04
+uniform_m50_phi4_s10085,LOFO:uniform,oracle r*,0.03
+uniform_m50_phi8_s10121,LOFO:uniform,oracle r*,0.04
+uniform_m50_phi8_s10137,LOFO:uniform,oracle r*,0.04
+euclid_m16_phi2_s10096,LOFO:euclid,model (XGBoost),0.03
+euclid_m16_phi2_s10152,LOFO:euclid,model (XGBoost),0.04
+euclid_m16_phi2_s10192,LOFO:euclid,model (XGBoost),0.04
+euclid_m16_phi4_s10048,LOFO:euclid,model (XGBoost),0.03
+euclid_m16_phi4_s10104,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi0.5_s10076,LOFO:euclid,model (XGBoost),0.04
+euclid_m20_phi1_s10164,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi2_s10028,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi2_s10128,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi4_s10012,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi4_s10072,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi4_s10156,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi4_s10188,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi8_s10064,LOFO:euclid,model (XGBoost),0.03
+euclid_m20_phi8_s10092,LOFO:euclid,model (XGBoost),0.02
+euclid_m25_phi0.5_s10084,LOFO:euclid,model (XGBoost),0.04
+euclid_m25_phi0.5_s10116,LOFO:euclid,model (XGBoost),0.04
+euclid_m25_phi1_s10044,LOFO:euclid,model (XGBoost),0.02
+euclid_m25_phi2_s10024,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi2_s10052,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi2_s10088,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi2_s10172,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi4_s10040,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi4_s10108,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi4_s10180,LOFO:euclid,model (XGBoost),0.03
+euclid_m25_phi8_s10144,LOFO:euclid,model (XGBoost),0.04
+euclid_m25_phi8_s10196,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi0.5_s10148,LOFO:euclid,model (XGBoost),0.04
+euclid_m30_phi0.5_s10168,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi1_s10004,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi2_s10016,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi4_s10112,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi4_s10132,LOFO:euclid,model (XGBoost),0.03
+euclid_m30_phi4_s10140,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi1_s10184,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi2_s10036,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi2_s10056,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi4_s10068,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi4_s10136,LOFO:euclid,model (XGBoost),0.03
+euclid_m40_phi8_s10100,LOFO:euclid,model (XGBoost),0.04
+euclid_m50_phi0.5_s10000,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi1_s10080,LOFO:euclid,model (XGBoost),0.04
+euclid_m50_phi1_s10124,LOFO:euclid,model (XGBoost),0.04
+euclid_m50_phi2_s10020,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi2_s10060,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi2_s10160,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi4_s10008,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi4_s10032,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi4_s10120,LOFO:euclid,model (XGBoost),0.03
+euclid_m50_phi8_s10176,LOFO:euclid,model (XGBoost),0.03
+euclid_m16_phi2_s10096,LOFO:euclid,best fixed r (train),0.04
+euclid_m16_phi2_s10152,LOFO:euclid,best fixed r (train),0.04
+euclid_m16_phi2_s10192,LOFO:euclid,best fixed r (train),0.04
+euclid_m16_phi4_s10048,LOFO:euclid,best fixed r (train),0.04
+euclid_m16_phi4_s10104,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi0.5_s10076,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi1_s10164,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi2_s10028,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi2_s10128,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi4_s10012,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi4_s10072,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi4_s10156,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi4_s10188,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi8_s10064,LOFO:euclid,best fixed r (train),0.04
+euclid_m20_phi8_s10092,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi0.5_s10084,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi0.5_s10116,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi1_s10044,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi2_s10024,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi2_s10052,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi2_s10088,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi2_s10172,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi4_s10040,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi4_s10108,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi4_s10180,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi8_s10144,LOFO:euclid,best fixed r (train),0.04
+euclid_m25_phi8_s10196,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi0.5_s10148,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi0.5_s10168,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi1_s10004,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi2_s10016,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi4_s10112,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi4_s10132,LOFO:euclid,best fixed r (train),0.04
+euclid_m30_phi4_s10140,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi1_s10184,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi2_s10036,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi2_s10056,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi4_s10068,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi4_s10136,LOFO:euclid,best fixed r (train),0.04
+euclid_m40_phi8_s10100,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi0.5_s10000,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi1_s10080,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi1_s10124,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi2_s10020,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi2_s10060,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi2_s10160,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi4_s10008,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi4_s10032,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi4_s10120,LOFO:euclid,best fixed r (train),0.04
+euclid_m50_phi8_s10176,LOFO:euclid,best fixed r (train),0.04
+euclid_m16_phi2_s10096,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m16_phi2_s10152,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m16_phi2_s10192,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m16_phi4_s10048,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m16_phi4_s10104,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m20_phi0.5_s10076,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m20_phi1_s10164,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m20_phi2_s10028,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m20_phi2_s10128,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m20_phi4_s10012,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m20_phi4_s10072,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m20_phi4_s10156,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m20_phi4_s10188,LOFO:euclid,k x exactness bound (k=0.55),0.08
+euclid_m20_phi8_s10064,LOFO:euclid,k x exactness bound (k=0.55),0.1
+euclid_m20_phi8_s10092,LOFO:euclid,k x exactness bound (k=0.55),0.1
+euclid_m25_phi0.5_s10084,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m25_phi0.5_s10116,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m25_phi1_s10044,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m25_phi2_s10024,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m25_phi2_s10052,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m25_phi2_s10088,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m25_phi2_s10172,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m25_phi4_s10040,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m25_phi4_s10108,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m25_phi4_s10180,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m25_phi8_s10144,LOFO:euclid,k x exactness bound (k=0.55),0.1
+euclid_m25_phi8_s10196,LOFO:euclid,k x exactness bound (k=0.55),0.1
+euclid_m30_phi0.5_s10148,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m30_phi0.5_s10168,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m30_phi1_s10004,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m30_phi2_s10016,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m30_phi4_s10112,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m30_phi4_s10132,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m30_phi4_s10140,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m40_phi1_s10184,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m40_phi2_s10036,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m40_phi2_s10056,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m40_phi4_s10068,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m40_phi4_s10136,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m40_phi8_s10100,LOFO:euclid,k x exactness bound (k=0.55),0.06
+euclid_m50_phi0.5_s10000,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m50_phi1_s10080,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m50_phi1_s10124,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m50_phi2_s10020,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m50_phi2_s10060,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m50_phi2_s10160,LOFO:euclid,k x exactness bound (k=0.55),0.03
+euclid_m50_phi4_s10008,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m50_phi4_s10032,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m50_phi4_s10120,LOFO:euclid,k x exactness bound (k=0.55),0.04
+euclid_m50_phi8_s10176,LOFO:euclid,k x exactness bound (k=0.55),0.05
+euclid_m16_phi2_s10096,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10152,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10192,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m16_phi4_s10048,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m16_phi4_s10104,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi0.5_s10076,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi1_s10164,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi2_s10028,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi2_s10128,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10012,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10072,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10156,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10188,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi8_s10064,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m20_phi8_s10092,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi0.5_s10084,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi0.5_s10116,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi1_s10044,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10024,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10052,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10088,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10172,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10040,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10108,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10180,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi8_s10144,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m25_phi8_s10196,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi0.5_s10148,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi0.5_s10168,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi1_s10004,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi2_s10016,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10112,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10132,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10140,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi1_s10184,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi2_s10036,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi2_s10056,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi4_s10068,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi4_s10136,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m40_phi8_s10100,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi0.5_s10000,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi1_s10080,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi1_s10124,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10020,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10060,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10160,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10008,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10032,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10120,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m50_phi8_s10176,LOFO:euclid,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10096,LOFO:euclid,50% of LP (paper),0.5
+euclid_m16_phi2_s10152,LOFO:euclid,50% of LP (paper),0.5
+euclid_m16_phi2_s10192,LOFO:euclid,50% of LP (paper),0.5
+euclid_m16_phi4_s10048,LOFO:euclid,50% of LP (paper),0.5
+euclid_m16_phi4_s10104,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi0.5_s10076,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi1_s10164,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi2_s10028,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi2_s10128,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi4_s10012,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi4_s10072,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi4_s10156,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi4_s10188,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi8_s10064,LOFO:euclid,50% of LP (paper),0.5
+euclid_m20_phi8_s10092,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi0.5_s10084,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi0.5_s10116,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi1_s10044,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi2_s10024,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi2_s10052,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi2_s10088,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi2_s10172,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi4_s10040,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi4_s10108,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi4_s10180,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi8_s10144,LOFO:euclid,50% of LP (paper),0.5
+euclid_m25_phi8_s10196,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi0.5_s10148,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi0.5_s10168,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi1_s10004,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi2_s10016,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi4_s10112,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi4_s10132,LOFO:euclid,50% of LP (paper),0.5
+euclid_m30_phi4_s10140,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi1_s10184,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi2_s10036,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi2_s10056,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi4_s10068,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi4_s10136,LOFO:euclid,50% of LP (paper),0.5
+euclid_m40_phi8_s10100,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi0.5_s10000,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi1_s10080,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi1_s10124,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi2_s10020,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi2_s10060,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi2_s10160,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi4_s10008,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi4_s10032,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi4_s10120,LOFO:euclid,50% of LP (paper),0.5
+euclid_m50_phi8_s10176,LOFO:euclid,50% of LP (paper),0.5
+euclid_m16_phi2_s10096,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10152,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10192,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m16_phi4_s10048,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m16_phi4_s10104,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi0.5_s10076,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi1_s10164,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi2_s10028,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi2_s10128,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10012,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10072,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10156,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10188,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi8_s10064,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m20_phi8_s10092,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi0.5_s10084,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi0.5_s10116,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi1_s10044,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10024,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10052,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10088,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10172,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10040,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10108,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10180,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi8_s10144,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m25_phi8_s10196,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi0.5_s10148,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi0.5_s10168,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi1_s10004,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi2_s10016,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10112,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10132,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10140,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi1_s10184,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi2_s10036,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi2_s10056,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi4_s10068,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi4_s10136,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m40_phi8_s10100,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi0.5_s10000,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi1_s10080,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi1_s10124,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10020,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10060,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10160,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10008,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10032,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10120,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m50_phi8_s10176,LOFO:euclid,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10096,LOFO:euclid,oracle r*,0.04
+euclid_m16_phi2_s10152,LOFO:euclid,oracle r*,0.03
+euclid_m16_phi2_s10192,LOFO:euclid,oracle r*,0.03
+euclid_m16_phi4_s10048,LOFO:euclid,oracle r*,0.02
+euclid_m16_phi4_s10104,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi0.5_s10076,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi1_s10164,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi2_s10028,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi2_s10128,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi4_s10012,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi4_s10072,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi4_s10156,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi4_s10188,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi8_s10064,LOFO:euclid,oracle r*,0.03
+euclid_m20_phi8_s10092,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi0.5_s10084,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi0.5_s10116,LOFO:euclid,oracle r*,0.05
+euclid_m25_phi1_s10044,LOFO:euclid,oracle r*,0.04
+euclid_m25_phi2_s10024,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi2_s10052,LOFO:euclid,oracle r*,0.04
+euclid_m25_phi2_s10088,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi2_s10172,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi4_s10040,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi4_s10108,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi4_s10180,LOFO:euclid,oracle r*,0.03
+euclid_m25_phi8_s10144,LOFO:euclid,oracle r*,0.04
+euclid_m25_phi8_s10196,LOFO:euclid,oracle r*,0.03
+euclid_m30_phi0.5_s10148,LOFO:euclid,oracle r*,0.04
+euclid_m30_phi0.5_s10168,LOFO:euclid,oracle r*,0.03
+euclid_m30_phi1_s10004,LOFO:euclid,oracle r*,0.04
+euclid_m30_phi2_s10016,LOFO:euclid,oracle r*,0.03
+euclid_m30_phi4_s10112,LOFO:euclid,oracle r*,0.03
+euclid_m30_phi4_s10132,LOFO:euclid,oracle r*,0.03
+euclid_m30_phi4_s10140,LOFO:euclid,oracle r*,0.03
+euclid_m40_phi1_s10184,LOFO:euclid,oracle r*,0.03
+euclid_m40_phi2_s10036,LOFO:euclid,oracle r*,0.04
+euclid_m40_phi2_s10056,LOFO:euclid,oracle r*,0.03
+euclid_m40_phi4_s10068,LOFO:euclid,oracle r*,0.03
+euclid_m40_phi4_s10136,LOFO:euclid,oracle r*,0.03
+euclid_m40_phi8_s10100,LOFO:euclid,oracle r*,0.04
+euclid_m50_phi0.5_s10000,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi1_s10080,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi1_s10124,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi2_s10020,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi2_s10060,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi2_s10160,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi4_s10008,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi4_s10032,LOFO:euclid,oracle r*,0.03
+euclid_m50_phi4_s10120,LOFO:euclid,oracle r*,0.04
+euclid_m50_phi8_s10176,LOFO:euclid,oracle r*,0.04
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,model (XGBoost),0.05
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,model (XGBoost),0.05
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,model (XGBoost),0.04
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,model (XGBoost),0.03
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,best fixed r (train),0.05
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,k x exactness bound (k=0.55),0.06
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,k x exactness bound (k=0.55),0.1
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,k x exactness bound (k=0.55),0.1
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,k x exactness bound (k=0.55),0.06
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,k x exactness bound (k=0.55),0.1
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,k x exactness bound (k=0.55),0.1
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,k x exactness bound (k=0.55),0.06
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,k x exactness bound (k=0.55),0.06
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,k x exactness bound (k=0.55),0.08
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,k x exactness bound (k=0.55),0.06
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,k x exactness bound (k=0.55),0.04
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,k x exactness bound (k=0.55),0.03
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,k x exactness bound (k=0.55),0.05
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10026,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m16_phi0.5_s10142,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi0.5_s10146,LOFO:orlib_like,oracle r*,0.05
+orlib_like_m16_phi0.5_s10158,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi1_s10018,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m16_phi1_s10042,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi1_s10134,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi1_s10162,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi2_s10014,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi2_s10082,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi4_s10110,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi8_s10010,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi8_s10150,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m16_phi8_s10174,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi0.5_s10078,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m20_phi1_s10034,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi4_s10022,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi4_s10106,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi8_s10090,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi8_s10130,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi8_s10178,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m20_phi8_s10182,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi0.5_s10066,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi1_s10114,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi1_s10118,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi1_s10170,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi2_s10002,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi2_s10046,LOFO:orlib_like,oracle r*,0.02
+orlib_like_m25_phi2_s10070,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi4_s10050,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m25_phi4_s10126,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m25_phi4_s10186,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m25_phi8_s10038,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m30_phi0.5_s10190,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m30_phi4_s10094,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m30_phi4_s10194,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m30_phi8_s10166,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m40_phi0.5_s10058,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m40_phi1_s10122,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m40_phi2_s10062,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m40_phi4_s10102,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m40_phi4_s10154,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m40_phi8_s10006,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m50_phi1_s10030,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m50_phi1_s10098,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m50_phi1_s10138,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m50_phi1_s10198,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m50_phi2_s10054,LOFO:orlib_like,oracle r*,0.03
+orlib_like_m50_phi2_s10086,LOFO:orlib_like,oracle r*,0.04
+orlib_like_m50_phi8_s10074,LOFO:orlib_like,oracle r*,0.03
+euclid_m16_phi4_s10104,5fold,model (XGBoost),0.03
+euclid_m20_phi4_s10012,5fold,model (XGBoost),0.03
+euclid_m25_phi0.5_s10084,5fold,model (XGBoost),0.03
+euclid_m30_phi0.5_s10148,5fold,model (XGBoost),0.04
+euclid_m30_phi2_s10016,5fold,model (XGBoost),0.03
+euclid_m40_phi1_s10184,5fold,model (XGBoost),0.03
+euclid_m40_phi4_s10136,5fold,model (XGBoost),0.03
+euclid_m50_phi2_s10020,5fold,model (XGBoost),0.03
+euclid_m50_phi4_s10008,5fold,model (XGBoost),0.03
+euclid_m50_phi4_s10032,5fold,model (XGBoost),0.04
+gap_m16_phi16_s10003,5fold,model (XGBoost),0.06
+gap_m16_phi32_s10043,5fold,model (XGBoost),0.06
+gap_m16_phi8_s10039,5fold,model (XGBoost),0.06
+gap_m20_phi16_s10171,5fold,model (XGBoost),0.05
+gap_m25_phi32_s10163,5fold,model (XGBoost),0.06
+gap_m30_phi32_s10107,5fold,model (XGBoost),0.05
+gap_m40_phi8_s10007,5fold,model (XGBoost),0.04
+gap_m40_phi8_s10123,5fold,model (XGBoost),0.04
+gap_m50_phi16_s10199,5fold,model (XGBoost),0.04
+gap_m50_phi8_s10179,5fold,model (XGBoost),0.04
+orlib_like_m16_phi0.5_s10026,5fold,model (XGBoost),0.03
+orlib_like_m16_phi1_s10042,5fold,model (XGBoost),0.03
+orlib_like_m20_phi0.5_s10078,5fold,model (XGBoost),0.04
+orlib_like_m20_phi8_s10130,5fold,model (XGBoost),0.03
+orlib_like_m25_phi0.5_s10066,5fold,model (XGBoost),0.03
+orlib_like_m25_phi1_s10114,5fold,model (XGBoost),0.03
+orlib_like_m30_phi4_s10194,5fold,model (XGBoost),0.03
+orlib_like_m40_phi2_s10062,5fold,model (XGBoost),0.03
+orlib_like_m50_phi1_s10138,5fold,model (XGBoost),0.03
+orlib_like_m50_phi8_s10074,5fold,model (XGBoost),0.04
+uniform_m20_phi2_s10157,5fold,model (XGBoost),0.04
+uniform_m20_phi2_s10161,5fold,model (XGBoost),0.03
+uniform_m20_phi4_s10093,5fold,model (XGBoost),0.04
+uniform_m20_phi4_s10181,5fold,model (XGBoost),0.03
+uniform_m25_phi1_s10041,5fold,model (XGBoost),0.03
+uniform_m25_phi2_s10129,5fold,model (XGBoost),0.03
+uniform_m40_phi2_s10053,5fold,model (XGBoost),0.03
+uniform_m40_phi4_s10005,5fold,model (XGBoost),0.03
+uniform_m40_phi4_s10185,5fold,model (XGBoost),0.03
+uniform_m50_phi2_s10049,5fold,model (XGBoost),0.03
+euclid_m16_phi2_s10152,5fold,model (XGBoost),0.03
+euclid_m16_phi2_s10192,5fold,model (XGBoost),0.03
+euclid_m20_phi8_s10092,5fold,model (XGBoost),0.03
+euclid_m25_phi0.5_s10116,5fold,model (XGBoost),0.03
+euclid_m25_phi2_s10088,5fold,model (XGBoost),0.03
+euclid_m25_phi4_s10108,5fold,model (XGBoost),0.03
+euclid_m30_phi0.5_s10168,5fold,model (XGBoost),0.03
+euclid_m30_phi4_s10112,5fold,model (XGBoost),0.04
+euclid_m40_phi2_s10036,5fold,model (XGBoost),0.04
+euclid_m50_phi1_s10124,5fold,model (XGBoost),0.03
+gap_m16_phi16_s10103,5fold,model (XGBoost),0.06
+gap_m16_phi16_s10143,5fold,model (XGBoost),0.06
+gap_m16_phi8_s10083,5fold,model (XGBoost),0.05
+gap_m30_phi16_s10087,5fold,model (XGBoost),0.05
+gap_m30_phi16_s10147,5fold,model (XGBoost),0.05
+gap_m30_phi32_s10159,5fold,model (XGBoost),0.05
+gap_m30_phi8_s10175,5fold,model (XGBoost),0.04
+gap_m40_phi16_s10099,5fold,model (XGBoost),0.05
+gap_m40_phi8_s10187,5fold,model (XGBoost),0.05
+gap_m50_phi16_s10075,5fold,model (XGBoost),0.04
+orlib_like_m16_phi1_s10018,5fold,model (XGBoost),0.03
+orlib_like_m16_phi2_s10014,5fold,model (XGBoost),0.04
+orlib_like_m16_phi8_s10174,5fold,model (XGBoost),0.03
+orlib_like_m20_phi4_s10022,5fold,model (XGBoost),0.03
+orlib_like_m20_phi8_s10178,5fold,model (XGBoost),0.03
+orlib_like_m25_phi2_s10046,5fold,model (XGBoost),0.03
+orlib_like_m25_phi4_s10126,5fold,model (XGBoost),0.03
+orlib_like_m25_phi4_s10186,5fold,model (XGBoost),0.03
+orlib_like_m40_phi0.5_s10058,5fold,model (XGBoost),0.04
+orlib_like_m40_phi8_s10006,5fold,model (XGBoost),0.03
+uniform_m16_phi0.5_s10165,5fold,model (XGBoost),0.04
+uniform_m16_phi4_s10001,5fold,model (XGBoost),0.03
+uniform_m20_phi0.5_s10177,5fold,model (XGBoost),0.04
+uniform_m20_phi1_s10153,5fold,model (XGBoost),0.03
+uniform_m25_phi0.5_s10101,5fold,model (XGBoost),0.04
+uniform_m30_phi2_s10141,5fold,model (XGBoost),0.03
+uniform_m40_phi1_s10069,5fold,model (XGBoost),0.03
+uniform_m40_phi2_s10193,5fold,model (XGBoost),0.03
+uniform_m50_phi1_s10109,5fold,model (XGBoost),0.03
+uniform_m50_phi2_s10117,5fold,model (XGBoost),0.03
+euclid_m16_phi2_s10096,5fold,model (XGBoost),0.03
+euclid_m20_phi0.5_s10076,5fold,model (XGBoost),0.03
+euclid_m20_phi2_s10128,5fold,model (XGBoost),0.03
+euclid_m20_phi4_s10188,5fold,model (XGBoost),0.03
+euclid_m25_phi2_s10052,5fold,model (XGBoost),0.03
+euclid_m25_phi8_s10144,5fold,model (XGBoost),0.03
+euclid_m30_phi1_s10004,5fold,model (XGBoost),0.03
+euclid_m40_phi4_s10068,5fold,model (XGBoost),0.03
+euclid_m40_phi8_s10100,5fold,model (XGBoost),0.03
+euclid_m50_phi1_s10080,5fold,model (XGBoost),0.04
+gap_m16_phi16_s10095,5fold,model (XGBoost),0.06
+gap_m16_phi16_s10195,5fold,model (XGBoost),0.05
+gap_m20_phi32_s10127,5fold,model (XGBoost),0.06
+gap_m20_phi8_s10063,5fold,model (XGBoost),0.05
+gap_m25_phi16_s10027,5fold,model (XGBoost),0.05
+gap_m25_phi32_s10035,5fold,model (XGBoost),0.05
+gap_m30_phi16_s10071,5fold,model (XGBoost),0.05
+gap_m30_phi16_s10111,5fold,model (XGBoost),0.05
+gap_m30_phi32_s10015,5fold,model (XGBoost),0.05
+gap_m30_phi8_s10167,5fold,model (XGBoost),0.04
+orlib_like_m16_phi0.5_s10142,5fold,model (XGBoost),0.04
+orlib_like_m16_phi0.5_s10146,5fold,model (XGBoost),0.04
+orlib_like_m16_phi1_s10162,5fold,model (XGBoost),0.03
+orlib_like_m16_phi2_s10082,5fold,model (XGBoost),0.03
+orlib_like_m16_phi8_s10150,5fold,model (XGBoost),0.03
+orlib_like_m20_phi8_s10090,5fold,model (XGBoost),0.03
+orlib_like_m25_phi2_s10070,5fold,model (XGBoost),0.03
+orlib_like_m30_phi8_s10166,5fold,model (XGBoost),0.03
+orlib_like_m40_phi4_s10102,5fold,model (XGBoost),0.03
+orlib_like_m50_phi1_s10198,5fold,model (XGBoost),0.04
+uniform_m16_phi2_s10021,5fold,model (XGBoost),0.03
+uniform_m16_phi8_s10077,5fold,model (XGBoost),0.05
+uniform_m20_phi1_s10145,5fold,model (XGBoost),0.04
+uniform_m25_phi0.5_s10105,5fold,model (XGBoost),0.04
+uniform_m30_phi2_s10037,5fold,model (XGBoost),0.03
+uniform_m30_phi2_s10045,5fold,model (XGBoost),0.03
+uniform_m30_phi4_s10013,5fold,model (XGBoost),0.03
+uniform_m30_phi8_s10089,5fold,model (XGBoost),0.03
+uniform_m40_phi1_s10061,5fold,model (XGBoost),0.04
+uniform_m40_phi8_s10097,5fold,model (XGBoost),0.04
+euclid_m20_phi1_s10164,5fold,model (XGBoost),0.03
+euclid_m20_phi2_s10028,5fold,model (XGBoost),0.03
+euclid_m20_phi4_s10072,5fold,model (XGBoost),0.03
+euclid_m20_phi4_s10156,5fold,model (XGBoost),0.03
+euclid_m20_phi8_s10064,5fold,model (XGBoost),0.03
+euclid_m25_phi2_s10172,5fold,model (XGBoost),0.03
+euclid_m25_phi4_s10040,5fold,model (XGBoost),0.03
+euclid_m40_phi2_s10056,5fold,model (XGBoost),0.03
+euclid_m50_phi0.5_s10000,5fold,model (XGBoost),0.03
+euclid_m50_phi2_s10060,5fold,model (XGBoost),0.03
+gap_m16_phi16_s10051,5fold,model (XGBoost),0.06
+gap_m16_phi32_s10059,5fold,model (XGBoost),0.06
+gap_m16_phi32_s10183,5fold,model (XGBoost),0.06
+gap_m16_phi8_s10079,5fold,model (XGBoost),0.05
+gap_m20_phi16_s10067,5fold,model (XGBoost),0.06
+gap_m40_phi32_s10011,5fold,model (XGBoost),0.05
+gap_m40_phi32_s10139,5fold,model (XGBoost),0.05
+gap_m40_phi8_s10023,5fold,model (XGBoost),0.04
+gap_m50_phi16_s10191,5fold,model (XGBoost),0.04
+gap_m50_phi32_s10031,5fold,model (XGBoost),0.04
+orlib_like_m20_phi1_s10034,5fold,model (XGBoost),0.03
+orlib_like_m20_phi4_s10106,5fold,model (XGBoost),0.03
+orlib_like_m20_phi8_s10182,5fold,model (XGBoost),0.03
+orlib_like_m25_phi1_s10170,5fold,model (XGBoost),0.04
+orlib_like_m25_phi2_s10002,5fold,model (XGBoost),0.03
+orlib_like_m25_phi4_s10050,5fold,model (XGBoost),0.03
+orlib_like_m30_phi0.5_s10190,5fold,model (XGBoost),0.04
+orlib_like_m40_phi4_s10154,5fold,model (XGBoost),0.03
+orlib_like_m50_phi2_s10054,5fold,model (XGBoost),0.03
+orlib_like_m50_phi2_s10086,5fold,model (XGBoost),0.03
+uniform_m16_phi0.5_s10125,5fold,model (XGBoost),0.04
+uniform_m16_phi4_s10081,5fold,model (XGBoost),0.03
+uniform_m25_phi1_s10017,5fold,model (XGBoost),0.03
+uniform_m30_phi1_s10029,5fold,model (XGBoost),0.04
+uniform_m30_phi4_s10033,5fold,model (XGBoost),0.03
+uniform_m40_phi1_s10149,5fold,model (XGBoost),0.03
+uniform_m40_phi2_s10169,5fold,model (XGBoost),0.03
+uniform_m50_phi1_s10025,5fold,model (XGBoost),0.03
+uniform_m50_phi8_s10121,5fold,model (XGBoost),0.04
+uniform_m50_phi8_s10137,5fold,model (XGBoost),0.04
+euclid_m16_phi4_s10048,5fold,model (XGBoost),0.03
+euclid_m25_phi1_s10044,5fold,model (XGBoost),0.03
+euclid_m25_phi2_s10024,5fold,model (XGBoost),0.03
+euclid_m25_phi4_s10180,5fold,model (XGBoost),0.03
+euclid_m25_phi8_s10196,5fold,model (XGBoost),0.03
+euclid_m30_phi4_s10132,5fold,model (XGBoost),0.03
+euclid_m30_phi4_s10140,5fold,model (XGBoost),0.03
+euclid_m50_phi2_s10160,5fold,model (XGBoost),0.03
+euclid_m50_phi4_s10120,5fold,model (XGBoost),0.03
+euclid_m50_phi8_s10176,5fold,model (XGBoost),0.03
+gap_m16_phi32_s10055,5fold,model (XGBoost),0.05
+gap_m16_phi8_s10019,5fold,model (XGBoost),0.05
+gap_m16_phi8_s10155,5fold,model (XGBoost),0.06
+gap_m20_phi8_s10091,5fold,model (XGBoost),0.05
+gap_m25_phi16_s10135,5fold,model (XGBoost),0.05
+gap_m25_phi8_s10115,5fold,model (XGBoost),0.05
+gap_m25_phi8_s10151,5fold,model (XGBoost),0.05
+gap_m30_phi8_s10047,5fold,model (XGBoost),0.04
+gap_m50_phi16_s10119,5fold,model (XGBoost),0.04
+gap_m50_phi32_s10131,5fold,model (XGBoost),0.05
+orlib_like_m16_phi0.5_s10158,5fold,model (XGBoost),0.04
+orlib_like_m16_phi1_s10134,5fold,model (XGBoost),0.03
+orlib_like_m16_phi4_s10110,5fold,model (XGBoost),0.03
+orlib_like_m16_phi8_s10010,5fold,model (XGBoost),0.03
+orlib_like_m25_phi1_s10118,5fold,model (XGBoost),0.04
+orlib_like_m25_phi8_s10038,5fold,model (XGBoost),0.03
+orlib_like_m30_phi4_s10094,5fold,model (XGBoost),0.03
+orlib_like_m40_phi1_s10122,5fold,model (XGBoost),0.03
+orlib_like_m50_phi1_s10030,5fold,model (XGBoost),0.03
+orlib_like_m50_phi1_s10098,5fold,model (XGBoost),0.03
+uniform_m16_phi1_s10009,5fold,model (XGBoost),0.05
+uniform_m25_phi1_s10189,5fold,model (XGBoost),0.03
+uniform_m25_phi8_s10065,5fold,model (XGBoost),0.04
+uniform_m25_phi8_s10133,5fold,model (XGBoost),0.04
+uniform_m30_phi0.5_s10197,5fold,model (XGBoost),0.03
+uniform_m30_phi8_s10073,5fold,model (XGBoost),0.04
+uniform_m40_phi0.5_s10113,5fold,model (XGBoost),0.04
+uniform_m40_phi8_s10173,5fold,model (XGBoost),0.04
+uniform_m50_phi2_s10057,5fold,model (XGBoost),0.03
+uniform_m50_phi4_s10085,5fold,model (XGBoost),0.03
+euclid_m16_phi4_s10104,5fold,best fixed r (train),0.04
+euclid_m20_phi4_s10012,5fold,best fixed r (train),0.04
+euclid_m25_phi0.5_s10084,5fold,best fixed r (train),0.04
+euclid_m30_phi0.5_s10148,5fold,best fixed r (train),0.04
+euclid_m30_phi2_s10016,5fold,best fixed r (train),0.04
+euclid_m40_phi1_s10184,5fold,best fixed r (train),0.04
+euclid_m40_phi4_s10136,5fold,best fixed r (train),0.04
+euclid_m50_phi2_s10020,5fold,best fixed r (train),0.04
+euclid_m50_phi4_s10008,5fold,best fixed r (train),0.04
+euclid_m50_phi4_s10032,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10003,5fold,best fixed r (train),0.04
+gap_m16_phi32_s10043,5fold,best fixed r (train),0.04
+gap_m16_phi8_s10039,5fold,best fixed r (train),0.04
+gap_m20_phi16_s10171,5fold,best fixed r (train),0.04
+gap_m25_phi32_s10163,5fold,best fixed r (train),0.04
+gap_m30_phi32_s10107,5fold,best fixed r (train),0.04
+gap_m40_phi8_s10007,5fold,best fixed r (train),0.04
+gap_m40_phi8_s10123,5fold,best fixed r (train),0.04
+gap_m50_phi16_s10199,5fold,best fixed r (train),0.04
+gap_m50_phi8_s10179,5fold,best fixed r (train),0.04
+orlib_like_m16_phi0.5_s10026,5fold,best fixed r (train),0.04
+orlib_like_m16_phi1_s10042,5fold,best fixed r (train),0.04
+orlib_like_m20_phi0.5_s10078,5fold,best fixed r (train),0.04
+orlib_like_m20_phi8_s10130,5fold,best fixed r (train),0.04
+orlib_like_m25_phi0.5_s10066,5fold,best fixed r (train),0.04
+orlib_like_m25_phi1_s10114,5fold,best fixed r (train),0.04
+orlib_like_m30_phi4_s10194,5fold,best fixed r (train),0.04
+orlib_like_m40_phi2_s10062,5fold,best fixed r (train),0.04
+orlib_like_m50_phi1_s10138,5fold,best fixed r (train),0.04
+orlib_like_m50_phi8_s10074,5fold,best fixed r (train),0.04
+uniform_m20_phi2_s10157,5fold,best fixed r (train),0.04
+uniform_m20_phi2_s10161,5fold,best fixed r (train),0.04
+uniform_m20_phi4_s10093,5fold,best fixed r (train),0.04
+uniform_m20_phi4_s10181,5fold,best fixed r (train),0.04
+uniform_m25_phi1_s10041,5fold,best fixed r (train),0.04
+uniform_m25_phi2_s10129,5fold,best fixed r (train),0.04
+uniform_m40_phi2_s10053,5fold,best fixed r (train),0.04
+uniform_m40_phi4_s10005,5fold,best fixed r (train),0.04
+uniform_m40_phi4_s10185,5fold,best fixed r (train),0.04
+uniform_m50_phi2_s10049,5fold,best fixed r (train),0.04
+euclid_m16_phi2_s10152,5fold,best fixed r (train),0.04
+euclid_m16_phi2_s10192,5fold,best fixed r (train),0.04
+euclid_m20_phi8_s10092,5fold,best fixed r (train),0.04
+euclid_m25_phi0.5_s10116,5fold,best fixed r (train),0.04
+euclid_m25_phi2_s10088,5fold,best fixed r (train),0.04
+euclid_m25_phi4_s10108,5fold,best fixed r (train),0.04
+euclid_m30_phi0.5_s10168,5fold,best fixed r (train),0.04
+euclid_m30_phi4_s10112,5fold,best fixed r (train),0.04
+euclid_m40_phi2_s10036,5fold,best fixed r (train),0.04
+euclid_m50_phi1_s10124,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10103,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10143,5fold,best fixed r (train),0.04
+gap_m16_phi8_s10083,5fold,best fixed r (train),0.04
+gap_m30_phi16_s10087,5fold,best fixed r (train),0.04
+gap_m30_phi16_s10147,5fold,best fixed r (train),0.04
+gap_m30_phi32_s10159,5fold,best fixed r (train),0.04
+gap_m30_phi8_s10175,5fold,best fixed r (train),0.04
+gap_m40_phi16_s10099,5fold,best fixed r (train),0.04
+gap_m40_phi8_s10187,5fold,best fixed r (train),0.04
+gap_m50_phi16_s10075,5fold,best fixed r (train),0.04
+orlib_like_m16_phi1_s10018,5fold,best fixed r (train),0.04
+orlib_like_m16_phi2_s10014,5fold,best fixed r (train),0.04
+orlib_like_m16_phi8_s10174,5fold,best fixed r (train),0.04
+orlib_like_m20_phi4_s10022,5fold,best fixed r (train),0.04
+orlib_like_m20_phi8_s10178,5fold,best fixed r (train),0.04
+orlib_like_m25_phi2_s10046,5fold,best fixed r (train),0.04
+orlib_like_m25_phi4_s10126,5fold,best fixed r (train),0.04
+orlib_like_m25_phi4_s10186,5fold,best fixed r (train),0.04
+orlib_like_m40_phi0.5_s10058,5fold,best fixed r (train),0.04
+orlib_like_m40_phi8_s10006,5fold,best fixed r (train),0.04
+uniform_m16_phi0.5_s10165,5fold,best fixed r (train),0.04
+uniform_m16_phi4_s10001,5fold,best fixed r (train),0.04
+uniform_m20_phi0.5_s10177,5fold,best fixed r (train),0.04
+uniform_m20_phi1_s10153,5fold,best fixed r (train),0.04
+uniform_m25_phi0.5_s10101,5fold,best fixed r (train),0.04
+uniform_m30_phi2_s10141,5fold,best fixed r (train),0.04
+uniform_m40_phi1_s10069,5fold,best fixed r (train),0.04
+uniform_m40_phi2_s10193,5fold,best fixed r (train),0.04
+uniform_m50_phi1_s10109,5fold,best fixed r (train),0.04
+uniform_m50_phi2_s10117,5fold,best fixed r (train),0.04
+euclid_m16_phi2_s10096,5fold,best fixed r (train),0.04
+euclid_m20_phi0.5_s10076,5fold,best fixed r (train),0.04
+euclid_m20_phi2_s10128,5fold,best fixed r (train),0.04
+euclid_m20_phi4_s10188,5fold,best fixed r (train),0.04
+euclid_m25_phi2_s10052,5fold,best fixed r (train),0.04
+euclid_m25_phi8_s10144,5fold,best fixed r (train),0.04
+euclid_m30_phi1_s10004,5fold,best fixed r (train),0.04
+euclid_m40_phi4_s10068,5fold,best fixed r (train),0.04
+euclid_m40_phi8_s10100,5fold,best fixed r (train),0.04
+euclid_m50_phi1_s10080,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10095,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10195,5fold,best fixed r (train),0.04
+gap_m20_phi32_s10127,5fold,best fixed r (train),0.04
+gap_m20_phi8_s10063,5fold,best fixed r (train),0.04
+gap_m25_phi16_s10027,5fold,best fixed r (train),0.04
+gap_m25_phi32_s10035,5fold,best fixed r (train),0.04
+gap_m30_phi16_s10071,5fold,best fixed r (train),0.04
+gap_m30_phi16_s10111,5fold,best fixed r (train),0.04
+gap_m30_phi32_s10015,5fold,best fixed r (train),0.04
+gap_m30_phi8_s10167,5fold,best fixed r (train),0.04
+orlib_like_m16_phi0.5_s10142,5fold,best fixed r (train),0.04
+orlib_like_m16_phi0.5_s10146,5fold,best fixed r (train),0.04
+orlib_like_m16_phi1_s10162,5fold,best fixed r (train),0.04
+orlib_like_m16_phi2_s10082,5fold,best fixed r (train),0.04
+orlib_like_m16_phi8_s10150,5fold,best fixed r (train),0.04
+orlib_like_m20_phi8_s10090,5fold,best fixed r (train),0.04
+orlib_like_m25_phi2_s10070,5fold,best fixed r (train),0.04
+orlib_like_m30_phi8_s10166,5fold,best fixed r (train),0.04
+orlib_like_m40_phi4_s10102,5fold,best fixed r (train),0.04
+orlib_like_m50_phi1_s10198,5fold,best fixed r (train),0.04
+uniform_m16_phi2_s10021,5fold,best fixed r (train),0.04
+uniform_m16_phi8_s10077,5fold,best fixed r (train),0.04
+uniform_m20_phi1_s10145,5fold,best fixed r (train),0.04
+uniform_m25_phi0.5_s10105,5fold,best fixed r (train),0.04
+uniform_m30_phi2_s10037,5fold,best fixed r (train),0.04
+uniform_m30_phi2_s10045,5fold,best fixed r (train),0.04
+uniform_m30_phi4_s10013,5fold,best fixed r (train),0.04
+uniform_m30_phi8_s10089,5fold,best fixed r (train),0.04
+uniform_m40_phi1_s10061,5fold,best fixed r (train),0.04
+uniform_m40_phi8_s10097,5fold,best fixed r (train),0.04
+euclid_m20_phi1_s10164,5fold,best fixed r (train),0.04
+euclid_m20_phi2_s10028,5fold,best fixed r (train),0.04
+euclid_m20_phi4_s10072,5fold,best fixed r (train),0.04
+euclid_m20_phi4_s10156,5fold,best fixed r (train),0.04
+euclid_m20_phi8_s10064,5fold,best fixed r (train),0.04
+euclid_m25_phi2_s10172,5fold,best fixed r (train),0.04
+euclid_m25_phi4_s10040,5fold,best fixed r (train),0.04
+euclid_m40_phi2_s10056,5fold,best fixed r (train),0.04
+euclid_m50_phi0.5_s10000,5fold,best fixed r (train),0.04
+euclid_m50_phi2_s10060,5fold,best fixed r (train),0.04
+gap_m16_phi16_s10051,5fold,best fixed r (train),0.04
+gap_m16_phi32_s10059,5fold,best fixed r (train),0.04
+gap_m16_phi32_s10183,5fold,best fixed r (train),0.04
+gap_m16_phi8_s10079,5fold,best fixed r (train),0.04
+gap_m20_phi16_s10067,5fold,best fixed r (train),0.04
+gap_m40_phi32_s10011,5fold,best fixed r (train),0.04
+gap_m40_phi32_s10139,5fold,best fixed r (train),0.04
+gap_m40_phi8_s10023,5fold,best fixed r (train),0.04
+gap_m50_phi16_s10191,5fold,best fixed r (train),0.04
+gap_m50_phi32_s10031,5fold,best fixed r (train),0.04
+orlib_like_m20_phi1_s10034,5fold,best fixed r (train),0.04
+orlib_like_m20_phi4_s10106,5fold,best fixed r (train),0.04
+orlib_like_m20_phi8_s10182,5fold,best fixed r (train),0.04
+orlib_like_m25_phi1_s10170,5fold,best fixed r (train),0.04
+orlib_like_m25_phi2_s10002,5fold,best fixed r (train),0.04
+orlib_like_m25_phi4_s10050,5fold,best fixed r (train),0.04
+orlib_like_m30_phi0.5_s10190,5fold,best fixed r (train),0.04
+orlib_like_m40_phi4_s10154,5fold,best fixed r (train),0.04
+orlib_like_m50_phi2_s10054,5fold,best fixed r (train),0.04
+orlib_like_m50_phi2_s10086,5fold,best fixed r (train),0.04
+uniform_m16_phi0.5_s10125,5fold,best fixed r (train),0.04
+uniform_m16_phi4_s10081,5fold,best fixed r (train),0.04
+uniform_m25_phi1_s10017,5fold,best fixed r (train),0.04
+uniform_m30_phi1_s10029,5fold,best fixed r (train),0.04
+uniform_m30_phi4_s10033,5fold,best fixed r (train),0.04
+uniform_m40_phi1_s10149,5fold,best fixed r (train),0.04
+uniform_m40_phi2_s10169,5fold,best fixed r (train),0.04
+uniform_m50_phi1_s10025,5fold,best fixed r (train),0.04
+uniform_m50_phi8_s10121,5fold,best fixed r (train),0.04
+uniform_m50_phi8_s10137,5fold,best fixed r (train),0.04
+euclid_m16_phi4_s10048,5fold,best fixed r (train),0.04
+euclid_m25_phi1_s10044,5fold,best fixed r (train),0.04
+euclid_m25_phi2_s10024,5fold,best fixed r (train),0.04
+euclid_m25_phi4_s10180,5fold,best fixed r (train),0.04
+euclid_m25_phi8_s10196,5fold,best fixed r (train),0.04
+euclid_m30_phi4_s10132,5fold,best fixed r (train),0.04
+euclid_m30_phi4_s10140,5fold,best fixed r (train),0.04
+euclid_m50_phi2_s10160,5fold,best fixed r (train),0.04
+euclid_m50_phi4_s10120,5fold,best fixed r (train),0.04
+euclid_m50_phi8_s10176,5fold,best fixed r (train),0.04
+gap_m16_phi32_s10055,5fold,best fixed r (train),0.04
+gap_m16_phi8_s10019,5fold,best fixed r (train),0.04
+gap_m16_phi8_s10155,5fold,best fixed r (train),0.04
+gap_m20_phi8_s10091,5fold,best fixed r (train),0.04
+gap_m25_phi16_s10135,5fold,best fixed r (train),0.04
+gap_m25_phi8_s10115,5fold,best fixed r (train),0.04
+gap_m25_phi8_s10151,5fold,best fixed r (train),0.04
+gap_m30_phi8_s10047,5fold,best fixed r (train),0.04
+gap_m50_phi16_s10119,5fold,best fixed r (train),0.04
+gap_m50_phi32_s10131,5fold,best fixed r (train),0.04
+orlib_like_m16_phi0.5_s10158,5fold,best fixed r (train),0.04
+orlib_like_m16_phi1_s10134,5fold,best fixed r (train),0.04
+orlib_like_m16_phi4_s10110,5fold,best fixed r (train),0.04
+orlib_like_m16_phi8_s10010,5fold,best fixed r (train),0.04
+orlib_like_m25_phi1_s10118,5fold,best fixed r (train),0.04
+orlib_like_m25_phi8_s10038,5fold,best fixed r (train),0.04
+orlib_like_m30_phi4_s10094,5fold,best fixed r (train),0.04
+orlib_like_m40_phi1_s10122,5fold,best fixed r (train),0.04
+orlib_like_m50_phi1_s10030,5fold,best fixed r (train),0.04
+orlib_like_m50_phi1_s10098,5fold,best fixed r (train),0.04
+uniform_m16_phi1_s10009,5fold,best fixed r (train),0.04
+uniform_m25_phi1_s10189,5fold,best fixed r (train),0.04
+uniform_m25_phi8_s10065,5fold,best fixed r (train),0.04
+uniform_m25_phi8_s10133,5fold,best fixed r (train),0.04
+uniform_m30_phi0.5_s10197,5fold,best fixed r (train),0.04
+uniform_m30_phi8_s10073,5fold,best fixed r (train),0.04
+uniform_m40_phi0.5_s10113,5fold,best fixed r (train),0.04
+uniform_m40_phi8_s10173,5fold,best fixed r (train),0.04
+uniform_m50_phi2_s10057,5fold,best fixed r (train),0.04
+uniform_m50_phi4_s10085,5fold,best fixed r (train),0.04
+euclid_m16_phi4_s10104,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m20_phi4_s10012,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m25_phi0.5_s10084,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m30_phi0.5_s10148,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m30_phi2_s10016,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m40_phi1_s10184,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m40_phi4_s10136,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m50_phi2_s10020,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m50_phi4_s10008,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m50_phi4_s10032,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m16_phi16_s10003,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi32_s10043,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi8_s10039,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m20_phi16_s10171,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m25_phi32_s10163,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m30_phi32_s10107,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m40_phi8_s10007,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m40_phi8_s10123,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi16_s10199,5fold,k x exactness bound (k tuned per fold),0.03
+gap_m50_phi8_s10179,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m16_phi0.5_s10026,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi1_s10042,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m20_phi0.5_s10078,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m20_phi8_s10130,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m25_phi0.5_s10066,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m25_phi1_s10114,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m30_phi4_s10194,5fold,k x exactness bound (k tuned per fold),0.06
+orlib_like_m40_phi2_s10062,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m50_phi1_s10138,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m50_phi8_s10074,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m20_phi2_s10157,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m20_phi2_s10161,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m20_phi4_s10093,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m20_phi4_s10181,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m25_phi1_s10041,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m25_phi2_s10129,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m40_phi2_s10053,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m40_phi4_s10005,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m40_phi4_s10185,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m50_phi2_s10049,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m16_phi2_s10152,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m16_phi2_s10192,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m20_phi8_s10092,5fold,k x exactness bound (k tuned per fold),0.1
+euclid_m25_phi0.5_s10116,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m25_phi2_s10088,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m25_phi4_s10108,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m30_phi0.5_s10168,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m30_phi4_s10112,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m40_phi2_s10036,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m50_phi1_s10124,5fold,k x exactness bound (k tuned per fold),0.03
+gap_m16_phi16_s10103,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi16_s10143,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi8_s10083,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m30_phi16_s10087,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m30_phi16_s10147,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m30_phi32_s10159,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m30_phi8_s10175,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m40_phi16_s10099,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m40_phi8_s10187,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi16_s10075,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi1_s10018,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi2_s10014,5fold,k x exactness bound (k tuned per fold),0.06
+orlib_like_m16_phi8_s10174,5fold,k x exactness bound (k tuned per fold),0.1
+orlib_like_m20_phi4_s10022,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m20_phi8_s10178,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m25_phi2_s10046,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m25_phi4_s10126,5fold,k x exactness bound (k tuned per fold),0.06
+orlib_like_m25_phi4_s10186,5fold,k x exactness bound (k tuned per fold),0.06
+orlib_like_m40_phi0.5_s10058,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m40_phi8_s10006,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m16_phi0.5_s10165,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m16_phi4_s10001,5fold,k x exactness bound (k tuned per fold),0.08
+uniform_m20_phi0.5_s10177,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m20_phi1_s10153,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m25_phi0.5_s10101,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m30_phi2_s10141,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m40_phi1_s10069,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m40_phi2_s10193,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m50_phi1_s10109,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m50_phi2_s10117,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m16_phi2_s10096,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m20_phi0.5_s10076,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m20_phi2_s10128,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m20_phi4_s10188,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m25_phi2_s10052,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m25_phi8_s10144,5fold,k x exactness bound (k tuned per fold),0.1
+euclid_m30_phi1_s10004,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m40_phi4_s10068,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m40_phi8_s10100,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m50_phi1_s10080,5fold,k x exactness bound (k tuned per fold),0.03
+gap_m16_phi16_s10095,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi16_s10195,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m20_phi32_s10127,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m20_phi8_s10063,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m25_phi16_s10027,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m25_phi32_s10035,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m30_phi16_s10071,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m30_phi16_s10111,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m30_phi32_s10015,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m30_phi8_s10167,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi0.5_s10142,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi0.5_s10146,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi1_s10162,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m16_phi2_s10082,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m16_phi8_s10150,5fold,k x exactness bound (k tuned per fold),0.1
+orlib_like_m20_phi8_s10090,5fold,k x exactness bound (k tuned per fold),0.1
+orlib_like_m25_phi2_s10070,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m30_phi8_s10166,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m40_phi4_s10102,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m50_phi1_s10198,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m16_phi2_s10021,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m16_phi8_s10077,5fold,k x exactness bound (k tuned per fold),0.1
+uniform_m20_phi1_s10145,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m25_phi0.5_s10105,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi2_s10037,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi2_s10045,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi4_s10013,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m30_phi8_s10089,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m40_phi1_s10061,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m40_phi8_s10097,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m20_phi1_s10164,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m20_phi2_s10028,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m20_phi4_s10072,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m20_phi4_s10156,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m20_phi8_s10064,5fold,k x exactness bound (k tuned per fold),0.1
+euclid_m25_phi2_s10172,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m25_phi4_s10040,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m40_phi2_s10056,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m50_phi0.5_s10000,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m50_phi2_s10060,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m16_phi16_s10051,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi32_s10059,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi32_s10183,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi8_s10079,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m20_phi16_s10067,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m40_phi32_s10011,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m40_phi32_s10139,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m40_phi8_s10023,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi16_s10191,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi32_s10031,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m20_phi1_s10034,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m20_phi4_s10106,5fold,k x exactness bound (k tuned per fold),0.06
+orlib_like_m20_phi8_s10182,5fold,k x exactness bound (k tuned per fold),0.1
+orlib_like_m25_phi1_s10170,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m25_phi2_s10002,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m25_phi4_s10050,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m30_phi0.5_s10190,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m40_phi4_s10154,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m50_phi2_s10054,5fold,k x exactness bound (k tuned per fold),0.03
+orlib_like_m50_phi2_s10086,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m16_phi0.5_s10125,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m16_phi4_s10081,5fold,k x exactness bound (k tuned per fold),0.08
+uniform_m25_phi1_s10017,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi1_s10029,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi4_s10033,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m40_phi1_s10149,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m40_phi2_s10169,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m50_phi1_s10025,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m50_phi8_s10121,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m50_phi8_s10137,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m16_phi4_s10048,5fold,k x exactness bound (k tuned per fold),0.08
+euclid_m25_phi1_s10044,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m25_phi2_s10024,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m25_phi4_s10180,5fold,k x exactness bound (k tuned per fold),0.06
+euclid_m25_phi8_s10196,5fold,k x exactness bound (k tuned per fold),0.1
+euclid_m30_phi4_s10132,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m30_phi4_s10140,5fold,k x exactness bound (k tuned per fold),0.05
+euclid_m50_phi2_s10160,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m50_phi4_s10120,5fold,k x exactness bound (k tuned per fold),0.04
+euclid_m50_phi8_s10176,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m16_phi32_s10055,5fold,k x exactness bound (k tuned per fold),0.08
+gap_m16_phi8_s10019,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m16_phi8_s10155,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m20_phi8_s10091,5fold,k x exactness bound (k tuned per fold),0.06
+gap_m25_phi16_s10135,5fold,k x exactness bound (k tuned per fold),0.05
+gap_m25_phi8_s10115,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m25_phi8_s10151,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m30_phi8_s10047,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi16_s10119,5fold,k x exactness bound (k tuned per fold),0.04
+gap_m50_phi32_s10131,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi0.5_s10158,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m16_phi1_s10134,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m16_phi4_s10110,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m16_phi8_s10010,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m25_phi1_s10118,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m25_phi8_s10038,5fold,k x exactness bound (k tuned per fold),0.08
+orlib_like_m30_phi4_s10094,5fold,k x exactness bound (k tuned per fold),0.05
+orlib_like_m40_phi1_s10122,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m50_phi1_s10030,5fold,k x exactness bound (k tuned per fold),0.04
+orlib_like_m50_phi1_s10098,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m16_phi1_s10009,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m25_phi1_s10189,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m25_phi8_s10065,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m25_phi8_s10133,5fold,k x exactness bound (k tuned per fold),0.08
+uniform_m30_phi0.5_s10197,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m30_phi8_s10073,5fold,k x exactness bound (k tuned per fold),0.06
+uniform_m40_phi0.5_s10113,5fold,k x exactness bound (k tuned per fold),0.04
+uniform_m40_phi8_s10173,5fold,k x exactness bound (k tuned per fold),0.05
+uniform_m50_phi2_s10057,5fold,k x exactness bound (k tuned per fold),0.03
+uniform_m50_phi4_s10085,5fold,k x exactness bound (k tuned per fold),0.03
+euclid_m16_phi4_s10104,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10012,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi0.5_s10084,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi0.5_s10148,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi2_s10016,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi1_s10184,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi4_s10136,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10020,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10008,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10032,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10003,5fold,LP/n (pilot rule),0.02
+gap_m16_phi32_s10043,5fold,LP/n (pilot rule),0.02
+gap_m16_phi8_s10039,5fold,LP/n (pilot rule),0.02
+gap_m20_phi16_s10171,5fold,LP/n (pilot rule),0.02
+gap_m25_phi32_s10163,5fold,LP/n (pilot rule),0.02
+gap_m30_phi32_s10107,5fold,LP/n (pilot rule),0.02
+gap_m40_phi8_s10007,5fold,LP/n (pilot rule),0.02
+gap_m40_phi8_s10123,5fold,LP/n (pilot rule),0.02
+gap_m50_phi16_s10199,5fold,LP/n (pilot rule),0.02
+gap_m50_phi8_s10179,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10026,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10042,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi0.5_s10078,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10130,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi0.5_s10066,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10114,5fold,LP/n (pilot rule),0.02
+orlib_like_m30_phi4_s10194,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi2_s10062,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10138,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi8_s10074,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi2_s10157,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi2_s10161,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi4_s10093,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi4_s10181,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10041,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi2_s10129,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10053,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi4_s10005,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi4_s10185,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10049,5fold,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10152,5fold,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10192,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi8_s10092,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi0.5_s10116,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10088,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10108,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi0.5_s10168,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10112,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi2_s10036,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi1_s10124,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10103,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10143,5fold,LP/n (pilot rule),0.02
+gap_m16_phi8_s10083,5fold,LP/n (pilot rule),0.02
+gap_m30_phi16_s10087,5fold,LP/n (pilot rule),0.02
+gap_m30_phi16_s10147,5fold,LP/n (pilot rule),0.02
+gap_m30_phi32_s10159,5fold,LP/n (pilot rule),0.02
+gap_m30_phi8_s10175,5fold,LP/n (pilot rule),0.02
+gap_m40_phi16_s10099,5fold,LP/n (pilot rule),0.02
+gap_m40_phi8_s10187,5fold,LP/n (pilot rule),0.02
+gap_m50_phi16_s10075,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10018,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi2_s10014,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10174,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi4_s10022,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10178,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10046,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10126,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10186,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi0.5_s10058,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi8_s10006,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi0.5_s10165,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi4_s10001,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi0.5_s10177,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi1_s10153,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi0.5_s10101,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10141,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10069,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10193,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi1_s10109,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10117,5fold,LP/n (pilot rule),0.02
+euclid_m16_phi2_s10096,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi0.5_s10076,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi2_s10128,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10188,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10052,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi8_s10144,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi1_s10004,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi4_s10068,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi8_s10100,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi1_s10080,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10095,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10195,5fold,LP/n (pilot rule),0.02
+gap_m20_phi32_s10127,5fold,LP/n (pilot rule),0.02
+gap_m20_phi8_s10063,5fold,LP/n (pilot rule),0.02
+gap_m25_phi16_s10027,5fold,LP/n (pilot rule),0.02
+gap_m25_phi32_s10035,5fold,LP/n (pilot rule),0.02
+gap_m30_phi16_s10071,5fold,LP/n (pilot rule),0.02
+gap_m30_phi16_s10111,5fold,LP/n (pilot rule),0.02
+gap_m30_phi32_s10015,5fold,LP/n (pilot rule),0.02
+gap_m30_phi8_s10167,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10142,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10146,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10162,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi2_s10082,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10150,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10090,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10070,5fold,LP/n (pilot rule),0.02
+orlib_like_m30_phi8_s10166,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi4_s10102,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10198,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi2_s10021,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi8_s10077,5fold,LP/n (pilot rule),0.02
+uniform_m20_phi1_s10145,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi0.5_s10105,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10037,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi2_s10045,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi4_s10013,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi8_s10089,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10061,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi8_s10097,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi1_s10164,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi2_s10028,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10072,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi4_s10156,5fold,LP/n (pilot rule),0.02
+euclid_m20_phi8_s10064,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10172,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10040,5fold,LP/n (pilot rule),0.02
+euclid_m40_phi2_s10056,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi0.5_s10000,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10060,5fold,LP/n (pilot rule),0.02
+gap_m16_phi16_s10051,5fold,LP/n (pilot rule),0.02
+gap_m16_phi32_s10059,5fold,LP/n (pilot rule),0.02
+gap_m16_phi32_s10183,5fold,LP/n (pilot rule),0.02
+gap_m16_phi8_s10079,5fold,LP/n (pilot rule),0.02
+gap_m20_phi16_s10067,5fold,LP/n (pilot rule),0.02
+gap_m40_phi32_s10011,5fold,LP/n (pilot rule),0.02
+gap_m40_phi32_s10139,5fold,LP/n (pilot rule),0.02
+gap_m40_phi8_s10023,5fold,LP/n (pilot rule),0.02
+gap_m50_phi16_s10191,5fold,LP/n (pilot rule),0.02
+gap_m50_phi32_s10031,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi1_s10034,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi4_s10106,5fold,LP/n (pilot rule),0.02
+orlib_like_m20_phi8_s10182,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10170,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi2_s10002,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi4_s10050,5fold,LP/n (pilot rule),0.02
+orlib_like_m30_phi0.5_s10190,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi4_s10154,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi2_s10054,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi2_s10086,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi0.5_s10125,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi4_s10081,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10017,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi1_s10029,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi4_s10033,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi1_s10149,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi2_s10169,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi1_s10025,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi8_s10121,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi8_s10137,5fold,LP/n (pilot rule),0.02
+euclid_m16_phi4_s10048,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi1_s10044,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi2_s10024,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi4_s10180,5fold,LP/n (pilot rule),0.02
+euclid_m25_phi8_s10196,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10132,5fold,LP/n (pilot rule),0.02
+euclid_m30_phi4_s10140,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi2_s10160,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi4_s10120,5fold,LP/n (pilot rule),0.02
+euclid_m50_phi8_s10176,5fold,LP/n (pilot rule),0.02
+gap_m16_phi32_s10055,5fold,LP/n (pilot rule),0.02
+gap_m16_phi8_s10019,5fold,LP/n (pilot rule),0.02
+gap_m16_phi8_s10155,5fold,LP/n (pilot rule),0.02
+gap_m20_phi8_s10091,5fold,LP/n (pilot rule),0.02
+gap_m25_phi16_s10135,5fold,LP/n (pilot rule),0.02
+gap_m25_phi8_s10115,5fold,LP/n (pilot rule),0.02
+gap_m25_phi8_s10151,5fold,LP/n (pilot rule),0.02
+gap_m30_phi8_s10047,5fold,LP/n (pilot rule),0.02
+gap_m50_phi16_s10119,5fold,LP/n (pilot rule),0.02
+gap_m50_phi32_s10131,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi0.5_s10158,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi1_s10134,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi4_s10110,5fold,LP/n (pilot rule),0.02
+orlib_like_m16_phi8_s10010,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi1_s10118,5fold,LP/n (pilot rule),0.02
+orlib_like_m25_phi8_s10038,5fold,LP/n (pilot rule),0.02
+orlib_like_m30_phi4_s10094,5fold,LP/n (pilot rule),0.02
+orlib_like_m40_phi1_s10122,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10030,5fold,LP/n (pilot rule),0.02
+orlib_like_m50_phi1_s10098,5fold,LP/n (pilot rule),0.02
+uniform_m16_phi1_s10009,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi1_s10189,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi8_s10065,5fold,LP/n (pilot rule),0.02
+uniform_m25_phi8_s10133,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi0.5_s10197,5fold,LP/n (pilot rule),0.02
+uniform_m30_phi8_s10073,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi0.5_s10113,5fold,LP/n (pilot rule),0.02
+uniform_m40_phi8_s10173,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi2_s10057,5fold,LP/n (pilot rule),0.02
+uniform_m50_phi4_s10085,5fold,LP/n (pilot rule),0.02
+euclid_m16_phi4_s10104,5fold,50% of LP (paper),0.5
+euclid_m20_phi4_s10012,5fold,50% of LP (paper),0.5
+euclid_m25_phi0.5_s10084,5fold,50% of LP (paper),0.5
+euclid_m30_phi0.5_s10148,5fold,50% of LP (paper),0.5
+euclid_m30_phi2_s10016,5fold,50% of LP (paper),0.5
+euclid_m40_phi1_s10184,5fold,50% of LP (paper),0.5
+euclid_m40_phi4_s10136,5fold,50% of LP (paper),0.5
+euclid_m50_phi2_s10020,5fold,50% of LP (paper),0.5
+euclid_m50_phi4_s10008,5fold,50% of LP (paper),0.5
+euclid_m50_phi4_s10032,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10003,5fold,50% of LP (paper),0.5
+gap_m16_phi32_s10043,5fold,50% of LP (paper),0.5
+gap_m16_phi8_s10039,5fold,50% of LP (paper),0.5
+gap_m20_phi16_s10171,5fold,50% of LP (paper),0.5
+gap_m25_phi32_s10163,5fold,50% of LP (paper),0.5
+gap_m30_phi32_s10107,5fold,50% of LP (paper),0.5
+gap_m40_phi8_s10007,5fold,50% of LP (paper),0.5
+gap_m40_phi8_s10123,5fold,50% of LP (paper),0.5
+gap_m50_phi16_s10199,5fold,50% of LP (paper),0.5
+gap_m50_phi8_s10179,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10026,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10042,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi0.5_s10078,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10130,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi0.5_s10066,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10114,5fold,50% of LP (paper),0.5
+orlib_like_m30_phi4_s10194,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi2_s10062,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10138,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi8_s10074,5fold,50% of LP (paper),0.5
+uniform_m20_phi2_s10157,5fold,50% of LP (paper),0.5
+uniform_m20_phi2_s10161,5fold,50% of LP (paper),0.5
+uniform_m20_phi4_s10093,5fold,50% of LP (paper),0.5
+uniform_m20_phi4_s10181,5fold,50% of LP (paper),0.5
+uniform_m25_phi1_s10041,5fold,50% of LP (paper),0.5
+uniform_m25_phi2_s10129,5fold,50% of LP (paper),0.5
+uniform_m40_phi2_s10053,5fold,50% of LP (paper),0.5
+uniform_m40_phi4_s10005,5fold,50% of LP (paper),0.5
+uniform_m40_phi4_s10185,5fold,50% of LP (paper),0.5
+uniform_m50_phi2_s10049,5fold,50% of LP (paper),0.5
+euclid_m16_phi2_s10152,5fold,50% of LP (paper),0.5
+euclid_m16_phi2_s10192,5fold,50% of LP (paper),0.5
+euclid_m20_phi8_s10092,5fold,50% of LP (paper),0.5
+euclid_m25_phi0.5_s10116,5fold,50% of LP (paper),0.5
+euclid_m25_phi2_s10088,5fold,50% of LP (paper),0.5
+euclid_m25_phi4_s10108,5fold,50% of LP (paper),0.5
+euclid_m30_phi0.5_s10168,5fold,50% of LP (paper),0.5
+euclid_m30_phi4_s10112,5fold,50% of LP (paper),0.5
+euclid_m40_phi2_s10036,5fold,50% of LP (paper),0.5
+euclid_m50_phi1_s10124,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10103,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10143,5fold,50% of LP (paper),0.5
+gap_m16_phi8_s10083,5fold,50% of LP (paper),0.5
+gap_m30_phi16_s10087,5fold,50% of LP (paper),0.5
+gap_m30_phi16_s10147,5fold,50% of LP (paper),0.5
+gap_m30_phi32_s10159,5fold,50% of LP (paper),0.5
+gap_m30_phi8_s10175,5fold,50% of LP (paper),0.5
+gap_m40_phi16_s10099,5fold,50% of LP (paper),0.5
+gap_m40_phi8_s10187,5fold,50% of LP (paper),0.5
+gap_m50_phi16_s10075,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10018,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi2_s10014,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10174,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi4_s10022,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10178,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10046,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10126,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10186,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi0.5_s10058,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi8_s10006,5fold,50% of LP (paper),0.5
+uniform_m16_phi0.5_s10165,5fold,50% of LP (paper),0.5
+uniform_m16_phi4_s10001,5fold,50% of LP (paper),0.5
+uniform_m20_phi0.5_s10177,5fold,50% of LP (paper),0.5
+uniform_m20_phi1_s10153,5fold,50% of LP (paper),0.5
+uniform_m25_phi0.5_s10101,5fold,50% of LP (paper),0.5
+uniform_m30_phi2_s10141,5fold,50% of LP (paper),0.5
+uniform_m40_phi1_s10069,5fold,50% of LP (paper),0.5
+uniform_m40_phi2_s10193,5fold,50% of LP (paper),0.5
+uniform_m50_phi1_s10109,5fold,50% of LP (paper),0.5
+uniform_m50_phi2_s10117,5fold,50% of LP (paper),0.5
+euclid_m16_phi2_s10096,5fold,50% of LP (paper),0.5
+euclid_m20_phi0.5_s10076,5fold,50% of LP (paper),0.5
+euclid_m20_phi2_s10128,5fold,50% of LP (paper),0.5
+euclid_m20_phi4_s10188,5fold,50% of LP (paper),0.5
+euclid_m25_phi2_s10052,5fold,50% of LP (paper),0.5
+euclid_m25_phi8_s10144,5fold,50% of LP (paper),0.5
+euclid_m30_phi1_s10004,5fold,50% of LP (paper),0.5
+euclid_m40_phi4_s10068,5fold,50% of LP (paper),0.5
+euclid_m40_phi8_s10100,5fold,50% of LP (paper),0.5
+euclid_m50_phi1_s10080,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10095,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10195,5fold,50% of LP (paper),0.5
+gap_m20_phi32_s10127,5fold,50% of LP (paper),0.5
+gap_m20_phi8_s10063,5fold,50% of LP (paper),0.5
+gap_m25_phi16_s10027,5fold,50% of LP (paper),0.5
+gap_m25_phi32_s10035,5fold,50% of LP (paper),0.5
+gap_m30_phi16_s10071,5fold,50% of LP (paper),0.5
+gap_m30_phi16_s10111,5fold,50% of LP (paper),0.5
+gap_m30_phi32_s10015,5fold,50% of LP (paper),0.5
+gap_m30_phi8_s10167,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10142,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10146,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10162,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi2_s10082,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10150,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10090,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10070,5fold,50% of LP (paper),0.5
+orlib_like_m30_phi8_s10166,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi4_s10102,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10198,5fold,50% of LP (paper),0.5
+uniform_m16_phi2_s10021,5fold,50% of LP (paper),0.5
+uniform_m16_phi8_s10077,5fold,50% of LP (paper),0.5
+uniform_m20_phi1_s10145,5fold,50% of LP (paper),0.5
+uniform_m25_phi0.5_s10105,5fold,50% of LP (paper),0.5
+uniform_m30_phi2_s10037,5fold,50% of LP (paper),0.5
+uniform_m30_phi2_s10045,5fold,50% of LP (paper),0.5
+uniform_m30_phi4_s10013,5fold,50% of LP (paper),0.5
+uniform_m30_phi8_s10089,5fold,50% of LP (paper),0.5
+uniform_m40_phi1_s10061,5fold,50% of LP (paper),0.5
+uniform_m40_phi8_s10097,5fold,50% of LP (paper),0.5
+euclid_m20_phi1_s10164,5fold,50% of LP (paper),0.5
+euclid_m20_phi2_s10028,5fold,50% of LP (paper),0.5
+euclid_m20_phi4_s10072,5fold,50% of LP (paper),0.5
+euclid_m20_phi4_s10156,5fold,50% of LP (paper),0.5
+euclid_m20_phi8_s10064,5fold,50% of LP (paper),0.5
+euclid_m25_phi2_s10172,5fold,50% of LP (paper),0.5
+euclid_m25_phi4_s10040,5fold,50% of LP (paper),0.5
+euclid_m40_phi2_s10056,5fold,50% of LP (paper),0.5
+euclid_m50_phi0.5_s10000,5fold,50% of LP (paper),0.5
+euclid_m50_phi2_s10060,5fold,50% of LP (paper),0.5
+gap_m16_phi16_s10051,5fold,50% of LP (paper),0.5
+gap_m16_phi32_s10059,5fold,50% of LP (paper),0.5
+gap_m16_phi32_s10183,5fold,50% of LP (paper),0.5
+gap_m16_phi8_s10079,5fold,50% of LP (paper),0.5
+gap_m20_phi16_s10067,5fold,50% of LP (paper),0.5
+gap_m40_phi32_s10011,5fold,50% of LP (paper),0.5
+gap_m40_phi32_s10139,5fold,50% of LP (paper),0.5
+gap_m40_phi8_s10023,5fold,50% of LP (paper),0.5
+gap_m50_phi16_s10191,5fold,50% of LP (paper),0.5
+gap_m50_phi32_s10031,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi1_s10034,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi4_s10106,5fold,50% of LP (paper),0.5
+orlib_like_m20_phi8_s10182,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10170,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi2_s10002,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi4_s10050,5fold,50% of LP (paper),0.5
+orlib_like_m30_phi0.5_s10190,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi4_s10154,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi2_s10054,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi2_s10086,5fold,50% of LP (paper),0.5
+uniform_m16_phi0.5_s10125,5fold,50% of LP (paper),0.5
+uniform_m16_phi4_s10081,5fold,50% of LP (paper),0.5
+uniform_m25_phi1_s10017,5fold,50% of LP (paper),0.5
+uniform_m30_phi1_s10029,5fold,50% of LP (paper),0.5
+uniform_m30_phi4_s10033,5fold,50% of LP (paper),0.5
+uniform_m40_phi1_s10149,5fold,50% of LP (paper),0.5
+uniform_m40_phi2_s10169,5fold,50% of LP (paper),0.5
+uniform_m50_phi1_s10025,5fold,50% of LP (paper),0.5
+uniform_m50_phi8_s10121,5fold,50% of LP (paper),0.5
+uniform_m50_phi8_s10137,5fold,50% of LP (paper),0.5
+euclid_m16_phi4_s10048,5fold,50% of LP (paper),0.5
+euclid_m25_phi1_s10044,5fold,50% of LP (paper),0.5
+euclid_m25_phi2_s10024,5fold,50% of LP (paper),0.5
+euclid_m25_phi4_s10180,5fold,50% of LP (paper),0.5
+euclid_m25_phi8_s10196,5fold,50% of LP (paper),0.5
+euclid_m30_phi4_s10132,5fold,50% of LP (paper),0.5
+euclid_m30_phi4_s10140,5fold,50% of LP (paper),0.5
+euclid_m50_phi2_s10160,5fold,50% of LP (paper),0.5
+euclid_m50_phi4_s10120,5fold,50% of LP (paper),0.5
+euclid_m50_phi8_s10176,5fold,50% of LP (paper),0.5
+gap_m16_phi32_s10055,5fold,50% of LP (paper),0.5
+gap_m16_phi8_s10019,5fold,50% of LP (paper),0.5
+gap_m16_phi8_s10155,5fold,50% of LP (paper),0.5
+gap_m20_phi8_s10091,5fold,50% of LP (paper),0.5
+gap_m25_phi16_s10135,5fold,50% of LP (paper),0.5
+gap_m25_phi8_s10115,5fold,50% of LP (paper),0.5
+gap_m25_phi8_s10151,5fold,50% of LP (paper),0.5
+gap_m30_phi8_s10047,5fold,50% of LP (paper),0.5
+gap_m50_phi16_s10119,5fold,50% of LP (paper),0.5
+gap_m50_phi32_s10131,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi0.5_s10158,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi1_s10134,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi4_s10110,5fold,50% of LP (paper),0.5
+orlib_like_m16_phi8_s10010,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi1_s10118,5fold,50% of LP (paper),0.5
+orlib_like_m25_phi8_s10038,5fold,50% of LP (paper),0.5
+orlib_like_m30_phi4_s10094,5fold,50% of LP (paper),0.5
+orlib_like_m40_phi1_s10122,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10030,5fold,50% of LP (paper),0.5
+orlib_like_m50_phi1_s10098,5fold,50% of LP (paper),0.5
+uniform_m16_phi1_s10009,5fold,50% of LP (paper),0.5
+uniform_m25_phi1_s10189,5fold,50% of LP (paper),0.5
+uniform_m25_phi8_s10065,5fold,50% of LP (paper),0.5
+uniform_m25_phi8_s10133,5fold,50% of LP (paper),0.5
+uniform_m30_phi0.5_s10197,5fold,50% of LP (paper),0.5
+uniform_m30_phi8_s10073,5fold,50% of LP (paper),0.5
+uniform_m40_phi0.5_s10113,5fold,50% of LP (paper),0.5
+uniform_m40_phi8_s10173,5fold,50% of LP (paper),0.5
+uniform_m50_phi2_s10057,5fold,50% of LP (paper),0.5
+uniform_m50_phi4_s10085,5fold,50% of LP (paper),0.5
+euclid_m16_phi4_s10104,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10012,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi0.5_s10084,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi0.5_s10148,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi2_s10016,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi1_s10184,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi4_s10136,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10020,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10008,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10032,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10003,5fold,100% of LP (tutorial),1.0
+gap_m16_phi32_s10043,5fold,100% of LP (tutorial),1.0
+gap_m16_phi8_s10039,5fold,100% of LP (tutorial),1.0
+gap_m20_phi16_s10171,5fold,100% of LP (tutorial),1.0
+gap_m25_phi32_s10163,5fold,100% of LP (tutorial),1.0
+gap_m30_phi32_s10107,5fold,100% of LP (tutorial),1.0
+gap_m40_phi8_s10007,5fold,100% of LP (tutorial),1.0
+gap_m40_phi8_s10123,5fold,100% of LP (tutorial),1.0
+gap_m50_phi16_s10199,5fold,100% of LP (tutorial),1.0
+gap_m50_phi8_s10179,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10026,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10042,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi0.5_s10078,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10130,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi0.5_s10066,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10114,5fold,100% of LP (tutorial),1.0
+orlib_like_m30_phi4_s10194,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi2_s10062,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10138,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi8_s10074,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi2_s10157,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi2_s10161,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi4_s10093,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi4_s10181,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10041,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi2_s10129,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10053,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi4_s10005,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi4_s10185,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10049,5fold,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10152,5fold,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10192,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi8_s10092,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi0.5_s10116,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10088,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10108,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi0.5_s10168,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10112,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi2_s10036,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi1_s10124,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10103,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10143,5fold,100% of LP (tutorial),1.0
+gap_m16_phi8_s10083,5fold,100% of LP (tutorial),1.0
+gap_m30_phi16_s10087,5fold,100% of LP (tutorial),1.0
+gap_m30_phi16_s10147,5fold,100% of LP (tutorial),1.0
+gap_m30_phi32_s10159,5fold,100% of LP (tutorial),1.0
+gap_m30_phi8_s10175,5fold,100% of LP (tutorial),1.0
+gap_m40_phi16_s10099,5fold,100% of LP (tutorial),1.0
+gap_m40_phi8_s10187,5fold,100% of LP (tutorial),1.0
+gap_m50_phi16_s10075,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10018,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi2_s10014,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10174,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi4_s10022,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10178,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10046,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10126,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10186,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi0.5_s10058,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi8_s10006,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi0.5_s10165,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi4_s10001,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi0.5_s10177,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi1_s10153,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi0.5_s10101,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10141,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10069,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10193,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi1_s10109,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10117,5fold,100% of LP (tutorial),1.0
+euclid_m16_phi2_s10096,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi0.5_s10076,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi2_s10128,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10188,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10052,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi8_s10144,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi1_s10004,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi4_s10068,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi8_s10100,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi1_s10080,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10095,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10195,5fold,100% of LP (tutorial),1.0
+gap_m20_phi32_s10127,5fold,100% of LP (tutorial),1.0
+gap_m20_phi8_s10063,5fold,100% of LP (tutorial),1.0
+gap_m25_phi16_s10027,5fold,100% of LP (tutorial),1.0
+gap_m25_phi32_s10035,5fold,100% of LP (tutorial),1.0
+gap_m30_phi16_s10071,5fold,100% of LP (tutorial),1.0
+gap_m30_phi16_s10111,5fold,100% of LP (tutorial),1.0
+gap_m30_phi32_s10015,5fold,100% of LP (tutorial),1.0
+gap_m30_phi8_s10167,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10142,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10146,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10162,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi2_s10082,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10150,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10090,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10070,5fold,100% of LP (tutorial),1.0
+orlib_like_m30_phi8_s10166,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi4_s10102,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10198,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi2_s10021,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi8_s10077,5fold,100% of LP (tutorial),1.0
+uniform_m20_phi1_s10145,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi0.5_s10105,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10037,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi2_s10045,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi4_s10013,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi8_s10089,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10061,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi8_s10097,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi1_s10164,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi2_s10028,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10072,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi4_s10156,5fold,100% of LP (tutorial),1.0
+euclid_m20_phi8_s10064,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10172,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10040,5fold,100% of LP (tutorial),1.0
+euclid_m40_phi2_s10056,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi0.5_s10000,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10060,5fold,100% of LP (tutorial),1.0
+gap_m16_phi16_s10051,5fold,100% of LP (tutorial),1.0
+gap_m16_phi32_s10059,5fold,100% of LP (tutorial),1.0
+gap_m16_phi32_s10183,5fold,100% of LP (tutorial),1.0
+gap_m16_phi8_s10079,5fold,100% of LP (tutorial),1.0
+gap_m20_phi16_s10067,5fold,100% of LP (tutorial),1.0
+gap_m40_phi32_s10011,5fold,100% of LP (tutorial),1.0
+gap_m40_phi32_s10139,5fold,100% of LP (tutorial),1.0
+gap_m40_phi8_s10023,5fold,100% of LP (tutorial),1.0
+gap_m50_phi16_s10191,5fold,100% of LP (tutorial),1.0
+gap_m50_phi32_s10031,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi1_s10034,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi4_s10106,5fold,100% of LP (tutorial),1.0
+orlib_like_m20_phi8_s10182,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10170,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi2_s10002,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi4_s10050,5fold,100% of LP (tutorial),1.0
+orlib_like_m30_phi0.5_s10190,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi4_s10154,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi2_s10054,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi2_s10086,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi0.5_s10125,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi4_s10081,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10017,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi1_s10029,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi4_s10033,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi1_s10149,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi2_s10169,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi1_s10025,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi8_s10121,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi8_s10137,5fold,100% of LP (tutorial),1.0
+euclid_m16_phi4_s10048,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi1_s10044,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi2_s10024,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi4_s10180,5fold,100% of LP (tutorial),1.0
+euclid_m25_phi8_s10196,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10132,5fold,100% of LP (tutorial),1.0
+euclid_m30_phi4_s10140,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi2_s10160,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi4_s10120,5fold,100% of LP (tutorial),1.0
+euclid_m50_phi8_s10176,5fold,100% of LP (tutorial),1.0
+gap_m16_phi32_s10055,5fold,100% of LP (tutorial),1.0
+gap_m16_phi8_s10019,5fold,100% of LP (tutorial),1.0
+gap_m16_phi8_s10155,5fold,100% of LP (tutorial),1.0
+gap_m20_phi8_s10091,5fold,100% of LP (tutorial),1.0
+gap_m25_phi16_s10135,5fold,100% of LP (tutorial),1.0
+gap_m25_phi8_s10115,5fold,100% of LP (tutorial),1.0
+gap_m25_phi8_s10151,5fold,100% of LP (tutorial),1.0
+gap_m30_phi8_s10047,5fold,100% of LP (tutorial),1.0
+gap_m50_phi16_s10119,5fold,100% of LP (tutorial),1.0
+gap_m50_phi32_s10131,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi0.5_s10158,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi1_s10134,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi4_s10110,5fold,100% of LP (tutorial),1.0
+orlib_like_m16_phi8_s10010,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi1_s10118,5fold,100% of LP (tutorial),1.0
+orlib_like_m25_phi8_s10038,5fold,100% of LP (tutorial),1.0
+orlib_like_m30_phi4_s10094,5fold,100% of LP (tutorial),1.0
+orlib_like_m40_phi1_s10122,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10030,5fold,100% of LP (tutorial),1.0
+orlib_like_m50_phi1_s10098,5fold,100% of LP (tutorial),1.0
+uniform_m16_phi1_s10009,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi1_s10189,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi8_s10065,5fold,100% of LP (tutorial),1.0
+uniform_m25_phi8_s10133,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi0.5_s10197,5fold,100% of LP (tutorial),1.0
+uniform_m30_phi8_s10073,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi0.5_s10113,5fold,100% of LP (tutorial),1.0
+uniform_m40_phi8_s10173,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi2_s10057,5fold,100% of LP (tutorial),1.0
+uniform_m50_phi4_s10085,5fold,100% of LP (tutorial),1.0
+euclid_m16_phi4_s10104,5fold,oracle r*,0.03
+euclid_m20_phi4_s10012,5fold,oracle r*,0.03
+euclid_m25_phi0.5_s10084,5fold,oracle r*,0.03
+euclid_m30_phi0.5_s10148,5fold,oracle r*,0.04
+euclid_m30_phi2_s10016,5fold,oracle r*,0.03
+euclid_m40_phi1_s10184,5fold,oracle r*,0.03
+euclid_m40_phi4_s10136,5fold,oracle r*,0.03
+euclid_m50_phi2_s10020,5fold,oracle r*,0.03
+euclid_m50_phi4_s10008,5fold,oracle r*,0.03
+euclid_m50_phi4_s10032,5fold,oracle r*,0.03
+gap_m16_phi16_s10003,5fold,oracle r*,0.05
+gap_m16_phi32_s10043,5fold,oracle r*,0.06
+gap_m16_phi8_s10039,5fold,oracle r*,0.05
+gap_m20_phi16_s10171,5fold,oracle r*,0.06
+gap_m25_phi32_s10163,5fold,oracle r*,0.06
+gap_m30_phi32_s10107,5fold,oracle r*,0.04
+gap_m40_phi8_s10007,5fold,oracle r*,0.05
+gap_m40_phi8_s10123,5fold,oracle r*,0.05
+gap_m50_phi16_s10199,5fold,oracle r*,0.04
+gap_m50_phi8_s10179,5fold,oracle r*,0.04
+orlib_like_m16_phi0.5_s10026,5fold,oracle r*,0.04
+orlib_like_m16_phi1_s10042,5fold,oracle r*,0.03
+orlib_like_m20_phi0.5_s10078,5fold,oracle r*,0.04
+orlib_like_m20_phi8_s10130,5fold,oracle r*,0.03
+orlib_like_m25_phi0.5_s10066,5fold,oracle r*,0.03
+orlib_like_m25_phi1_s10114,5fold,oracle r*,0.03
+orlib_like_m30_phi4_s10194,5fold,oracle r*,0.03
+orlib_like_m40_phi2_s10062,5fold,oracle r*,0.04
+orlib_like_m50_phi1_s10138,5fold,oracle r*,0.03
+orlib_like_m50_phi8_s10074,5fold,oracle r*,0.03
+uniform_m20_phi2_s10157,5fold,oracle r*,0.04
+uniform_m20_phi2_s10161,5fold,oracle r*,0.04
+uniform_m20_phi4_s10093,5fold,oracle r*,0.03
+uniform_m20_phi4_s10181,5fold,oracle r*,0.04
+uniform_m25_phi1_s10041,5fold,oracle r*,0.03
+uniform_m25_phi2_s10129,5fold,oracle r*,0.04
+uniform_m40_phi2_s10053,5fold,oracle r*,0.03
+uniform_m40_phi4_s10005,5fold,oracle r*,0.03
+uniform_m40_phi4_s10185,5fold,oracle r*,0.03
+uniform_m50_phi2_s10049,5fold,oracle r*,0.04
+euclid_m16_phi2_s10152,5fold,oracle r*,0.03
+euclid_m16_phi2_s10192,5fold,oracle r*,0.03
+euclid_m20_phi8_s10092,5fold,oracle r*,0.03
+euclid_m25_phi0.5_s10116,5fold,oracle r*,0.05
+euclid_m25_phi2_s10088,5fold,oracle r*,0.03
+euclid_m25_phi4_s10108,5fold,oracle r*,0.03
+euclid_m30_phi0.5_s10168,5fold,oracle r*,0.03
+euclid_m30_phi4_s10112,5fold,oracle r*,0.03
+euclid_m40_phi2_s10036,5fold,oracle r*,0.04
+euclid_m50_phi1_s10124,5fold,oracle r*,0.03
+gap_m16_phi16_s10103,5fold,oracle r*,0.06
+gap_m16_phi16_s10143,5fold,oracle r*,0.05
+gap_m16_phi8_s10083,5fold,oracle r*,0.06
+gap_m30_phi16_s10087,5fold,oracle r*,0.05
+gap_m30_phi16_s10147,5fold,oracle r*,0.06
+gap_m30_phi32_s10159,5fold,oracle r*,0.05
+gap_m30_phi8_s10175,5fold,oracle r*,0.04
+gap_m40_phi16_s10099,5fold,oracle r*,0.04
+gap_m40_phi8_s10187,5fold,oracle r*,0.04
+gap_m50_phi16_s10075,5fold,oracle r*,0.04
+orlib_like_m16_phi1_s10018,5fold,oracle r*,0.04
+orlib_like_m16_phi2_s10014,5fold,oracle r*,0.03
+orlib_like_m16_phi8_s10174,5fold,oracle r*,0.03
+orlib_like_m20_phi4_s10022,5fold,oracle r*,0.03
+orlib_like_m20_phi8_s10178,5fold,oracle r*,0.03
+orlib_like_m25_phi2_s10046,5fold,oracle r*,0.02
+orlib_like_m25_phi4_s10126,5fold,oracle r*,0.04
+orlib_like_m25_phi4_s10186,5fold,oracle r*,0.03
+orlib_like_m40_phi0.5_s10058,5fold,oracle r*,0.04
+orlib_like_m40_phi8_s10006,5fold,oracle r*,0.03
+uniform_m16_phi0.5_s10165,5fold,oracle r*,0.05
+uniform_m16_phi4_s10001,5fold,oracle r*,0.04
+uniform_m20_phi0.5_s10177,5fold,oracle r*,0.05
+uniform_m20_phi1_s10153,5fold,oracle r*,0.03
+uniform_m25_phi0.5_s10101,5fold,oracle r*,0.03
+uniform_m30_phi2_s10141,5fold,oracle r*,0.03
+uniform_m40_phi1_s10069,5fold,oracle r*,0.03
+uniform_m40_phi2_s10193,5fold,oracle r*,0.03
+uniform_m50_phi1_s10109,5fold,oracle r*,0.03
+uniform_m50_phi2_s10117,5fold,oracle r*,0.04
+euclid_m16_phi2_s10096,5fold,oracle r*,0.04
+euclid_m20_phi0.5_s10076,5fold,oracle r*,0.03
+euclid_m20_phi2_s10128,5fold,oracle r*,0.03
+euclid_m20_phi4_s10188,5fold,oracle r*,0.03
+euclid_m25_phi2_s10052,5fold,oracle r*,0.04
+euclid_m25_phi8_s10144,5fold,oracle r*,0.04
+euclid_m30_phi1_s10004,5fold,oracle r*,0.04
+euclid_m40_phi4_s10068,5fold,oracle r*,0.03
+euclid_m40_phi8_s10100,5fold,oracle r*,0.04
+euclid_m50_phi1_s10080,5fold,oracle r*,0.03
+gap_m16_phi16_s10095,5fold,oracle r*,0.06
+gap_m16_phi16_s10195,5fold,oracle r*,0.06
+gap_m20_phi32_s10127,5fold,oracle r*,0.06
+gap_m20_phi8_s10063,5fold,oracle r*,0.05
+gap_m25_phi16_s10027,5fold,oracle r*,0.05
+gap_m25_phi32_s10035,5fold,oracle r*,0.06
+gap_m30_phi16_s10071,5fold,oracle r*,0.05
+gap_m30_phi16_s10111,5fold,oracle r*,0.05
+gap_m30_phi32_s10015,5fold,oracle r*,0.05
+gap_m30_phi8_s10167,5fold,oracle r*,0.04
+orlib_like_m16_phi0.5_s10142,5fold,oracle r*,0.03
+orlib_like_m16_phi0.5_s10146,5fold,oracle r*,0.05
+orlib_like_m16_phi1_s10162,5fold,oracle r*,0.03
+orlib_like_m16_phi2_s10082,5fold,oracle r*,0.03
+orlib_like_m16_phi8_s10150,5fold,oracle r*,0.03
+orlib_like_m20_phi8_s10090,5fold,oracle r*,0.03
+orlib_like_m25_phi2_s10070,5fold,oracle r*,0.03
+orlib_like_m30_phi8_s10166,5fold,oracle r*,0.03
+orlib_like_m40_phi4_s10102,5fold,oracle r*,0.03
+orlib_like_m50_phi1_s10198,5fold,oracle r*,0.04
+uniform_m16_phi2_s10021,5fold,oracle r*,0.04
+uniform_m16_phi8_s10077,5fold,oracle r*,0.04
+uniform_m20_phi1_s10145,5fold,oracle r*,0.03
+uniform_m25_phi0.5_s10105,5fold,oracle r*,0.03
+uniform_m30_phi2_s10037,5fold,oracle r*,0.03
+uniform_m30_phi2_s10045,5fold,oracle r*,0.03
+uniform_m30_phi4_s10013,5fold,oracle r*,0.03
+uniform_m30_phi8_s10089,5fold,oracle r*,0.03
+uniform_m40_phi1_s10061,5fold,oracle r*,0.04
+uniform_m40_phi8_s10097,5fold,oracle r*,0.04
+euclid_m20_phi1_s10164,5fold,oracle r*,0.03
+euclid_m20_phi2_s10028,5fold,oracle r*,0.03
+euclid_m20_phi4_s10072,5fold,oracle r*,0.03
+euclid_m20_phi4_s10156,5fold,oracle r*,0.03
+euclid_m20_phi8_s10064,5fold,oracle r*,0.03
+euclid_m25_phi2_s10172,5fold,oracle r*,0.03
+euclid_m25_phi4_s10040,5fold,oracle r*,0.03
+euclid_m40_phi2_s10056,5fold,oracle r*,0.03
+euclid_m50_phi0.5_s10000,5fold,oracle r*,0.03
+euclid_m50_phi2_s10060,5fold,oracle r*,0.03
+gap_m16_phi16_s10051,5fold,oracle r*,0.06
+gap_m16_phi32_s10059,5fold,oracle r*,0.06
+gap_m16_phi32_s10183,5fold,oracle r*,0.06
+gap_m16_phi8_s10079,5fold,oracle r*,0.06
+gap_m20_phi16_s10067,5fold,oracle r*,0.05
+gap_m40_phi32_s10011,5fold,oracle r*,0.05
+gap_m40_phi32_s10139,5fold,oracle r*,0.05
+gap_m40_phi8_s10023,5fold,oracle r*,0.04
+gap_m50_phi16_s10191,5fold,oracle r*,0.05
+gap_m50_phi32_s10031,5fold,oracle r*,0.06
+orlib_like_m20_phi1_s10034,5fold,oracle r*,0.03
+orlib_like_m20_phi4_s10106,5fold,oracle r*,0.03
+orlib_like_m20_phi8_s10182,5fold,oracle r*,0.03
+orlib_like_m25_phi1_s10170,5fold,oracle r*,0.03
+orlib_like_m25_phi2_s10002,5fold,oracle r*,0.03
+orlib_like_m25_phi4_s10050,5fold,oracle r*,0.04
+orlib_like_m30_phi0.5_s10190,5fold,oracle r*,0.03
+orlib_like_m40_phi4_s10154,5fold,oracle r*,0.04
+orlib_like_m50_phi2_s10054,5fold,oracle r*,0.03
+orlib_like_m50_phi2_s10086,5fold,oracle r*,0.04
+uniform_m16_phi0.5_s10125,5fold,oracle r*,0.03
+uniform_m16_phi4_s10081,5fold,oracle r*,0.04
+uniform_m25_phi1_s10017,5fold,oracle r*,0.03
+uniform_m30_phi1_s10029,5fold,oracle r*,0.03
+uniform_m30_phi4_s10033,5fold,oracle r*,0.03
+uniform_m40_phi1_s10149,5fold,oracle r*,0.03
+uniform_m40_phi2_s10169,5fold,oracle r*,0.03
+uniform_m50_phi1_s10025,5fold,oracle r*,0.03
+uniform_m50_phi8_s10121,5fold,oracle r*,0.04
+uniform_m50_phi8_s10137,5fold,oracle r*,0.04
+euclid_m16_phi4_s10048,5fold,oracle r*,0.02
+euclid_m25_phi1_s10044,5fold,oracle r*,0.04
+euclid_m25_phi2_s10024,5fold,oracle r*,0.03
+euclid_m25_phi4_s10180,5fold,oracle r*,0.03
+euclid_m25_phi8_s10196,5fold,oracle r*,0.03
+euclid_m30_phi4_s10132,5fold,oracle r*,0.03
+euclid_m30_phi4_s10140,5fold,oracle r*,0.03
+euclid_m50_phi2_s10160,5fold,oracle r*,0.03
+euclid_m50_phi4_s10120,5fold,oracle r*,0.04
+euclid_m50_phi8_s10176,5fold,oracle r*,0.04
+gap_m16_phi32_s10055,5fold,oracle r*,0.06
+gap_m16_phi8_s10019,5fold,oracle r*,0.06
+gap_m16_phi8_s10155,5fold,oracle r*,0.05
+gap_m20_phi8_s10091,5fold,oracle r*,0.05
+gap_m25_phi16_s10135,5fold,oracle r*,0.05
+gap_m25_phi8_s10115,5fold,oracle r*,0.04
+gap_m25_phi8_s10151,5fold,oracle r*,0.04
+gap_m30_phi8_s10047,5fold,oracle r*,0.04
+gap_m50_phi16_s10119,5fold,oracle r*,0.04
+gap_m50_phi32_s10131,5fold,oracle r*,0.04
+orlib_like_m16_phi0.5_s10158,5fold,oracle r*,0.03
+orlib_like_m16_phi1_s10134,5fold,oracle r*,0.03
+orlib_like_m16_phi4_s10110,5fold,oracle r*,0.03
+orlib_like_m16_phi8_s10010,5fold,oracle r*,0.03
+orlib_like_m25_phi1_s10118,5fold,oracle r*,0.03
+orlib_like_m25_phi8_s10038,5fold,oracle r*,0.03
+orlib_like_m30_phi4_s10094,5fold,oracle r*,0.03
+orlib_like_m40_phi1_s10122,5fold,oracle r*,0.03
+orlib_like_m50_phi1_s10030,5fold,oracle r*,0.04
+orlib_like_m50_phi1_s10098,5fold,oracle r*,0.03
+uniform_m16_phi1_s10009,5fold,oracle r*,0.04
+uniform_m25_phi1_s10189,5fold,oracle r*,0.03
+uniform_m25_phi8_s10065,5fold,oracle r*,0.04
+uniform_m25_phi8_s10133,5fold,oracle r*,0.04
+uniform_m30_phi0.5_s10197,5fold,oracle r*,0.04
+uniform_m30_phi8_s10073,5fold,oracle r*,0.03
+uniform_m40_phi0.5_s10113,5fold,oracle r*,0.04
+uniform_m40_phi8_s10173,5fold,oracle r*,0.03
+uniform_m50_phi2_s10057,5fold,oracle r*,0.03
+uniform_m50_phi4_s10085,5fold,oracle r*,0.03
+cap101,ORLIB,model (XGBoost),0.04
+cap102,ORLIB,model (XGBoost),0.03
+cap103,ORLIB,model (XGBoost),0.03
+cap104,ORLIB,model (XGBoost),0.03
+cap131,ORLIB,model (XGBoost),0.03
+cap132,ORLIB,model (XGBoost),0.03
+cap133,ORLIB,model (XGBoost),0.04
+cap134,ORLIB,model (XGBoost),0.03
+cap71,ORLIB,model (XGBoost),0.04
+cap72,ORLIB,model (XGBoost),0.04
+cap73,ORLIB,model (XGBoost),0.03
+cap74,ORLIB,model (XGBoost),0.03
+cap101,ORLIB,best fixed r (train),0.04
+cap102,ORLIB,best fixed r (train),0.04
+cap103,ORLIB,best fixed r (train),0.04
+cap104,ORLIB,best fixed r (train),0.04
+cap131,ORLIB,best fixed r (train),0.04
+cap132,ORLIB,best fixed r (train),0.04
+cap133,ORLIB,best fixed r (train),0.04
+cap134,ORLIB,best fixed r (train),0.04
+cap71,ORLIB,best fixed r (train),0.04
+cap72,ORLIB,best fixed r (train),0.04
+cap73,ORLIB,best fixed r (train),0.04
+cap74,ORLIB,best fixed r (train),0.04
+cap101,ORLIB,k x exactness bound (k=0.55),0.1
+cap102,ORLIB,k x exactness bound (k=0.55),0.1
+cap103,ORLIB,k x exactness bound (k=0.55),0.1
+cap104,ORLIB,k x exactness bound (k=0.55),0.1
+cap131,ORLIB,k x exactness bound (k=0.55),0.1
+cap132,ORLIB,k x exactness bound (k=0.55),0.1
+cap133,ORLIB,k x exactness bound (k=0.55),0.1
+cap134,ORLIB,k x exactness bound (k=0.55),0.1
+cap71,ORLIB,k x exactness bound (k=0.55),0.15
+cap72,ORLIB,k x exactness bound (k=0.55),0.1
+cap73,ORLIB,k x exactness bound (k=0.55),0.1
+cap74,ORLIB,k x exactness bound (k=0.55),0.1
+cap101,ORLIB,LP/n (pilot rule),0.02
+cap102,ORLIB,LP/n (pilot rule),0.02
+cap103,ORLIB,LP/n (pilot rule),0.02
+cap104,ORLIB,LP/n (pilot rule),0.02
+cap131,ORLIB,LP/n (pilot rule),0.02
+cap132,ORLIB,LP/n (pilot rule),0.02
+cap133,ORLIB,LP/n (pilot rule),0.02
+cap134,ORLIB,LP/n (pilot rule),0.02
+cap71,ORLIB,LP/n (pilot rule),0.02
+cap72,ORLIB,LP/n (pilot rule),0.02
+cap73,ORLIB,LP/n (pilot rule),0.02
+cap74,ORLIB,LP/n (pilot rule),0.02
+cap101,ORLIB,50% of LP (paper),0.5
+cap102,ORLIB,50% of LP (paper),0.5
+cap103,ORLIB,50% of LP (paper),0.5
+cap104,ORLIB,50% of LP (paper),0.5
+cap131,ORLIB,50% of LP (paper),0.5
+cap132,ORLIB,50% of LP (paper),0.5
+cap133,ORLIB,50% of LP (paper),0.5
+cap134,ORLIB,50% of LP (paper),0.5
+cap71,ORLIB,50% of LP (paper),0.5
+cap72,ORLIB,50% of LP (paper),0.5
+cap73,ORLIB,50% of LP (paper),0.5
+cap74,ORLIB,50% of LP (paper),0.5
+cap101,ORLIB,100% of LP (tutorial),1.0
+cap102,ORLIB,100% of LP (tutorial),1.0
+cap103,ORLIB,100% of LP (tutorial),1.0
+cap104,ORLIB,100% of LP (tutorial),1.0
+cap131,ORLIB,100% of LP (tutorial),1.0
+cap132,ORLIB,100% of LP (tutorial),1.0
+cap133,ORLIB,100% of LP (tutorial),1.0
+cap134,ORLIB,100% of LP (tutorial),1.0
+cap71,ORLIB,100% of LP (tutorial),1.0
+cap72,ORLIB,100% of LP (tutorial),1.0
+cap73,ORLIB,100% of LP (tutorial),1.0
+cap74,ORLIB,100% of LP (tutorial),1.0
+cap101,ORLIB,oracle r*,0.15
+cap102,ORLIB,oracle r*,0.05
+cap103,ORLIB,oracle r*,0.04
+cap104,ORLIB,oracle r*,0.05
+cap131,ORLIB,oracle r*,0.05
+cap132,ORLIB,oracle r*,0.05
+cap133,ORLIB,oracle r*,0.04
+cap134,ORLIB,oracle r*,0.04
+cap71,ORLIB,oracle r*,0.15
+cap72,ORLIB,oracle r*,0.06
+cap73,ORLIB,oracle r*,0.04
+cap74,ORLIB,oracle r*,0.06

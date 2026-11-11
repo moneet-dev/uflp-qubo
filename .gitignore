@@ -6,3 +6,4 @@ data/raw/
 results/raw/
 data/optima.csv
 results/*.log
+report/*.html

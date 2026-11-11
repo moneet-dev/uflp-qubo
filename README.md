@@ -12,8 +12,10 @@ when the QUBO is solved with Gurobi's QUBO solver.
 
 **Question 1:** does the choice of P behave the same when the QUBO is solved by classical
 **simulated annealing (SA)**?
-**Question 2 (in progress):** can a model predict a good P for a new instance from cheap features,
-without knowing the optimal cost?
+**Question 2:** can a model predict a good P for a new instance from cheap features, without knowing
+the optimal cost?
+
+A 2-page overview for readers of the paper: [`report/study_summary.pdf`](report/study_summary.pdf).
 
 All results here are from classical simulated annealing. They are not quantum results and not
 Gurobi results.
@@ -40,6 +42,19 @@ On the paper's OR-Library instances (classes A-1, A-2, B-1: 37 files = 12 distin
 
 ![SA gap after repair vs penalty](results/figures/m3_gap_repaired.png)
 
+**Question 2** (full write-up: [`report/m5_summary.md`](report/m5_summary.md)). I generated 200 seeded
+instances in four families, one with a large LP gap, and ran 7,200 SA runs at P = r × LP bound. The
+best r is always 2–6%. I then trained an XGBoost regressor on cheap, scale-free features:
+
+| Mean repaired gap % | model | best fixed r | 50% of LP (paper) | oracle |
+|---|---|---|---|---|
+| 5-fold CV, 200 instances | **1.69** | 2.94 | 42.3 | 1.30 |
+| large-gap family held out | **6.70** | 45.18 | 46.0 | 2.29 |
+| ORLIB (sanity check) | 9.91 | **8.15** | 14.95 | 7.73 |
+
+The model helps within the training distribution and on the held-out large-gap family, but it does
+not transfer to ORLIB, and it mostly separates families rather than instances.
+
 ## Reproduce
 
 Requires Python 3.12 or 3.13.
@@ -48,11 +63,17 @@ Requires Python 3.12 or 3.13.
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt -e .   # on Linux/macOS: .venv/bin/python
 python data/download.py                    # 37 ORLIB files + uncapacitated optima (checked)
-pytest -q                                  # 99 tests, including the paper's worked example
+pytest -q                                  # 111 tests, including the paper's worked example
 python scripts/verify_milp_optima.py       # M1: exact MILP matches all 37 published optima
 python scripts/run_reproduction.py         # M3: 2,960 SA runs (about 1 h on 6 cores)
 python scripts/verify_m3_results.py results/reproduction_<timestamp>.csv
 python scripts/make_figures.py results/reproduction_<timestamp>.csv
+python scripts/make_labels.py instances    # M4: 200 synthetic instances, solved exactly
+python scripts/make_labels.py runs results/ml_instances_<timestamp>.csv      # 7,200 SA runs (~2 h)
+python scripts/verify_labels.py results/ml_instances_<ts>.csv results/ml_runs_<ts>.csv
+python scripts/run_orlib_check.py          # M5: 600 extra ORLIB runs
+python scripts/train_penalty_model.py results/ml_instances_<ts>.csv results/ml_runs_<ts>.csv \
+    results/reproduction_<ts>.csv results/orlib_extra_<ts>.csv
 ```
 
 Every run is seeded; results go to timestamped files in `results/` and are never overwritten.
@@ -67,14 +88,16 @@ Every run is seeded; results go to timestamped files in `results/` and are never
 | `src/uflp/qubo.py` | the paper's two QUBO constructions (eq. 15 and Properties 1–2), exactness bounds |
 | `src/uflp/anneal.py`, `repair.py` | seeded SA runner; repair to a feasible solution |
 | `src/uflp/experiment.py` | one run → one CSV row |
-| `scripts/` | the M1–M3 pipelines, checks and figures |
+| `src/uflp/generate.py`, `heuristics.py`, `features.py` | synthetic instances, greedy heuristic, ML features |
+| `src/uflp/ml.py` | labels, penalty rules, evaluation, bootstrap CIs |
+| `scripts/` | the M1–M5 pipelines, checks, figures and the summary PDF build |
 | `results/`, `report/` | outputs and write-ups |
 
 ## Differences from the paper
 
 - Simulated annealing (`dwave-samplers`, 50 reads × 1,000 sweeps) instead of Gurobi's QUBO solver,
   D-Wave's hybrid solver or NGQ.
-- Classes A-1, A-2 and B-1 only.
+- Classes A-1, A-2 and B-1 only; synthetic instances for the ML part.
 - Quality is reported both raw (as in the paper) and after a repair step that the paper did not need.
 - Timing is SA CPU time, not the paper's time to the best solution, so the two are not directly comparable.
 
