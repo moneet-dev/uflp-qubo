@@ -58,8 +58,20 @@ not transfer to ORLIB, and it mostly separates families rather than instances.
 **Why not ORLIB?** ORLIB's customer demands are heavy-tailed (one customer holds 22% of all demand),
 which put it outside the training data. Adding a heavy-demand family narrowed the shortfall
 (9.91% → 9.14%), but did not close it. The remaining reason is that ORLIB's gap-vs-P curve is flat
-from 4% to 15%, while the synthetic curves are steep. See the last section of
-[`report/m5_summary.md`](report/m5_summary.md).
+from 4% to 15%, while the synthetic curves are steep. See [`report/m5_summary.md`](report/m5_summary.md).
+
+**Probe features, tested on a fresh set.** Cost features cannot see how SA responds to P, so the
+model was given cheap probe features: a tiny SA run (about 2% of one full run) at three penalties.
+It was then tested on 40 UflLib Bilde–Krarup instances, chosen before any result was seen; their
+optima were checked three ways, and they have LP gaps of 0–9%.
+
+| mean repaired gap % | model | model + probes | best fixed r (4%) | 50% of LP (paper) | oracle |
+|---|---|---|---|---|---|
+| Bilde–Krarup (fresh) | 11.38 | **5.65** | 11.46 | 188.1 | 1.85 |
+| ORLIB | 9.14 | 8.79 | **8.15** | 14.95 | 7.73 |
+
+On the fresh set, probes halve the gap (5.8 points better than the best fixed penalty, CI [5.0, 6.6],
+in all four sets). On ORLIB a fixed 4% still does slightly better.
 
 ## Extension: capacitated facility location
 
@@ -88,7 +100,7 @@ Requires Python 3.12 or 3.13.
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt -e .   # on Linux/macOS: .venv/bin/python
 python data/download.py                    # 37 ORLIB files + uncapacitated optima (checked)
-pytest -q                                  # 135 tests, including both papers' worked examples
+pytest -q                                  # 139 tests, including both papers' worked examples
 python scripts/verify_milp_optima.py       # M1: exact MILP matches all 37 published optima
 python scripts/run_reproduction.py         # M3: 2,960 SA runs (about 1 h on 6 cores)
 python scripts/verify_m3_results.py results/reproduction_<timestamp>.csv
@@ -103,6 +115,11 @@ python scripts/train_penalty_model.py \
     --instances results/ml_instances_<ts>.csv results/ml_instances_heavy_<ts>.csv \
     --runs results/ml_runs_<ts>.csv results/ml_runs_<ts2>.csv \
     --m3-runs results/reproduction_<ts>.csv --orlib-extra results/orlib_extra_<ts>.csv
+python data/download_bk.py                 # fresh test set: 40 UflLib Bilde-Krarup instances
+python scripts/run_bk.py instances         # exact optima, checked three ways (~15 min)
+python scripts/run_bk.py runs results/bk_instances_<ts>.csv                # 1,440 SA runs (~2 h)
+python scripts/make_probes.py --synthetic results/ml_instances_<ts>.csv results/ml_instances_heavy_<ts>.csv \n    --bk results/bk_instances_<ts>.csv
+python scripts/evaluate_probes.py --instances ... --runs ... --bk-instances ... --bk-runs ... \n    --m3-runs ... --orlib-extra ... --probes results/probe_features_<ts>.csv
 python scripts/run_capacitated.py          # capacitated, coupled row (960 runs, ~2 h)
 python scripts/run_capacitated.py --formulation decoupled --seeds 3     # 576 runs
 python scripts/analyze_capacitated.py results/capacitated_<ts>.csv results/reproduction_<ts>.csv
@@ -124,6 +141,7 @@ Every run is seeded; results go to timestamped files in `results/` and are never
 | `src/uflp/experiment.py` | one run → one CSV row |
 | `src/uflp/generate.py`, `heuristics.py`, `features.py` | synthetic instances, greedy heuristic, ML features |
 | `src/uflp/ml.py` | labels, penalty rules, evaluation, bootstrap CIs |
+| `src/uflp/probe.py` | probe features: a tiny SA run at three penalties |
 | `src/uflp/capacitated.py` | capacitated variant: exact MILP, QUBO with slack (coupled/decoupled), SA, repair |
 | `scripts/` | the M1–M5 pipelines, checks, figures and the summary PDF build |
 | `results/`, `report/` | outputs and write-ups |

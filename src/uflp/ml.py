@@ -115,23 +115,81 @@ def fit_bound_k(out: Outcomes, X: pd.DataFrame, train: list,
     return best_k
 
 
-def predict_rules(out: Outcomes, X: pd.DataFrame, train: list, test: list) -> dict[str, pd.Series]:
-    """Every rule's r for the test instances, fitted only on the training instances."""
-    grid = out.grid
-    r_star = oracle_r(out)
-    model = fit_model(X.loc[train], r_star)
-    k = fit_bound_k(out, X, train)
-    fixed = fit_fixed_best(out, train)
-    s = lambda v: pd.Series(snap(v, grid), index=test)  # noqa: E731
+def subset(out: Outcomes, idx: list) -> Outcomes:
+    """Outcomes restricted to some instances."""
+    return Outcomes(out.gap.loc[idx], out.fail.loc[idx], out.feas.loc[idx], out.cpu.loc[idx])
+
+
+def step_up(r: np.ndarray, grid: np.ndarray) -> np.ndarray:
+    """The next grid value above each r (r itself if it is the largest)."""
+    idx = np.searchsorted(grid, np.asarray(r), side="right")
+    return grid[np.minimum(idx, len(grid) - 1)]
+
+
+def fit_curve_model(out: Outcomes, X: pd.DataFrame, features: list[str]) -> XGBRegressor:
+    """Gap-curve model: predict log(1 + gap) at penalty r from (features, log r); the rule then
+    picks the r with the lowest predicted gap. Undershooting and overshooting are weighted by
+    what they actually cost, instead of by distance in r as when regressing r* directly."""
+    long = out.gap.stack().rename("gap").reset_index()             # instance, r, gap
+    Z = X.loc[long["instance"], features].reset_index(drop=True)
+    Z["log_r"] = np.log(long["r"].to_numpy())
+    model = XGBRegressor(**XGB_PARAMS)
+    model.fit(Z, np.log1p(long["gap"].to_numpy()))
+    return model
+
+
+def predict_curve(model: XGBRegressor, X: pd.DataFrame, features: list[str], grid: np.ndarray) -> np.ndarray:
+    """argmin over grid of the curve model's predicted gap, per instance."""
+    preds = []
+    for r in grid:
+        Z = X[features].reset_index(drop=True).copy()
+        Z["log_r"] = np.log(r)
+        preds.append(model.predict(Z))
+    return grid[np.argmin(np.vstack(preds), axis=0)]
+
+
+def fit_linear(X: pd.DataFrame, r_star: pd.Series, features: list[str]):
+    """Ridge regression on log r* with standardized features: unlike trees, it extrapolates."""
+    from sklearn.linear_model import Ridge
+    from sklearn.pipeline import make_pipeline
+    from sklearn.preprocessing import StandardScaler
+    model = make_pipeline(StandardScaler(), Ridge(alpha=1.0))
+    model.fit(X[features], np.log(r_star.loc[X.index]))
+    return model
+
+
+def predict_all(out_tr: Outcomes, X_tr: pd.DataFrame, X_te: pd.DataFrame, grid_te: np.ndarray,
+                features: list[str] = FEATURES) -> dict[str, pd.Series]:
+    """Every rule's r for the test instances; everything is fitted on the training data only.
+    Predictions are snapped to grid_te (the penalties for which test outcomes exist)."""
+    r_star = oracle_r(out_tr)
+    model = XGBRegressor(**XGB_PARAMS).fit(X_tr[features], np.log(r_star.loc[X_tr.index]))
+    k = fit_bound_k(out_tr, X_tr, list(X_tr.index))
+    fixed = fit_fixed_best(out_tr, list(X_tr.index))
+    curve = fit_curve_model(out_tr, X_tr, features)
+    linear = fit_linear(X_tr, r_star, features)
+    cand = np.array([r for r in grid_te if out_tr.grid.min() <= r <= out_tr.grid.max()])
+    s = lambda v: pd.Series(snap(v, grid_te), index=X_te.index)  # noqa: E731
+    base = snap(np.exp(model.predict(X_te[features])), grid_te)
     return {
-        "model (XGBoost)": s(np.exp(model.predict(X.loc[test, FEATURES]))),
-        "best fixed r (train)": s(np.full(len(test), fixed)),
-        f"k x exactness bound (k={k:g})": s(k * X.loc[test, "bound_suf_rel"]),
-        "LP/n (pilot rule)": s(1.0 / X.loc[test, "n"]),
-        "50% of LP (paper)": s(np.full(len(test), 0.5)),
-        "100% of LP (tutorial)": s(np.full(len(test), 1.0)),
-        "oracle r*": pd.Series(r_star.loc[test].to_numpy(), index=test),
+        "model (XGBoost)": pd.Series(base, index=X_te.index),
+        "model, rounded up one step": pd.Series(step_up(base, grid_te), index=X_te.index),
+        "gap-curve model": pd.Series(predict_curve(curve, X_te, features, cand), index=X_te.index),
+        "linear model (ridge)": s(np.exp(linear.predict(X_te[features]))),
+        "best fixed r (train)": s(np.full(len(X_te), fixed)),
+        f"k x exactness bound (k={k:g})": s(k * X_te["bound_suf_rel"]),
+        "LP/n (pilot rule)": s(1.0 / X_te["n"]),
+        "50% of LP (paper)": s(np.full(len(X_te), 0.5)),
+        "100% of LP (tutorial)": s(np.full(len(X_te), 1.0)),
     }
+
+
+def predict_rules(out: Outcomes, X: pd.DataFrame, train: list, test: list,
+                  features: list[str] = FEATURES) -> dict[str, pd.Series]:
+    """Every rule's r for the test instances, fitted only on the training instances, plus the oracle."""
+    rules = predict_all(subset(out, train), X.loc[train], X.loc[test], out.grid, features)
+    rules["oracle r*"] = pd.Series(oracle_r(subset(out, test)).loc[test].to_numpy(), index=test)
+    return rules
 
 
 def bootstrap_ci(diff: np.ndarray, n_boot: int = 10_000, seed: int = 0) -> tuple[float, float]:

@@ -61,3 +61,34 @@ def test_optima_table_has_37_rows():
     assert len(rows) == 37
     assert {r["class"] for r in rows} == {"A-1", "A-2", "B-1"}
     assert sum(r["class"] == "A-1" for r in rows) == 13
+
+
+# UflLib "simple" format: 2 facilities x 3 customers; .opt numbers facilities from 0 and ends with the cost
+SIMPLE = """FILE: tiny
+2 3 0
+1 10 1 2 30
+2 12 8 7 1
+"""
+
+
+def test_ufllib_simple_parser_and_opt_reader():
+    from uflp.io import parse_ufllib_simple, ufllib_opt_assignment
+    from uflp.milp import solution_cost, solve_uflp
+    inst = parse_ufllib_simple(SIMPLE, "tiny")
+    assert (inst.m, inst.n) == (2, 3) and list(inst.f) == [10, 12]
+    np.testing.assert_array_equal(inst.c, [[1, 2, 30], [8, 7, 1]])    # facility x customer, no transpose
+    assign, cost = ufllib_opt_assignment("0 0 1 26", inst.n)
+    assert assign == [0, 0, 1] and cost == 26
+    assert solution_cost(inst, [0, 1], assign) == 26 == solve_uflp(inst).cost    # both open: 10+12+1+2+1
+    with pytest.raises(ValueError):
+        ufllib_opt_assignment("0 0", inst.n)
+
+
+@pytest.mark.skipif(not (DATA_DIR / "raw" / "bk" / "B1.1").exists(), reason="run data/download_bk.py")
+def test_bilde_krarup_b11_published_optimum():
+    from uflp.io import parse_ufllib_simple, ufllib_opt_assignment
+    from uflp.milp import solution_cost
+    inst = parse_ufllib_simple((DATA_DIR / "raw" / "bk" / "B1.1").read_text(), "B1.1")
+    assign, cost = ufllib_opt_assignment((DATA_DIR / "raw" / "bk" / "B1.1.opt").read_text(), inst.n)
+    assert (inst.m, inst.n) == (50, 100) and cost == 23468
+    assert solution_cost(inst, sorted(set(assign)), assign) == cost

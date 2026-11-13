@@ -96,6 +96,13 @@ The results are mixed:
   put ORLIB outside the training data. Adding a heavy-demand family narrowed the shortfall (9.9% →
   9.1%), but a fixed 4% (8.2%) still does better. The reason is that ORLIB's gap is almost flat from
   P = 4% to 15%, while the synthetic curves are steep.
+- **Probe features.** Cost features cannot see how SA responds to P, so I added cheap probes: a tiny
+  SA run, about 2% of one full run, at three penalties.
+    - **Fresh test set:** 40 UflLib Bilde–Krarup instances, chosen before any result was seen, with
+      optima checked three ways.
+    - **Result:** probes cut the gap from 11.4% to **5.7%**, against 11.5% for the best fixed penalty
+      (CI of the difference [5.0, 6.6] points), in all four Bilde–Krarup sets. The oracle reaches 1.9%.
+    - **ORLIB:** a fixed 4% remains slightly better.
 
 The robust lesson is the scale: for SA, a good P is a few percent of the LP bound, and the 50% that
 suits Gurobi costs 30–52 points of gap.
@@ -149,6 +156,6 @@ model of Li (2026, *Urban Lifeline*, Appendix A), with single sourcing:
   appendix example that places extra 2P entries in the x₃₄ column. I built the matrix from the
   property's description (pairs i < i′ for the same customer), which reproduces the appendix matrix
   exactly.
-- **Reproducibility.** Every run is seeded and logged. A test suite (135 tests) covers the appendix
+- **Reproducibility.** Every run is seeded and logged. A test suite (139 tests) covers the appendix
   example, all 37 optima, both constructions and the *Urban Lifeline* Table 3 values. The code and
   data are in a GitHub repository that I can share.

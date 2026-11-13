@@ -152,3 +152,55 @@ On ORLIB the model is still worse than a fixed 4%, by 0.99 points [0.12, 2.02].
   from a check into training data.
 - **Caveat.** The `heavy_demand` family was added *after* seeing ORLIB's failure, so ORLIB is no
   longer an untouched test set.
+
+## Follow-up 2: probe features and a fresh test set
+
+Full tables: `results/probe_eval_20261113_153936.md`. Code: `src/uflp/probe.py`, `scripts/make_probes.py`,
+`scripts/run_bk.py`, `scripts/evaluate_probes.py`; the quick fixes are in `src/uflp/ml.py`.
+
+**Fresh test set, fixed before any result was seen:**
+- **The instances.** UflLib's Bilde–Krarup sets B, C, Dq/1 and Eq/1: 40 instances, 50 × 100 or
+  30 × 80, from a pinned GitHub copy of the package.
+- **Optima checked three ways on all 40:** our exact MILP equals the published optimal cost and the
+  cost of the published optimal assignment. (UflLib's `.opt` files number facilities from 0.)
+- **A genuinely different test:** LP gaps of 0–8.9% (median 5–7%), and twice the number of customers
+  of the training data.
+- **Same procedure as the labels:** the same penalty grid, seeds and SA settings (1,440 runs, all
+  checks passing). No model was tuned on these instances.
+
+**Quick fixes (no new runs) did not solve transfer:**
+- Rounding the prediction up one grid step helped on ORLIB but cost 0.9 points in-distribution.
+- A model of the whole gap curve and a linear model matched the original in-distribution but did not
+  transfer better.
+
+**Probe features.** A tiny SA run (5 reads × 200 sweeps, about 2% of one full run) at P = 2%, 5% and
+15% of the LP bound records:
+- the share of feasible reads;
+- the repaired cost relative to the greedy heuristic's cost;
+- two slopes between those points.
+
+These describe how SA responds to P on *this* instance; none uses the optimum.
+
+**Results** (models trained on the 250 synthetic instances only):
+
+| mean repaired gap % | model | model + probes | best fixed r (4%) | 50% of LP | oracle |
+|---|---|---|---|---|---|
+| 5-fold CV, synthetic | 2.29 | 2.23 | 3.41 | 43.1 | 1.76 |
+| **Bilde–Krarup (fresh)** | 11.38 | **5.65** | 11.46 | 188.1 | 1.85 |
+| ORLIB | 9.14 | 8.79 | **8.15** | 14.95 | 7.73 |
+
+- **On the fresh set, probes halve the gap.** Model + probes beats the best fixed penalty by 5.81
+  points, CI [5.04, 6.56], and the cost-feature model by 5.73 [4.93, 6.51].
+- **The win is consistent:** it holds in each of the four Bilde–Krarup sets (B 6.6 → 1.7%, C 15.1 → 6.9%,
+  D 7.9 → 4.1%, E 16.3 → 9.9%). Without probes the model was no better than the fixed rule there.
+- **On ORLIB, probes help only a little:** model + probes is still 0.64 points worse than a fixed 4%,
+  CI [0.09, 1.32]. Adding the round-up gives 7.96%, 0.20 better than the fixed rule, CI [−0.43, 0.00].
+- **No single variant wins everywhere.** Rounding up makes Bilde–Krarup much worse (19.7%), because
+  its best penalty is *lower* than the training data's (median 2%).
+
+**What this means.**
+- The transfer failure was mostly an information problem: cost features cannot tell how SA responds
+  to P, and a 2% probe can.
+- Measuring the solver's response is worth more than describing the instance.
+- The remaining gap to the oracle (5.65% vs 1.85%) and the ORLIB shortfall show that the model is
+  still far from perfect.

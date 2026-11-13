@@ -47,3 +47,22 @@ def test_bootstrap_ci_is_seeded_and_brackets_mean():
     lo, hi = bootstrap_ci(d)
     assert lo <= d.mean() <= hi
     assert bootstrap_ci(np.zeros(5)) == pytest.approx((0.0, 0.0))
+
+
+def test_step_up_moves_to_next_grid_value():
+    from uflp.ml import step_up
+    grid = np.array([0.01, 0.03, 0.1])
+    assert list(step_up(np.array([0.01, 0.03, 0.1]), grid)) == [0.03, 0.1, 0.1]
+
+
+def test_probe_features_are_seeded_and_need_no_optimum():
+    from uflp.generate import generate
+    from uflp.heuristics import greedy_add
+    from uflp.milp import lp_bound
+    from uflp.probe import PROBE_FEATURES, probe_features
+    inst = generate("euclid", 16, 50, 2.0, seed=3)
+    lp, (greedy, _) = lp_bound(inst), greedy_add(inst)
+    a, b = probe_features(inst, lp, greedy), probe_features(inst, lp, greedy)
+    assert a == b and set(a) == set(PROBE_FEATURES)          # consumers select columns by name
+    assert all(0 <= a[f"feas_{r:g}"] <= 1 for r in (0.02, 0.05, 0.15))
+    assert a["slope_hi"] == pytest.approx(a["rep_0.15"] - a["rep_0.05"])

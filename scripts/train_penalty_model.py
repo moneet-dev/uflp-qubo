@@ -28,8 +28,8 @@ from sklearn.model_selection import StratifiedKFold
 from uflp.features import features
 from uflp.io import load_instance
 from uflp.milp import lp_bound
-from uflp.ml import (FEATURES, add_derived_features, fit_bound_k, fit_fixed_best, fit_model,
-                     oracle_r, outcomes, predict_rules, snap, summarize)
+from uflp.ml import (FEATURES, add_derived_features, fit_model, predict_all,
+                     oracle_r, outcomes, predict_rules, summarize)
 
 ORLIB = [f"cap{k}" for k in (71, 72, 73, 74, 101, 102, 103, 104, 131, 132, 133, 134)]
 
@@ -118,19 +118,9 @@ def main() -> None:
     orl = pd.concat([m3[m3["instance"].isin(ORLIB)], extra], ignore_index=True)
     out_o = outcomes(orl)
     Xo = orlib_features().loc[out_o.gap.index]
-    model = fit_model(X, r_star)
-    k = fit_bound_k(out, X, list(X.index))
-    fixed = fit_fixed_best(out, list(X.index))
-    s = lambda v: pd.Series(snap(v, out_o.grid), index=Xo.index)  # noqa: E731
-    rules_o = {
-        "model (XGBoost)": s(np.exp(model.predict(Xo[FEATURES]))),
-        "best fixed r (train)": s(np.full(len(Xo), fixed)),
-        f"k x exactness bound (k={k:g})": s(k * Xo["bound_suf_rel"]),
-        "LP/n (pilot rule)": s(1.0 / Xo["n"]),
-        "50% of LP (paper)": s(np.full(len(Xo), 0.5)),
-        "100% of LP (tutorial)": s(np.full(len(Xo), 1.0)),
-        "oracle r*": oracle_r(out_o).loc[Xo.index],
-    }
+    model = fit_model(X, r_star)                     # for the feature-importance table below
+    rules_o = predict_all(out, X, Xo, out_o.grid)
+    rules_o["oracle r*"] = oracle_r(out_o).loc[Xo.index]
     text.append(f"## C. ORLIB sanity check (trained on all {len(X)} synthetic instances; 12 problems, 10 seeds)\n\n"
                 f"{md(summarize(out_o, rules_o))}\n\nPer-problem r: "
                 + ", ".join(f"{p}: model {rules_o['model (XGBoost)'][p]:g} / oracle {rules_o['oracle r*'][p]:g}"
