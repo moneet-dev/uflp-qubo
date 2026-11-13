@@ -101,7 +101,9 @@ def solve_cflp(inst: CapInstance, split: bool = False, time_limit: float | None 
             prob += x[i][j] <= y[i]
         prob += pulp.lpSum(float(inst.w[j]) * x[i][j] for j in range(n)) <= float(inst.Q[i]) * y[i]
     t0 = time.perf_counter()
-    prob.solve(pulp.HiGHS(msg=False, timeLimit=time_limit, mip_rel_gap=0.0, threads=1))
+    # No threads option: HiGHS fixes its thread count on first use in a process, and a later call
+    # asking for a different count returns "Not Solved". Every call uses the default instead.
+    prob.solve(pulp.HiGHS(msg=False, timeLimit=time_limit, mip_rel_gap=0.0))
     status = pulp.LpStatus[prob.status]
     if status != "Optimal":
         raise RuntimeError(f"{inst.name}: HiGHS status {status}")

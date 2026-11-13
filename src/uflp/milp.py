@@ -55,7 +55,8 @@ def build_model(f: np.ndarray, c: np.ndarray, relax: bool = False):
 def solve_uflp(inst: Instance, relax: bool = False, time_limit: float | None = None) -> MilpResult:
     """Solve the UFLP exactly (or its LP relaxation) with HiGHS and return cost and solution."""
     prob, y, x = build_model(inst.f, inst.c, relax=relax)
-    solver = pulp.HiGHS(msg=False, timeLimit=time_limit, mip_rel_gap=0.0, threads=1) \
+    # No threads option (see capacitated.solve_cflp): mixing thread counts in one process fails.
+    solver = pulp.HiGHS(msg=False, timeLimit=time_limit, mip_rel_gap=0.0) \
         if not relax else pulp.HiGHS(msg=False, timeLimit=time_limit)
     t0 = time.perf_counter()
     prob.solve(solver)
